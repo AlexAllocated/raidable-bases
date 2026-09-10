@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.5")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.6")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -90,9 +90,37 @@ namespace Oxide.Plugins
         private readonly Dictionary<string, HashSet<string>> usedVariants = new();
         private string lastFamily;
         private readonly Dictionary<string, string> lastVariants = new();
+        private bool selectionLoaded;
+        public class SelectionState
+        {
+            public string World;
+            public HashSet<string> Families = new();
+            public Dictionary<string, HashSet<string>> Variants = new();
+            public string LastFamily;
+            public Dictionary<string, string> LastVariants = new();
+        }
+
+        private void LoadSelectionState()
+        {
+            if (selectionLoaded) return;
+            selectionLoaded = true;
+            var state = Interface.Oxide.DataFileSystem.ReadObject<SelectionState>("RaidableBases/SelectionState");
+            if (state?.World != PermanentWorld) return;
+            usedFamilies.UnionWith(state.Families ?? new());
+            foreach (var pair in state.Variants ?? new()) usedVariants[pair.Key] = pair.Value ?? new();
+            lastFamily = state.LastFamily;
+            foreach (var pair in state.LastVariants ?? new()) lastVariants[pair.Key] = pair.Value;
+        }
+
+        private void SaveSelectionState() => Interface.Oxide.DataFileSystem.WriteObject("RaidableBases/SelectionState", new SelectionState
+        {
+            World = PermanentWorld, Families = usedFamilies, Variants = usedVariants,
+            LastFamily = lastFamily, LastVariants = lastVariants
+        });
 
         private (string, BaseProfile) SelectBalancedBase(List<(string, BaseProfile)> candidates)
         {
+            LoadSelectionState();
             var groups = new Dictionary<string, List<(string, BaseProfile)>>();
             foreach (var candidate in candidates)
             {
@@ -123,7 +151,35 @@ namespace Oxide.Plugins
             var selected = variants.GetRandom();
             used.Add(selected.Item1);
             lastVariants[selectedFamily] = selected.Item1;
+            SaveSelectionState();
             return selected;
+        }
+
+        private static bool IsSeasonalSkinAllowed(ulong id, string name, DateTime date, Configuration settings)
+        {
+            if (id == 0 || !settings.SeasonalSkins) return true;
+            if (settings.SkinMonths.TryGetValue(id, out var months)) return months.Contains(date.Month);
+            string text = " " + Regex.Replace((name ?? string.Empty).ToLowerInvariant(), "[^a-z0-9]+", " ") + " ";
+            if (text.Contains(" easter ") && date.Month != EasterMonth(date.Year)) return false;
+            if ((text.Contains(" lunar ") || text.Contains(" chinese new year ") || text.Contains(" year of the ")) && date.Month != LunarNewYearMonth(date.Year)) return false;
+            foreach (var rule in settings.HolidaySkinNames)
+                if (text.Contains(" " + Regex.Replace(rule.Key.ToLowerInvariant(), "[^a-z0-9]+", " ") + " ") && !rule.Value.Contains(date.Month)) return false;
+            return true;
+        }
+
+        private static int EasterMonth(int year)
+        {
+            int a = year % 19, b = year / 100, c = year % 100;
+            int h = (19 * a + b - b / 4 - (b - (b + 8) / 25 + 1) / 3 + 15) % 30;
+            int l = (32 + 2 * (b % 4) + 2 * (c / 4) - h - c % 4) % 7;
+            return (h + l - 7 * ((a + 11 * h + 22 * l) / 451) + 114) / 31;
+        }
+
+        private static int LunarNewYearMonth(int year)
+        {
+            var calendar = new System.Globalization.ChineseLunisolarCalendar();
+            if (year < calendar.MinSupportedDateTime.Year || year > calendar.MaxSupportedDateTime.Year) return 2;
+            return calendar.ToDateTime(year, 1, 1, 0, 0, 0, 0).Month;
         }
 
         public class PermanentStore
@@ -179,7 +235,17 @@ namespace Oxide.Plugins
         private void EnablePermanentEntity(BaseEntity entity, bool stabilityEnabled, bool decayEnabled)
         {
             entity.EnableSaving(true);
-            if (entity is BuildingBlock block) block.grounded = !stabilityEnabled;
+            if (entity is BaseCombatEntity combat)
+            {
+                var native = GameManager.server.FindPrefab(entity.PrefabName)?.GetComponent<BaseCombatEntity>();
+                if (native != null) combat.pickup.enabled = native.pickup.enabled;
+            }
+            if (entity is BuildingBlock block)
+            {
+                // Normal stability still requires the prefab's native foundation anchors.
+                var prefab = GameManager.server.FindPrefab(block.PrefabName)?.GetComponent<BuildingBlock>();
+                block.grounded = !stabilityEnabled || (prefab != null && prefab.grounded);
+            }
             if (entity is IItemContainerEntity storage && storage.inventory != null)
                 storage.inventory.SetFlag(ItemContainer.Flag.NoItemInput, false);
             if (entity.skinID == RB_SKIN_ID) entity.skinID = 0;
@@ -437,6 +503,10 @@ namespace Oxide.Plugins
         public class SkinInfo
         {
             public List<ulong> skins = new(), workshopSkins = new(), importedWorkshopSkins = new(), allSkins = new();
+            public Dictionary<ulong, string> Names = new();
+            public Configuration Settings;
+            public bool Allowed(ulong id) => id == 0 || !Settings.SeasonalSkins ||
+                ((Names.ContainsKey(id) || Settings.SkinMonths.ContainsKey(id)) && IsSeasonalSkinAllowed(id, Names.TryGetValue(id, out var name) ? name : null, DateTime.UtcNow, Settings));
         }
 
         public class RankedRecord
@@ -4052,7 +4122,7 @@ namespace Oxide.Plugins
 
             public void FreeToPool()
             {
-                Interface.CallHook("OnRaidableBaseEnded", hookObjects);
+                if (!config.PermanentWorldBases) Interface.CallHook("OnRaidableBaseEnded", hookObjects);
                 ResetToPool(ref ids);
                 ResetToPool(ref vms);
                 ResetToPool(ref npcs);
@@ -4440,6 +4510,7 @@ namespace Oxide.Plugins
 
             public void OnEnterRaid(BasePlayer target, bool checkUnderground = true)
             {
+                if (config.PermanentWorldBases) return;
                 if (checkUnderground && IsUnderground(target.transform.position))
                 {
                     intruders.Remove(target.userID);
@@ -5015,7 +5086,7 @@ namespace Oxide.Plugins
 
             public void RemoveAllFromEvent()
             {
-                Interface.CallHook("OnRaidableBaseDespawn", hookObjects);
+                if (!config.PermanentWorldBases) Interface.CallHook("OnRaidableBaseDespawn", hookObjects);
 
                 GetIntruders().ForEach(HandlePlayerExiting);
             }
@@ -6905,22 +6976,28 @@ namespace Oxide.Plugins
 
                 if (SetupLoot())
                 {
-                    TryInvokeMethod(Subscribe);
+                    if (!config.PermanentWorldBases) TryInvokeMethod(Subscribe);
                     TryInvokeMethod(SetupTurrets);
-                    TryInvokeMethod(CreateGenericMarker);
-                    TryInvokeMethod(UpdateMarker);
-                    TryInvokeMethod(EjectSleepers);
-                    TryInvokeMethod(CreateZoneWalls);
-                    TryInvokeMethod(CreateSpheres);
+                    if (!config.PermanentWorldBases)
+                    {
+                        TryInvokeMethod(CreateGenericMarker);
+                        TryInvokeMethod(UpdateMarker);
+                        TryInvokeMethod(EjectSleepers);
+                        TryInvokeMethod(CreateZoneWalls);
+                        TryInvokeMethod(CreateSpheres);
+                    }
                     TryInvokeMethod(SetupLights);
                     TryInvokeMethod(SetupDoorControllers);
                     TryInvokeMethod(SetupDoors);
-                    TryInvokeMethod(CheckDespawn);
+                    if (!config.PermanentWorldBases) TryInvokeMethod(CheckDespawn);
                     TryInvokeMethod(SetupContainers);
-                    TryInvokeMethod(MakeAnnouncements);
-                    InvokeRepeating(Protector, 1f, 1f);
-                    Interface.CallHook("OnRaidableBaseStarted", hookObjects);
-                    Interface.CallHook("OnRaidableBaseStarted", rb);
+                    if (!config.PermanentWorldBases)
+                    {
+                        TryInvokeMethod(MakeAnnouncements);
+                        InvokeRepeating(Protector, 1f, 1f);
+                        Interface.CallHook("OnRaidableBaseStarted", hookObjects);
+                        Interface.CallHook("OnRaidableBaseStarted", rb);
+                    }
                 }
                 else
                 {
@@ -7182,6 +7259,7 @@ namespace Oxide.Plugins
 
             private void SetupPickup(BaseCombatEntity e)
             {
+                if (config.PermanentWorldBases) return;
                 e.pickup.enabled = false;
             }
 
@@ -7499,7 +7577,7 @@ namespace Oxide.Plugins
                 {
                     if (entry == null || entry.gradeBase == null || entry.gradeBase.type != grade) continue;
                     ulong skin = entry.gradeBase.skin;
-                    if (!candidates.Contains(skin) && HasSkin(first, grade, skin)) candidates.Add(skin);
+                    if (!candidates.Contains(skin) && HasSkin(first, grade, skin) && IsSeasonalSkinAllowed(skin, entry.gradeBase.name + " " + entry.skinObject.resourcePath, DateTime.UtcNow, config)) candidates.Add(skin);
                 }
                 // Intersect support across all pieces of this grade, not just the first wall.
                 foreach (var entity in Entities)
@@ -8394,6 +8472,7 @@ namespace Oxide.Plugins
                 }
 
                 var si = GetItemSkins(def, config.Skins.Boxes.ApprovedOnly);
+                if (!si.Allowed(container.skinID)) container.skinID = 0;
 
                 if (config.Skins.Boxes.Skins.Count > 0 && SetItemSkin(config.Skins.Boxes.Skins.ToList(), si, container, config.Skins.Boxes.Unique))
                 {
@@ -8437,6 +8516,7 @@ namespace Oxide.Plugins
                 }
 
                 var si = GetItemSkins(def, config.Skins.Deployables.ApprovedOnly);
+                if (!si.Allowed(entity.skinID)) entity.skinID = 0;
 
                 if (config.Skins.Deployables.Doors.Count > 0 && entity is Door && SetItemSkin(config.Skins.Deployables.Doors.ToList(), si, entity, config.Skins.Deployables.Unique))
                 {
@@ -9666,6 +9746,7 @@ namespace Oxide.Plugins
             public ulong GetItemSkin(ItemDefinition def, SkinType skinType, ulong defaultSkin, bool stackable, bool nonstackable, bool random, bool workshop, bool importedworkshop, bool approved, int stacksize)
             {
                 ulong skin = defaultSkin;
+                if (skin != 0 && !GetItemSkins(def, approved).Allowed(skin)) skin = 0;
 
                 if (def.shortname != "explosive.satchel" && def.shortname != "grenade.f1" && skin == 0uL)
                 {
@@ -9699,7 +9780,7 @@ namespace Oxide.Plugins
             {
                 if (!Instance.Skins.TryGetValue(def.shortname, out var si))
                 {
-                    Instance.Skins[def.shortname] = si = new();
+                    Instance.Skins[def.shortname] = si = new() { Settings = config };
 
                     if (!config.BlockPaidContent && !def.skins.IsNullOrEmpty())
                     {
@@ -9710,6 +9791,7 @@ namespace Oxide.Plugins
                                 continue;
                             }
                             var id = Convert.ToUInt64(skin.id);
+                            si.Names[id] = skin.name + " " + skin.invItem?.displayName?.english;
                             si.skins.Add(id);
                             si.allSkins.Add(id);
                         }
@@ -9763,6 +9845,7 @@ namespace Oxide.Plugins
                             }
                             if (!si.workshopSkins.Contains(skin.WorkshopId))
                             {
+                                si.Names[skin.WorkshopId] = skin.Name;
                                 si.workshopSkins.Add(skin.WorkshopId);
                                 si.allSkins.Add(skin.WorkshopId);
                             }
@@ -9794,17 +9877,20 @@ namespace Oxide.Plugins
 
                 if (random && si.skins.Count > 0)
                 {
-                    skins.Add(si.skins.GetRandom());
+                    var eligible = si.skins.Where(si.Allowed).ToList();
+                    if (eligible.Count > 0) skins.Add(eligible.GetRandom());
                 }
 
                 if (workshop && si.workshopSkins.Count > 0)
                 {
-                    skins.Add(si.workshopSkins.GetRandom());
+                    var eligible = si.workshopSkins.Where(si.Allowed).ToList();
+                    if (eligible.Count > 0) skins.Add(eligible.GetRandom());
                 }
 
                 if (importedworkshop && si.importedWorkshopSkins.Count > 0)
                 {
-                    skins.Add(si.importedWorkshopSkins.GetRandom());
+                    var eligible = si.importedWorkshopSkins.Where(si.Allowed).ToList();
+                    if (eligible.Count > 0) skins.Add(eligible.GetRandom());
                 }
 
                 return skins;
@@ -9815,7 +9901,7 @@ namespace Oxide.Plugins
                 Shuffle(skins);
                 foreach (ulong skin in skins)
                 {
-                    if (!si.allSkins.Contains(skin))
+                    if (!si.allSkins.Contains(skin) || !si.Allowed(skin))
                     {
                         continue;
                     }
@@ -9852,6 +9938,7 @@ namespace Oxide.Plugins
 
             public void StopUsingWeapon(BasePlayer player)
             {
+                if (config.PermanentWorldBases) return;
                 if (!player.svActiveItemID.IsValid)
                 {
                     return;
@@ -9904,6 +9991,7 @@ namespace Oxide.Plugins
 
             private void StopUsingWeapon(BasePlayer player, Item item)
             {
+                if (config.PermanentWorldBases) return;
                 if (!item.MoveToContainer(player.inventory.containerMain))
                 {
                     item.DropAndTossUpwards(player.GetDropPosition() + player.transform.forward, 2f);
@@ -10719,6 +10807,7 @@ namespace Oxide.Plugins
 
             public void SpawnNpcs()
             {
+                if (config.PermanentWorldBases) return;
                 if (!Options.NPC.Enabled || (Options.NPC.UseExpansionNpcs && config.Settings.ExpansionMode && Instance.DangerousTreasures.CanCall()))
                 {
                     return;
@@ -14916,6 +15005,16 @@ namespace Oxide.Plugins
             raid.loadTime = Time.time;
             raid.InitiateTurretOnSpawn = rb.options.AutoTurret.InitiateOnSpawn;
 
+            // Permanent structures use only the paste/furnishing lifecycle, never an event zone.
+            if (config.PermanentWorldBases)
+            {
+                raid._undoLimit = Mathf.Clamp(raid.Options.Setup.DespawnLimit, 1, 500);
+                data.TotalEvents++;
+                Raids.Add(raid);
+                raid.CheckPaste();
+                return raid;
+            }
+
             foreach (var multiplier in raid.Options.PlayerDamageMultiplier)
             {
                 float amount = multiplier.amount;
@@ -17205,7 +17304,7 @@ namespace Oxide.Plugins
                 {
                     LogToFile("despawn", $"{DateTime.Now} Despawn completed {hookObjects[0]}", this, true);
                 }
-                Interface.CallHook("OnRaidableBaseDespawned", hookObjects);
+                if (!config.PermanentWorldBases) Interface.CallHook("OnRaidableBaseDespawned", hookObjects);
             }
         }
 
@@ -18482,6 +18581,7 @@ namespace Oxide.Plugins
         [HookMethod("EventTerritory")]
         public bool EventTerritory(Vector3 position, float x = 0f)
         {
+            if (config.PermanentWorldBases) return false;
             for (int i = 0; i < Raids.Count; i++)
             {
                 RaidableBase raid = Raids[i];
@@ -18496,6 +18596,7 @@ namespace Oxide.Plugins
         [HookMethod("EventTerritoryAny")]
         public bool EventTerritoryAny(Vector3[] positions, float x = 0f)
         {
+            if (config.PermanentWorldBases) return false;
             for (int j = 0; j < Raids.Count; j++)
             {
                 for (int k = 0; k < positions.Length; k++)
@@ -18513,6 +18614,7 @@ namespace Oxide.Plugins
         [HookMethod("EventTerritoryAll")]
         public bool EventTerritoryAll(Vector3[] positions, float x = 0f)
         {
+            if (config.PermanentWorldBases) return false;
             for (int k = 0; k < positions.Length; k++)
             {
                 bool isEventTerritory = false;
@@ -18921,8 +19023,8 @@ namespace Oxide.Plugins
                     ["DespawnBaseNoneAvailable"] = "<color=#C0C0C0>You must be within 100m of a raid base to despawn it.</color>",
                     ["GridIsLoading"] = "The grid is loading; please wait until it has finished.",
                     ["GridIsLoadingFormatted"] = "Grid is loading. The process has taken {0} seconds so far with {1} locations added on the grid.",
-                    ["TooPowerful"] = "<color=#FF0000>This place is guarded by a powerful spirit. You sheath your wand in fear!</color>",
-                    ["TooPowerfulDrop"] = "<color=#FF0000>This place is guarded by a powerful spirit. You drop your wand in fear!</color>",
+                    ["TooPowerful"] = "<color=#FF0000>This item is disabled in this event and was moved to your inventory.</color>",
+                    ["TooPowerfulDrop"] = "<color=#FF0000>This item is disabled in this event and was dropped because your inventory is full.</color>",
                     ["InstallSupportedCopyPaste"] = "You must update your version of CopyPaste to 4.1.32 or higher!",
                     ["DoomAndGloom"] = "<color=#FF0000>You have left a {0} zone and can be attacked for another {1} seconds!</color>",
                     ["NoConfiguredLoot"] = "Error: No loot found in the config!",
@@ -22335,6 +22437,24 @@ namespace Oxide.Plugins
 
         public class Configuration
         {
+            [JsonProperty(PropertyName = "Restrict holiday skins to their holiday months (UTC)")]
+            public bool SeasonalSkins = true;
+            [JsonProperty(PropertyName = "Holiday skin ID allowed-month overrides")]
+            public Dictionary<ulong, List<int>> SkinMonths = new();
+            [JsonProperty(PropertyName = "Holiday skin name fragments and allowed months")]
+            public Dictionary<string, List<int>> HolidaySkinNames = new()
+            {
+                ["christmas"] = new() { 12 }, ["xmas"] = new() { 12 }, ["gingerbread"] = new() { 12 },
+                ["santa"] = new() { 12 }, ["snowman"] = new() { 12 }, ["snowmen"] = new() { 12 },
+                ["nutcracker"] = new() { 12 }, ["candy cane"] = new() { 12 }, ["candycane"] = new() { 12 },
+                ["festive"] = new() { 12 }, ["rudolph"] = new() { 12 }, ["reindeer"] = new() { 12 },
+                ["halloween"] = new() { 10 }, ["jack o"] = new() { 10 }, ["jack-o"] = new() { 10 },
+                ["jackolantern"] = new() { 10 }, ["spooky"] = new() { 10 }, ["pumpkin"] = new() { 10 },
+                ["haunted"] = new() { 10 }, ["witch"] = new() { 10 },
+                ["crypt"] = new() { 10 },
+                ["valentine"] = new() { 2 }, ["st. patrick"] = new() { 3 }, ["st patrick"] = new() { 3 },
+                ["thanksgiving"] = new() { 11 }, ["fourth of july"] = new() { 7 }, ["independence day"] = new() { 7 }
+            };
             [JsonProperty(PropertyName = "Balanced Base Families (template names grouped by layout)")]
             public Dictionary<string, List<string>> BaseFamilies = new();
             [JsonProperty(PropertyName = "Templates excluded from random selection (explicit spawning still allowed)")]

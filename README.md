@@ -35,8 +35,18 @@ decay immunity. The activated state survives reloads and restarts. A TC found
 missing on restore also activates decay. Existing bases are not retroactively
 marked touched based on interactions before this feature was installed.
 
-The current mode is intended for furnished buildings without NPCs, arena walls,
-or special plugin-managed elevators. It does not preserve raid rules or NPC AI.
+Permanent mode uses the paste/furnishing lifecycle without entering an upstream
+raid event, including while construction is still in progress. It does not create
+an event collider, NPCs, drone patrols, arena walls, spheres, map markers, event
+UI/announcements, weapon confiscation, player ejection or event despawn timers.
+Event-territory APIs return false and raid lifecycle notifications are suppressed.
+Normal pickup eligibility is restored from each entity's native prefab. Loot,
+locks, ordinary furnishing, skin consistency and the explicit TC decay policy
+remain in place. Upstream event mode is retained separately when permanent mode
+is disabled; its weapon-block messages now use plain wording rather than magic.
+
+The current mode is intended for furnished buildings without special
+plugin-managed elevators. It does not preserve raid rules or NPC AI.
 Disable scheduled/maintained spawning unless you deliberately want automatic
 generation of permanent bases. These remain until destroyed, explicitly removed,
 or wiped and therefore consume persistent entity capacity.
@@ -61,14 +71,33 @@ single, double, garage and armored doors therefore each use their own compatible
 skin throughout a base. This is not a promise of an artist-matched collection
 across different item types. Existing bases are not reskinned on reload.
 
+`Restrict holiday skins to their holiday months (UTC)` defaults to true.
+Construction, deployable, box and loot skin selection checks known skin names:
+Christmas/gingerbread in December, Halloween/crypt in October, Valentine's in
+February, and other configured holiday fragments in their listed months.
+Easter and Lunar New Year use the holiday's actual month for the current year.
+Whole-word matching avoids treating Twitch skins as witch skins. Skin-ID month
+overrides take precedence; use them for artwork whose title does not identify its
+holiday. Unknown imported skin IDs are excluded unless explicitly assigned allowed
+months. Ordinary non-holiday art remains eligible. This is a metadata filter,
+not image recognition; existing world skins are not changed automatically.
+
+Normal-stability permanent bases retain the native prefab's foundation anchors.
+Upper pieces still use ordinary support calculations. The post-registration
+upgrade regression test forces recalculation and upgrades all Norseman blocks;
+it must not rely on cached stability from the initial paste.
+
 ## Balanced Random Selection
 
 `Balanced Base Families (template names grouped by layout)` groups template names
 into equally weighted layout families. Random selection exhausts families in a
 random order, then starts a new cycle without immediately repeating the last
 family. Each family independently exhausts its variants before repeating them.
-Templates not listed form individual families. Pools reset when the plugin reloads;
-selection attempts consume a choice even if later placement fails.
+Templates not listed form individual families. Pools, previous choices and variant
+history persist in `oxide/data/RaidableBases/SelectionState.json` across plugin
+reloads and server restarts, and reset for a new world. Selection attempts still
+consume a choice even if later placement fails. Explicit named spawns bypass the
+random pool. Each family, including the saloon, has equal weight.
 
 `Templates excluded from random selection (explicit spawning still allowed)` can
 exclude aliases such as `RaidBases` without disabling explicit named spawns.
@@ -94,10 +123,10 @@ Admin/server access is required:
   entities, including attached locks, in batches. It does not remove later
   player additions or unrelated entities nearby.
 
-For an unmarked appearance also disable `UI -> Status UI -> Enabled`,
-enter/exit announcements, NPCs, arena walls, spheres and map markers in the
-ordinary Raidable Bases configuration/profile. The Always Rainy deployment
-does so; upstream defaults are otherwise retained.
+Permanent mode bypasses event presentation even if an imported profile enables
+it. Always Rainy's live configuration also clears blocked weapons, disables
+Wizardry/Archery/DoubleJump/LifeSupport restrictions, disables event messages
+and map markers, and keeps the status UI off.
 
 ## Creator-Sourced Catalogue
 
