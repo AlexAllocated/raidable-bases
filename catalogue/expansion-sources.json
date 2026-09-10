@@ -1,0 +1,1347 @@
+{
+  "date": "2026-09-10",
+  "families": 75,
+  "templates": 84,
+  "addedFamilies": 64,
+  "sources": [
+    {
+      "template": "meta_exp_2182221736",
+      "title": "STARTER BASE 2 x 2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2182221736",
+      "uploaderSteamId": "76561199065699660",
+      "family": "76561199065699660:starter base 2 x 2",
+      "sourceSha256": "c8976f0c28ce6cebac7cb25d26038b137abac365fe118380f6769500978d656d",
+      "templateSha256": "5015e6be2284f9e6d4e6e3d2881169772752139c52b4bd99d30aed635c30dc21",
+      "entities": 54,
+      "stockedBoxes": 11,
+      "tcHours": 371,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2684811749",
+      "title": "Improved 2x2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2684811749",
+      "uploaderSteamId": "76561198123347412",
+      "family": "76561198123347412:improved 2x2",
+      "sourceSha256": "ba3fcb5116b9be63893b6a3966a6a6daec68f88fb8523c704d6786923d20a65e",
+      "templateSha256": "6adc30e1cdf8193469dff3981a3b43dd16fb1ea384d819a64e8bbec5c52552c2",
+      "entities": 124,
+      "stockedBoxes": 18,
+      "tcHours": 108,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2302929610",
+      "title": "Solo base by Kesha_F1",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2302929610",
+      "uploaderSteamId": "76561198100733407",
+      "family": "76561198100733407:solo base by kesha f1",
+      "sourceSha256": "6b894d45f5529238c31368920bf99e41c1ed6f213b7bf2428d0cfa7011d6b0d7",
+      "templateSha256": "e759d142754a9a78f0dc126d49cc5afb372bafac3b28861f202669e044cc223c",
+      "entities": 272,
+      "stockedBoxes": 20,
+      "tcHours": 57,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2789732802",
+      "title": "Barricaded Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2789732802",
+      "uploaderSteamId": "76561198161130928",
+      "family": "76561198161130928:barricaded base",
+      "sourceSha256": "dfeafca6849f7bea2221d088ad0028a053e40c59ac97802719d3ac353403aea7",
+      "templateSha256": "05338dd884bbbebdbb07f8daefd7e5f31d307d9918039e21c9ec16614346aec5",
+      "entities": 352,
+      "stockedBoxes": 7,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1240864670",
+      "title": "PVP Base Building 3.0",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1240864670",
+      "uploaderSteamId": "76561198236492034",
+      "family": "76561198236492034:pvp base building 3 0",
+      "sourceSha256": "b78b34424a0b3d1e709b26cfeebff8e17d3afcfef8cc426f66c8f7c991f98bb5",
+      "templateSha256": "a8c679f711976d2ebf5e9ddace1094caacbeb1302ac1d5b40f22e68a7e12e964",
+      "entities": 435,
+      "stockedBoxes": 20,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1749984150",
+      "title": "The Pill Box",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1749984150",
+      "uploaderSteamId": "76561197970729648",
+      "family": "76561197970729648:the pill box",
+      "sourceSha256": "38e4e3ba2c175e8dc8308c71684ab9fcecd343bda50db38810d3415e095c382b",
+      "templateSha256": "90e94777db9a484b0431ea4ed3a2b7ef1af183d77022c1c0d24060ac7bbf33ab",
+      "entities": 256,
+      "stockedBoxes": 29,
+      "tcHours": 56,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2352780716",
+      "title": "Starter Base Vanilla TRIO",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2352780716",
+      "uploaderSteamId": "76561198868326501",
+      "family": "76561198868326501:starter base vanilla trio",
+      "sourceSha256": "d65c52b51706fb6878727c61fbe66f8c129035fcdcde5ec050f1ee9e20ab8839",
+      "templateSha256": "587885f0924b8272605e69e4812a37db613140997db86fba588cb27b2ab7a096",
+      "entities": 77,
+      "stockedBoxes": 10,
+      "tcHours": 242,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2166299203",
+      "title": "MID TIER - Starter Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2166299203",
+      "uploaderSteamId": "76561199065699660",
+      "family": "76561199065699660:mid tier starter base",
+      "sourceSha256": "dfe3b3734ad58f38ff12eacf8bec0db21f7b2429a361b49f2d2e947841e1c0fb",
+      "templateSha256": "3a11c5d09353308e64ac06a09ddee853e8d663096beda513e6dd6514622640cc",
+      "entities": 167,
+      "stockedBoxes": 8,
+      "tcHours": 72,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1900997980",
+      "title": "OP Starter - Main Solo Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1900997980",
+      "uploaderSteamId": "76561198118604638",
+      "family": "76561198118604638:op starter main solo base",
+      "sourceSha256": "571cfa3fd14400972211bc86e96d5e9d1bedae2f2e24182b9f37d7584f46a945",
+      "templateSha256": "08c5681bd53fd6ed0bc1fee62c1bec5ef2fe945a8ff26e17e89b15c9a723ba32",
+      "entities": 349,
+      "stockedBoxes": 24,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2014588675",
+      "title": "Evil Wurst Raptor - my way",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2014588675",
+      "uploaderSteamId": "76561198059027669",
+      "family": "76561198059027669:evil wurst raptor my way",
+      "sourceSha256": "dd78967fe4ed2ae0e1ad054009638537d4fdbc8cd4d4d256d788644e6871196b",
+      "templateSha256": "e51799d8dae483171be129c68ffe4b5c2d30ab355dd25c088d63e999d7968370",
+      "entities": 444,
+      "stockedBoxes": 28,
+      "tcHours": 34,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2165748865",
+      "title": "STARTER BASE 1 X 2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2165748865",
+      "uploaderSteamId": "76561199065699660",
+      "family": "76561199065699660:starter base 1 x 2",
+      "sourceSha256": "265c09b2a92d86a34a0024e8e4eab117c3d30620ea6da43ab585318005b8571f",
+      "templateSha256": "5a247524103f6b6cc1b17cf9a7a0ebe3ed9a8fa093aaad025b83ac05e400912c",
+      "entities": 43,
+      "stockedBoxes": 7,
+      "tcHours": 615,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2351199686",
+      "title": "Trapper's Shack",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2351199686",
+      "uploaderSteamId": "76561198033590914",
+      "family": "76561198033590914:trapper s shack",
+      "sourceSha256": "c8cb91f661bbe75ce13e93908ef535056d9d7244d357a1507f6d95b5cfe87a34",
+      "templateSha256": "9de3d5971206e00271f84d56191bf0365a8204b2d1183c877d11d11c0398a120",
+      "entities": 74,
+      "stockedBoxes": 4,
+      "tcHours": 99,
+      "omitted": [
+        {
+          "prefab": "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2866185032",
+      "title": "Easybase-1",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2866185032",
+      "uploaderSteamId": "76561197963139275",
+      "family": "76561197963139275:easybase 1",
+      "sourceSha256": "7088129dc77e0382ede620cb9ddecfc19e7d785191fab553c3dcc5c6c1ebcd6b",
+      "templateSha256": "e6e633b33beb67a8ced77b9d8a9221098242e2a92fb64623eae87ce5988649cf",
+      "entities": 96,
+      "stockedBoxes": 4,
+      "tcHours": 184,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2439389320",
+      "title": "Solo Meta",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2439389320",
+      "uploaderSteamId": "76561198125173563",
+      "family": "76561198125173563:solo meta",
+      "sourceSha256": "bfd9a3dc677acc0b2b7da75060c317934550844ced336a3cf6407fadb7361b1d",
+      "templateSha256": "0fb19fd3f16dd3bb9c71db2b93d9c62d9558408a4714c4617429112b83df6f0c",
+      "entities": 490,
+      "stockedBoxes": 41,
+      "tcHours": 55,
+      "omitted": [
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2413416773",
+      "title": "2x2 Heavy Storage Starter",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2413416773",
+      "uploaderSteamId": "76561197980077228",
+      "family": "76561197980077228:2x2 heavy storage starter",
+      "sourceSha256": "d8340f6371a6028f8b021a3c71df701855da93d16cf874b108cccab32cba746b",
+      "templateSha256": "2a972639add393da0eb30e593b4aedeaac41563db8f8242afad49e5f023c8dee",
+      "entities": 81,
+      "stockedBoxes": 11,
+      "tcHours": 198,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1813418959",
+      "title": "GOOD HOUSE",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1813418959",
+      "uploaderSteamId": "76561198168246529",
+      "family": "76561198168246529:good house",
+      "sourceSha256": "118687749552194438cca8c2d08ef7d817ce83a0eaeb3b19681191d3ee984815",
+      "templateSha256": "f872cebaa5ec73d02d331f1a30686e3556491ae8ba8792cea76e7d9de31204fb",
+      "entities": 133,
+      "stockedBoxes": 18,
+      "tcHours": 107,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1970351961",
+      "title": "spicy teepee",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1970351961",
+      "uploaderSteamId": "76561198035810574",
+      "family": "76561198035810574:spicy teepee",
+      "sourceSha256": "6c8184a6004864f4a62f19bb8bf7ed608072d6529a9ea86eefcd670289f49dd4",
+      "templateSha256": "3f932121f4695d7d0d4764b8c3613bf7f703e52f3d927755a1eb9d6628c19cfd",
+      "entities": 603,
+      "stockedBoxes": 22,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1911085546",
+      "title": "Duo late start base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1911085546",
+      "uploaderSteamId": "76561198261158211",
+      "family": "76561198261158211:duo late start base",
+      "sourceSha256": "22a3ed70939a3d9b1a2e9b38b0572067b92584a52199c9dd5597b489e64ff769",
+      "templateSha256": "400dc1d5e8f1a45b6284f25dbe7341a05a28b1717e3f32a9ddf7dbaa2fce7ef4",
+      "entities": 92,
+      "stockedBoxes": 17,
+      "tcHours": 264,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1575717402",
+      "title": "The Dunce",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1575717402",
+      "uploaderSteamId": "76561198116671927",
+      "family": "76561198116671927:the dunce",
+      "sourceSha256": "16f02e9fcede0fe96d5a154d8a7a8de18669541acc292adbbb889e0ecf5452de",
+      "templateSha256": "04df858df376065e1768cac44a783689255849a129c4e1fdb7fb31e77632f8e8",
+      "entities": 147,
+      "stockedBoxes": 9,
+      "tcHours": 90,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2275238630",
+      "title": "Lotus",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2275238630",
+      "uploaderSteamId": "76561199095370761",
+      "family": "76561199095370761:lotus",
+      "sourceSha256": "1d5d9931355fa37837722f4bb1fb040887a741cd28d836dbd423c24a83cceda6",
+      "templateSha256": "9d4f6b8cea8eac90c4576886cda6cf4310e42932f6f9390b2923d5dd3fd3b3c2",
+      "entities": 313,
+      "stockedBoxes": 33,
+      "tcHours": 43,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1595719325",
+      "title": "Solo Starter Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1595719325",
+      "uploaderSteamId": "76561198045702679",
+      "family": "76561198045702679:solo starter base",
+      "sourceSha256": "e5aa5192b07773782cd1f8178b77990da15212080859fbe580f83c0dd432b163",
+      "templateSha256": "91f21ae5a1566e2151b7ff444ac04531e097d9bccba8239c797272687e91b16c",
+      "entities": 42,
+      "stockedBoxes": 3,
+      "tcHours": 481,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1789930153",
+      "title": "2by2 inside 23to29 rocket raid",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1789930153",
+      "uploaderSteamId": "76561198390405017",
+      "family": "76561198390405017:2by2 inside 23to29 rocket raid",
+      "sourceSha256": "7d2a758a282ac235286e6e16a8b6aa4a7c99fb9af6a3f270e7b459ca0d56c294",
+      "templateSha256": "3e4ecabb390c6a1cd74b009fe23c9adad52d654d6334ce5d1301b5fd4e0ab9e0",
+      "entities": 262,
+      "stockedBoxes": 34,
+      "tcHours": 69,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1670162221",
+      "title": "Hazard Solo Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1670162221",
+      "uploaderSteamId": "76561198034629273",
+      "family": "76561198034629273:hazard solo base",
+      "sourceSha256": "4609ec401ee9b83a82beb5823b116dbac8729e68773abbed1fdeb6ea47f66069",
+      "templateSha256": "f1da13603a6b8220556d63b38d9b525d222e396a0a094e16d12c4e3a0e174bab",
+      "entities": 197,
+      "stockedBoxes": 15,
+      "tcHours": 88,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1813577892",
+      "title": "star house",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1813577892",
+      "uploaderSteamId": "76561198168246529",
+      "family": "76561198168246529:star house",
+      "sourceSha256": "446f4741202086284030dcc4b656be2874310af43b21695dfacd725a2a88d1ab",
+      "templateSha256": "8afd1345e8c887c959ce3aa318440cd00a068e18d6e3010a857c2593673bb449",
+      "entities": 158,
+      "stockedBoxes": 12,
+      "tcHours": 84,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2449689775",
+      "title": "AntiRaid Base For Small Clan",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2449689775",
+      "uploaderSteamId": "76561199049752910",
+      "family": "76561199049752910:anti raid base for small clan",
+      "sourceSha256": "94375c6986d8d6e66c4ca33c61454d77028925dc8b3e68e3ac52a22f4cb2ce8f",
+      "templateSha256": "bd87712bfe257fec76b350f9c3a645a947b135dfa2e64a26395034276f6a80cd",
+      "entities": 577,
+      "stockedBoxes": 19,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2885307473",
+      "title": "Cozy and comfy Yurt Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2885307473",
+      "uploaderSteamId": "76561198012751266",
+      "family": "76561198012751266:cozy and comfy yurt base",
+      "sourceSha256": "d9e97381618165bbc770938c5631f0969f64a78a4e534bc78ab68344e7269d76",
+      "templateSha256": "9aa291d286b8c92314a09bf99804e9b686baf778ccbe09aa0ba328c9d6efdd91",
+      "entities": 139,
+      "stockedBoxes": 16,
+      "tcHours": 166,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1910566606",
+      "title": "Duo starter base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1910566606",
+      "uploaderSteamId": "76561198261158211",
+      "family": "76561198261158211:duo starter base",
+      "sourceSha256": "6d8a366fa78b6049e448e04f78b068c7531d3ba33adcf45d115c77e84e436e39",
+      "templateSha256": "f024b446a2795754b966e0053aaa055f808dee342683e174c66445f47e0ce1c3",
+      "entities": 65,
+      "stockedBoxes": 17,
+      "tcHours": 386,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2854178943",
+      "title": "Tlennka smart furnase",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2854178943",
+      "uploaderSteamId": "76561198125742717",
+      "family": "76561198125742717:tlennka smart furnase",
+      "sourceSha256": "ec79882c742c69241bcc593b9ecec7343f21c2e5b224d22186549f3c9c671ed8",
+      "templateSha256": "a1fb9fc22366c504eadeb5faa1772f45db932821d00164b05603628cd2daa937",
+      "entities": 157,
+      "stockedBoxes": 15,
+      "tcHours": 212,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1789925295",
+      "title": "circle 34 to 47 rocket raid",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1789925295",
+      "uploaderSteamId": "76561198390405017",
+      "family": "76561198390405017:circle 34 to 47 rocket raid",
+      "sourceSha256": "888ee47a72a2d693a1b567097452dac2735bcc4ec56e9c834815be81ed52e0bd",
+      "templateSha256": "dcb357f064f8eff6d38ce6ef092116e97307e6976ed5505d923ea58e1beea871",
+      "entities": 471,
+      "stockedBoxes": 46,
+      "tcHours": 38,
+      "omitted": [
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1905015091",
+      "title": "Solo / duo base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1905015091",
+      "uploaderSteamId": "76561198056473273",
+      "family": "76561198056473273:solo duo base",
+      "sourceSha256": "d3e82efe1441af43d117020b14e2923c9474ccab47be4e9fcec7906f91967264",
+      "templateSha256": "cdfb0d838867ee513d419ae7266b2e3cc378ddee459cae2b0e95ed58a7ed2b77",
+      "entities": 46,
+      "stockedBoxes": 9,
+      "tcHours": 852,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1764893110",
+      "title": "solo base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1764893110",
+      "uploaderSteamId": "76561198073621946",
+      "family": "76561198073621946:solo base",
+      "sourceSha256": "24f3c5dfbec33ba0ef7f3d83abcff61d2f96ae7c75bb57b40534acd25a33cac7",
+      "templateSha256": "96d95d92d7d2b245d605220dddad6c55033eba04e1602ba05d8f562edd6ec90e",
+      "entities": 418,
+      "stockedBoxes": 31,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2001884784",
+      "title": "4 gah house",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2001884784",
+      "uploaderSteamId": "76561198841882325",
+      "family": "76561198841882325:4 gah house",
+      "sourceSha256": "e2cdcde72254601d46c74f449106e9aad0085de84c235b7e158e90d96d8ddd74",
+      "templateSha256": "e0045bef5f09dcf95ec38d78f113e4dce2a0e05a158fd6f364aca314fd66d5cd",
+      "entities": 538,
+      "stockedBoxes": 20,
+      "tcHours": 30,
+      "omitted": [
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        },
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        },
+        {
+          "prefab": "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab",
+          "reason": "vehicle or horse fixture"
+        },
+        {
+          "prefab": "assets/content/vehicles/scrap heli carrier/scraptransporthelicopter.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2408606065",
+      "title": "Willjum Starter Base Feb 2021",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2408606065",
+      "uploaderSteamId": "76561198190971022",
+      "family": "76561198190971022:willjum starter base feb 2021",
+      "sourceSha256": "9110369298130367ab9d604bd97dbb7d6096def05cdcaccdebc75827a367ceaf",
+      "templateSha256": "a4764d97a8da4eec637e4105fc7d35583330d254eee845800506705706fa4488",
+      "entities": 133,
+      "stockedBoxes": 12,
+      "tcHours": 99,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1976034372",
+      "title": "VanilaBig",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1976034372",
+      "uploaderSteamId": "76561198845142344",
+      "family": "76561198845142344:vanilabig",
+      "sourceSha256": "4521c6271bfbc83e03df14c9d41c57c59ac0df7938719b5ed0610e959d147bdd",
+      "templateSha256": "6a261dd57a2b61125b5b9fb7727fd9af3aad73b3f537e84d7e3122213f1efbd1",
+      "entities": 168,
+      "stockedBoxes": 8,
+      "tcHours": 102,
+      "omitted": [
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        },
+        {
+          "prefab": "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1625189886",
+      "title": "Scorpin Small",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1625189886",
+      "uploaderSteamId": "76561198052731245",
+      "family": "76561198052731245:scorpin small",
+      "sourceSha256": "6798c3d083a0880544890d94f2d4606f1a175682366d50f03855103d7f051718",
+      "templateSha256": "7d82879d4b03e3e4244c88a68198cbd17f5d5b1c8af47c561ac607462971122e",
+      "entities": 85,
+      "stockedBoxes": 8,
+      "tcHours": 239,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2399380261",
+      "title": "Fortified Oval Small Clan",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2399380261",
+      "uploaderSteamId": "76561198126320716",
+      "family": "76561198126320716:fortified oval small clan",
+      "sourceSha256": "3cb38075379043085962877e870954d4fae1008f9fa11e72aefdc2d8b008e146",
+      "templateSha256": "5b4ec63c1aa5a8811273796f6baf4067dab18c229eee6f20701123e61d07cddf",
+      "entities": 601,
+      "stockedBoxes": 16,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1838476429",
+      "title": "Simple 2x1 v2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1838476429",
+      "uploaderSteamId": "76561198093453349",
+      "family": "76561198138008363:evil wurst solo 2x1",
+      "sourceSha256": "593e3fa0956e9060ce26a4171ddb609dc689cdb12f4588d2d86062816616d304",
+      "templateSha256": "349d0271ca91dc2f036c857ca2672509729ebe994ae07bb20ff59152fe939a61",
+      "entities": 44,
+      "stockedBoxes": 7,
+      "tcHours": 782,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2379819882",
+      "title": "дом для соло или 2 игроков",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2379819882",
+      "uploaderSteamId": "76561198978937950",
+      "family": "76561198978937950:2",
+      "sourceSha256": "53ef992e936480dfd4da2c5bd0c62007e432fb6700ce0dc45cc5aa8e2688d25b",
+      "templateSha256": "4132f9340920bd64d0f221c7d191e80fe757eda93d9c32a011b9bbc4a62e51e0",
+      "entities": 70,
+      "stockedBoxes": 8,
+      "tcHours": 254,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_3056550964",
+      "title": "Solo Sanction V1",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3056550964",
+      "uploaderSteamId": "76561199444629334",
+      "family": "76561199444629334:solo sanction",
+      "sourceSha256": "d35cd31d2d45fdb39046d74f3486b27ef9bc93d8b1300e86e3a6999f93a698e2",
+      "templateSha256": "e852c1449ba6d191db275b0fcd36ac3ac415062f94829779d46e85b0a590b410",
+      "entities": 103,
+      "stockedBoxes": 9,
+      "tcHours": 308,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1635088943",
+      "title": "Stong Clan Base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1635088943",
+      "uploaderSteamId": "76561198110856912",
+      "family": "76561198110856912:stong clan base",
+      "sourceSha256": "79834f884d72885d098101c23621df62f63afa6186e1fa882349ef9fd837a7ed",
+      "templateSha256": "99c7022939077007bc481ad379ab371d49983adbdf3624b814e0aba436abc6be",
+      "entities": 397,
+      "stockedBoxes": 9,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2843259621",
+      "title": "RWPVP Easy#2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843259621",
+      "uploaderSteamId": "76561198437780509",
+      "family": "76561198437780509:rwpvp easy 2",
+      "sourceSha256": "7847fe7f393a10e40a050c67abdc61a18704b85486d1d64aa8460a1188452da1",
+      "templateSha256": "4f2f0e46f324771fec5f85da4475717daf0544a39f9a13fd9e4bed85c7047f64",
+      "entities": 29,
+      "stockedBoxes": 4,
+      "tcHours": 860,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1886032360",
+      "title": "secret loot solo base 2.0",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1886032360",
+      "uploaderSteamId": "76561198393008904",
+      "family": "76561198393008904:secret loot solo base 2 0",
+      "sourceSha256": "6881ba16f95278176dfd2fd89828b37625333b822362d9f9230cc97215537fc2",
+      "templateSha256": "18b29e4db6d6c7547e1e3dc8d13c852bc6e0423bdac0898077f1a66129e5a32e",
+      "entities": 110,
+      "stockedBoxes": 18,
+      "tcHours": 160,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1909984094",
+      "title": "Complex Starter (Expanded, Heavily HoneyCombed)",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1909984094",
+      "uploaderSteamId": "76561198174436035",
+      "family": "76561198174436035:complex starter",
+      "sourceSha256": "54818572e4fb54c47258d9959e60d156ec659210f402ca2e31798eeb0d7cdcbf",
+      "templateSha256": "a27f2a52a7a2fe088792f77b714cf630b3d15ee75998164e02db50d0b3722dd1",
+      "entities": 373,
+      "stockedBoxes": 14,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1834850395",
+      "title": "Efficient 2x1",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1834850395",
+      "uploaderSteamId": "76561198093453349",
+      "family": "76561198093453349:efficient 2x1",
+      "sourceSha256": "04e9e93924f570ca011848ab10ccbd2e0376bbaab20d36bf1ad74158433758d2",
+      "templateSha256": "89aa3db57296a9d5047d559155ed83f23a215e8d717bade0ff20c8213b8179a2",
+      "entities": 161,
+      "stockedBoxes": 27,
+      "tcHours": 298,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2843261629",
+      "title": "RWPVP Medium#1",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843261629",
+      "uploaderSteamId": "76561198437780509",
+      "family": "76561198437780509:rwpvp medium 1",
+      "sourceSha256": "1a4e1518da3d1eebb294b685c1b835996bb05861dad12704de960f69b8f404c1",
+      "templateSha256": "82e03ad07eb5d1137459c7f80354b23660f3214f1372d43450f5bc8813a159db",
+      "entities": 111,
+      "stockedBoxes": 11,
+      "tcHours": 154,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2246970231",
+      "title": "4 Turret+4 Sensors Duo base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2246970231",
+      "uploaderSteamId": "76561198069021880",
+      "family": "76561198069021880:4 turret 4 sensors duo base",
+      "sourceSha256": "0597f7613d5a60719b81cee02af37205c1ba7f937b386133e7cf31f69b5f9525",
+      "templateSha256": "3097b1b1284aa731e8057a0f603e46bbfdb25babca18fc546b4936de5aeb9b6e",
+      "entities": 241,
+      "stockedBoxes": 8,
+      "tcHours": 112,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2102068765",
+      "title": "Duo base Daz007",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2102068765",
+      "uploaderSteamId": "76561197987737349",
+      "family": "76561197987737349:duo base daz007",
+      "sourceSha256": "931f1de21b780c4921dd4b23cc82a4ca1fe80a0509360069e5e89b3fb572ade0",
+      "templateSha256": "3dede5ac5898efde58500f22e77b71e84c65aabc85431739bf69bb9b869899c2",
+      "entities": 300,
+      "stockedBoxes": 3,
+      "tcHours": 77,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2871199060",
+      "title": "Exeter Small Boy(a1)",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2871199060",
+      "uploaderSteamId": "76561197997655894",
+      "family": "76561197997655894:exeter small boy",
+      "sourceSha256": "af3c2a10331db023cc5303192ef51ff3f14deaa9e7c87d3c464b36ea7d7ebf4b",
+      "templateSha256": "33ae644151f7cdf6f4244c3367d65cb196c5256f20f26f57e719fa854701690a",
+      "entities": 46,
+      "stockedBoxes": 1,
+      "tcHours": 441,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_3146806805",
+      "title": "STARTER SOLO.DUO NEW 2024",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3146806805",
+      "uploaderSteamId": "76561198920629438",
+      "family": "76561198920629438:starter solo duo new 2024",
+      "sourceSha256": "9e13bb9875de97856169bcefd44f38998f4cee5366904bb8a76bac37f1858760",
+      "templateSha256": "86f99148f8ac192eeacac5d13bf8d728f2d6ddd0e00abadce859a35e411b59dd",
+      "entities": 177,
+      "stockedBoxes": 16,
+      "tcHours": 76,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2023153229",
+      "title": "HIVE BASE",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2023153229",
+      "uploaderSteamId": "76561198170993554",
+      "family": "76561198170993554:hive base",
+      "sourceSha256": "0d6e58b85efb154fa3443765dc28a37133bfc2ee11494cec316b73bef28dcacd",
+      "templateSha256": "b72992047dff7a0f7fc1064d10b813523d804fb64d9db18f91438c15cbd0ae4c",
+      "entities": 118,
+      "stockedBoxes": 4,
+      "tcHours": 134,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1901282259",
+      "title": "Starter to main base for 2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1901282259",
+      "uploaderSteamId": "76561198160825855",
+      "family": "76561198160825855:starter to main base for 2",
+      "sourceSha256": "abc9aaac97382d840ba49e691ddcb56e15abc4876a320cc7eda4040f50e1c18b",
+      "templateSha256": "deaa5a2a673b0cfc7209d2b1bdb3696e4018e1037b2e6dc9e44cac522f152c9e",
+      "entities": 116,
+      "stockedBoxes": 4,
+      "tcHours": 124,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2671091187",
+      "title": "Duo+ 3x3,hidden tc",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2671091187",
+      "uploaderSteamId": "76561199013005745",
+      "family": "76561199013005745:duo 3x3 hidden tc",
+      "sourceSha256": "859ec5c07cda3636fece5f843b0a46041042c8a28c4a1eed9686064463d26dd4",
+      "templateSha256": "2305df1d7a07dd975cd3e2429b25a77e8a67efa42a2bfcd9b224eac1835cd174",
+      "entities": 298,
+      "stockedBoxes": 44,
+      "tcHours": 44,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1760006485",
+      "title": "Solo compact 2x2",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1760006485",
+      "uploaderSteamId": "76561198124897480",
+      "family": "76561198124897480:solo compact 2x2",
+      "sourceSha256": "6299c661fe4b15dab52e5badf4ef2fa3c5e6e8b115608019b3d8e8a658b8a9d2",
+      "templateSha256": "b1096956c6da403e9a580f4bc4d5b6785afe118c379e6e1c27912e08d0d156df",
+      "entities": 80,
+      "stockedBoxes": 21,
+      "tcHours": 371,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2138546492",
+      "title": "base for 4",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2138546492",
+      "uploaderSteamId": "76561198118893164",
+      "family": "76561198118893164:base for 4",
+      "sourceSha256": "55a03bf2773f3b83ff0ba2acd48ab6e51ca47b3818b3b0f14e16bbdcc1a77556",
+      "templateSha256": "f21a349ff3cef664ab59da9fc4fc8b303cd4893b64ee424c3f022121d8beb0e7",
+      "entities": 213,
+      "stockedBoxes": 16,
+      "tcHours": 99,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_3029587736",
+      "title": "group building design",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3029587736",
+      "uploaderSteamId": "76561198911139590",
+      "family": "76561198911139590:group building design",
+      "sourceSha256": "923377b0c77083ac06f71e600fb69dcef08b44a9c38d6361ef44c5d553f9aeb7",
+      "templateSha256": "69776bb0daebac49790165a01cf718e21a7ab24ec08b7e65823174c03eea3ec3",
+      "entities": 400,
+      "stockedBoxes": 14,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1878433914",
+      "title": "2X2 SUCKS (STARTER)",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1878433914",
+      "uploaderSteamId": "76561198047562719",
+      "family": "76561198047562719:2x2 sucks",
+      "sourceSha256": "6ec0967264d32d20121217d1b2ecb47ec83b8d45524a322efc591d0b70fe0b65",
+      "templateSha256": "7462f2811c2922e0f74fc80b162a0d83bba916642e867bb2f15f55b0feb55c7a",
+      "entities": 160,
+      "stockedBoxes": 7,
+      "tcHours": 73,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1691900330",
+      "title": "The Core",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1691900330",
+      "uploaderSteamId": "76561198274530093",
+      "family": "76561198274530093:the core",
+      "sourceSha256": "f9cffea5600eec4917b21ff799960138fd0de8c15f100b2521e9665b1dff9d8b",
+      "templateSha256": "f191e7e8f29e0b9ff39c5019a65d1e0308c533a4c401b88f88459e1840e71d6d",
+      "entities": 229,
+      "stockedBoxes": 19,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1613124190",
+      "title": "10 box starter solo duo",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1613124190",
+      "uploaderSteamId": "76561198250003948",
+      "family": "76561198250003948:10 box starter solo duo",
+      "sourceSha256": "72cc187c613d89f7d5c9bede880e9b492b3755dd0320dbe298ddfff15e6808d7",
+      "templateSha256": "10c07f0387e9a258847fc4d3cade7e73ceafcba1afa87df51cdf0245995fed5a",
+      "entities": 61,
+      "stockedBoxes": 11,
+      "tcHours": 292,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1759485681",
+      "title": "oval hatch core",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1759485681",
+      "uploaderSteamId": "76561198064314280",
+      "family": "76561198064314280:oval hatch core",
+      "sourceSha256": "156558dd0ed9230a0cab6077f98ba305812c9ffe46f35ab234241438d757a15d",
+      "templateSha256": "413c3e0d5f7994e0cab1b8a1918aa90b3e42e4225e5972d19a8292cfe62e9b05",
+      "entities": 259,
+      "stockedBoxes": 23,
+      "tcHours": 68,
+      "omitted": [
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1834826134",
+      "title": "Modular Starter - Updated.",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1834826134",
+      "uploaderSteamId": "76561198093453349",
+      "family": "76561198093453349:modular starter updated",
+      "sourceSha256": "1d3a9e67498f2395c34a2f23deae8134eb26bc97dafc2b2825ee0b1866dc2e38",
+      "templateSha256": "ce1b867819f71d986b6461b6115272e9eb5ecc99bfbf7653e25d9f0c2a408a2d",
+      "entities": 128,
+      "stockedBoxes": 19,
+      "tcHours": 145,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_2550067483",
+      "title": "base",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=2550067483",
+      "uploaderSteamId": "76561198802129160",
+      "family": "76561198802129160:base",
+      "sourceSha256": "d7823ebf9c6ab59d2155d3c385b8be4d6935c698bc74ae790a01b9757f5fb52b",
+      "templateSha256": "cf2df66bed6ae074578cb5ffb13aedfc930e84ac0d0a87a7ddabb5b45c07e15d",
+      "entities": 534,
+      "stockedBoxes": 4,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1775955438",
+      "title": "The Citadel",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1775955438",
+      "uploaderSteamId": "76561198235824658",
+      "family": "76561198235824658:the citadel",
+      "sourceSha256": "a037c442ac0951c2b8b6774959ae599405525d6703bbae7d56e78c4a52efde7e",
+      "templateSha256": "89ae11bc31fe21320527bafafcd7102b8a7e22a8b18bbf5d43f2c4a522051b42",
+      "entities": 815,
+      "stockedBoxes": 64,
+      "tcHours": 30,
+      "omitted": [
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        },
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        },
+        {
+          "prefab": "assets/content/vehicles/minicopter/minicopter.entity.prefab",
+          "reason": "vehicle or horse fixture"
+        }
+      ],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_1878386554",
+      "title": "Starbase vanilla. Med. upkeep",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=1878386554",
+      "uploaderSteamId": "76561198016832265",
+      "family": "76561198016832265:starbase vanilla med upkeep",
+      "sourceSha256": "f3b422e02d770bb7f17926a1bd9d2712b1151fae05f444cfdbf755860e4451a8",
+      "templateSha256": "7827d54831a43b368dc00b8f56f695a54fb9ccb391150e71f3d936dce0bb11f3",
+      "entities": 414,
+      "stockedBoxes": 14,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    },
+    {
+      "template": "meta_exp_3771614370",
+      "title": "dust",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=3771614370",
+      "uploaderSteamId": "76561198191280147",
+      "family": "76561198191280147:dust",
+      "sourceSha256": "21131ac0cea1ec385016e0bbfbbb83e07a815a1b35b67e6f72e585bb72a8800c",
+      "templateSha256": "7613d9c36e7c659171c0e7934d28538379709447808ecec817a44101fcc96a84",
+      "entities": 612,
+      "stockedBoxes": 24,
+      "tcHours": 30,
+      "omitted": [],
+      "status": "validated-live-trial",
+      "verification": {
+        "runtime": true,
+        "ground": true,
+        "playerWalkthrough": false,
+        "electricalCircuitTest": false
+      }
+    }
+  ]
+}

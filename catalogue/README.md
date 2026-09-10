@@ -5,7 +5,9 @@ the owner's request. Their live profiles and Copy-Paste files are also removed;
 they are not fallback choices or part of the replacement import queue. Existing
 world entities are not deleted by removing a template.
 
-The first converted batch is documented in [creator-release](creator-release.md).
+The current [75-family catalogue](expansion-75.md) contains 84 selectable templates,
+including 64 additional creator-sourced layouts. The first converted batch is
+documented separately in [creator-release](creator-release.md).
 The broader source library remains in [research](research/README.md).
 Source records are research leads, not automatically installed or compatibility-approved bases.
 Prioritize faithful creator saves and complete build tutorials over invented

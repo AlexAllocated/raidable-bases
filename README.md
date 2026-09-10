@@ -111,7 +111,7 @@ are unaffected.
 
 ## Commands
 
-The [creator catalogue](catalogue/creator-release.md) lists the converted layouts,
+The [75-family creator catalogue](catalogue/expansion-75.md) lists the 84 selectable templates,
 their provenance and verification limits. Placement tests actual square/triangle
 foundations, not entrance steps. Low-FPS throttling on an empty server no longer
 prevents profile initialization indefinitely.
