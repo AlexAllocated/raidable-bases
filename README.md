@@ -116,6 +116,12 @@ their provenance and verification limits. Placement tests actual square/triangle
 foundations, not entrance steps. Low-FPS throttling on an empty server no longer
 prevents profile initialization indefinitely.
 
+Permanent-base placement uses each foundation prefab's native `DeployVolume`
+checks at its final terrain-adjusted position, rather than rejecting the entire
+bounding box of a monument. This allows buildable monument outskirts while still
+rejecting actual placement blockers. Safe zones, water, support limits, tree
+trunks and physical obstruction checks remain enforced across the footprint.
+
 Admin/server access is required:
 
 - `/rbe`: random base at your aim. New catalogue profiles also validate the footprint.

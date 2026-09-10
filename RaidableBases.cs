@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.7")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.8")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -15437,7 +15437,7 @@ namespace Oxide.Plugins
             float lowest = float.MaxValue, highest = float.MinValue;
             float minimumLift = 0f, maximumLift = 1.5f;
             bool hasFoundation = false;
-            var foundations = new List<(Vector3 position, Quaternion rotation)>();
+            var foundations = new List<(Vector3 position, Quaternion rotation, uint prefabId)>();
             int mask = LayerMask.GetMask("Construction", "Deployed", "World", "Tree", "Resource", "Vehicle_Large", "Vehicle_Detailed");
             foreach (var entity in entities)
             {
@@ -15445,7 +15445,7 @@ namespace Oxide.Plugins
                 hasFoundation = true;
                 var position = (Vector3)entity["position"];
                 var rotation = entity.TryGetValue("rotation", out var rot) && rot is Quaternion q ? q : Quaternion.identity;
-                foundations.Add((position, rotation));
+                foundations.Add((position, rotation, StringPool.Get(prefab.ToString())));
                 foreach (float x in new[] { -1.35f, 0f, 1.35f }) foreach (float z in new[] { -1.35f, 0f, 1.35f })
                 {
                     var point = position + rotation * new Vector3(x, 0, z);
@@ -15460,8 +15460,6 @@ namespace Oxide.Plugins
                         minimumLift = Mathf.Max(minimumLift, ground + .1f - position.y);
                         maximumLift = Mathf.Min(maximumLift, ground + 2.5f - position.y);
                         if (SpawnsController.IsSafeZone(point, 2f)) { reason = "footprint enters a safe zone"; return false; }
-                        if (TerrainMeta.Path?.Monuments != null && TerrainMeta.Path.Monuments.Exists(m => m != null && m.IsInBounds(new Vector3(point.x, ground + .5f, point.z))))
-                        { reason = "footprint enters a monument"; return false; }
                     }
                     else if (ground > position.y + .05f || ground < position.y - 2.5f) { reason = "a foundation would be buried or unsupported"; return false; }
                 }
@@ -15475,6 +15473,12 @@ namespace Oxide.Plugins
             foreach (var foundation in foundations)
             {
                 var position = foundation.position + Vector3.up * minimumLift;
+                // Monument bounds include buildable outskirts; use the blueprint's actual placement volumes.
+                if (config.PermanentWorldBases && DeployVolume.Check(position, foundation.rotation, PrefabAttribute.server.FindAll<DeployVolume>(foundation.prefabId)))
+                {
+                    reason = $"foundation placement is blocked by {DeployVolume.LastDeployHit?.name ?? "a no-build volume"}";
+                    return false;
+                }
                 foreach (var collider in Physics.OverlapBox(position + Vector3.up * 3.2f, new Vector3(1.45f, 3f, 1.45f), foundation.rotation, mask, QueryTriggerInteraction.Ignore))
                 {
                     var tree = collider.GetComponentInParent<TreeEntity>();
