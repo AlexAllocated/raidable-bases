@@ -48,6 +48,11 @@ piece of that grade. The selected grade's color is shared too. Building grades
 and structural strength are unchanged. A new base can randomly choose the same
 skin as a previous base; the unskinned appearance is also a valid choice.
 
+Color-capable skins use their actual one-based palette, excluding Rust's zero
+(random/default) sentinel. The selected color is supplied during skin creation
+and synchronized to the global building representation as well as normal entity
+updates, preventing differently colored representations of the same block.
+
 For doors set `Skins -> Deployables -> Use Identical Skins` to `true` and enable
 random/workshop skins. Upstream caches a selection per door prefab per base;
 single, double, garage and armored doors therefore each use their own compatible

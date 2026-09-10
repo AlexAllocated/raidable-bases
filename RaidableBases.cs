@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.2")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.3")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -7456,15 +7456,30 @@ namespace Oxide.Plugins
                     skinID = 0uL;
                 }
                 if (config.RandomBuildingSkins) skinID = GetWholeBaseSkin(block, grade);
-                if (block.grade != grade || block.skinID != skinID)
-                {
-                    block.ChangeGradeAndSkin(grade, skinID, false, true);
-                }
-                block.SetHealthToMax();
+                uint? selectedColour = null;
                 if (config.RandomBuildingSkins)
                 {
-                    if (!skinColors.TryGetValue(grade, out var color)) skinColors[grade] = color = (uint)UnityEngine.Random.Range(0, 16);
-                    block.SetCustomColour(color);
+                    var definition = block.blockDefinition.GetGrade(grade, skinID);
+                    var colourSkin = GameManager.server.FindPrefab(definition.skinObject.resourcePath).GetComponent<ConstructionSkin_CustomDetail>();
+                    if (colourSkin != null && colourSkin.ColourLookup != null && colourSkin.ColourLookup.AllColours.Length > 0)
+                    {
+                        // Zero requests a random starting colour; actual palette entries are one-based.
+                        int count = colourSkin.ColourLookup.AllColours.Length;
+                        if (!skinColors.TryGetValue(grade, out var colour)) skinColors[grade] = colour = (uint)UnityEngine.Random.Range(1, count + 1);
+                        selectedColour = colour;
+                        block.playerCustomColourToApply = colour;
+                    }
+                }
+                if (block.grade != grade || block.skinID != skinID)
+                {
+                    block.ChangeGradeAndSkin(grade, skinID, false, true, selectedColour);
+                }
+                block.SetHealthToMax();
+                if (selectedColour.HasValue)
+                {
+                    block.SetCustomColour(selectedColour.Value);
+                    // The setter can be a no-op after ChangeGradeAndSkin. Publish the final colour anyway.
+                    GlobalNetworkHandler.server.TrySendNetworkUpdate(block);
                 }
                 block.SendNetworkUpdate();
             }
