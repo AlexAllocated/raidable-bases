@@ -1,0 +1,58 @@
+{
+  "wood": {
+    "id": -151838493,
+    "stack": 2000
+  },
+  "stones": {
+    "id": -2099697608,
+    "stack": 2000
+  },
+  "metal.fragments": {
+    "id": 69511070,
+    "stack": 2000
+  },
+  "metal.refined": {
+    "id": 317398316,
+    "stack": 200
+  },
+  "lowgradefuel": {
+    "id": -946369541,
+    "stack": 1000
+  },
+  "scrap": {
+    "id": -932201673,
+    "stack": 2000
+  },
+  "cloth": {
+    "id": -858312878,
+    "stack": 2000
+  },
+  "pumpkin": {
+    "id": -567909622,
+    "stack": 40
+  },
+  "corn": {
+    "id": 1367190888,
+    "stack": 40
+  },
+  "seed.hemp": {
+    "id": -237809779,
+    "stack": 100
+  },
+  "seed.corn": {
+    "id": 998894949,
+    "stack": 100
+  },
+  "seed.pumpkin": {
+    "id": -1511285251,
+    "stack": 100
+  },
+  "metal.ore": {
+    "id": -4031221,
+    "stack": 2000
+  },
+  "charcoal": {
+    "id": -1938052175,
+    "stack": 2000
+  }
+}

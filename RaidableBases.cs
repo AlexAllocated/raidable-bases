@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.1.10")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.1")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -6699,6 +6699,7 @@ namespace Oxide.Plugins
 
             private void RemoveClutter()
             {
+                if (config.PermanentWorldBases) return;
                 using var tmp = FindEntitiesOfType<BaseEntity>(Location, ProtectionRadius);
                 using var players = DisposableList<BasePlayer>();
                 tmp.Sort(Instance.TreeComparer);
@@ -15247,6 +15248,15 @@ namespace Oxide.Plugins
 
             yield return TryApplyAutoHeight(rb, preloadData);
 
+            if ((config.PermanentWorldBases || rb.options.ValidateFootprint) && !ValidateFootprint(rb, preloadData, out var footprintError))
+            {
+                string message = $"{rb.BaseName} was not spawned: {footprintError}. Choose clear, flatter ground.";
+                rb.user?.Reply(message);
+                Puts(message);
+                IsSpawnerBusy = false;
+                yield break;
+            }
+
             if (!IsUnloading)
             {
                 TryInvokeMethod(() => RFManager.GetListenerSet(1).RemoveWhere(obj => obj == null || !BaseEntityEx.IsValidEntityReference(obj)));
@@ -15274,6 +15284,37 @@ namespace Oxide.Plugins
                     Queues.Messages.Print($"{rb.BaseName} is pasting at {rb.Position}");
                 }
             }
+        }
+
+        private bool ValidateFootprint(RandomBase rb, HashSet<Dictionary<string, object>> entities, out string reason)
+        {
+            reason = null;
+            float lowest = float.MaxValue, highest = float.MinValue;
+            bool hasFoundation = false;
+            int mask = LayerMask.GetMask("Construction", "Deployed", "World", "Tree", "Resource", "Vehicle_Large", "Vehicle_Detailed");
+            foreach (var entity in entities)
+            {
+                if (!entity.TryGetValue("prefabname", out var prefab) || !prefab.ToString().Contains("/foundation.")) continue;
+                hasFoundation = true;
+                var position = (Vector3)entity["position"];
+                foreach (float x in new[] { -1.35f, 0f, 1.35f }) foreach (float z in new[] { -1.35f, 0f, 1.35f })
+                {
+                    var point = position + new Vector3(x, 0, z);
+                    if (Mathf.Abs(point.x) > World.Size / 2f || Mathf.Abs(point.z) > World.Size / 2f) { reason = "outside the map"; return false; }
+                    float ground = TerrainMeta.HeightMap.GetHeight(point);
+                    float water = Mathf.Max(TerrainMeta.WaterMap.GetHeight(point), WaterSystem.OceanLevel);
+                    if (water > ground + .1f) { reason = "footprint crosses water"; return false; }
+                    lowest = Mathf.Min(lowest, ground); highest = Mathf.Max(highest, ground);
+                    if (ground > position.y + .05f || ground < position.y - 2.5f) { reason = "a foundation would be buried or unsupported"; return false; }
+                }
+                if (Physics.CheckBox(position + Vector3.up * 3.2f, new Vector3(1.5f, 3f, 1.5f), Quaternion.identity, mask, QueryTriggerInteraction.Ignore))
+                { reason = "footprint intersects a structure, deployable or world obstruction"; return false; }
+            }
+            if (!hasFoundation) { reason = "no supported foundation footprint was found"; return false; }
+            if (highest - lowest > rb.options.GetLandLevel) { reason = "terrain varies too much across this layout"; return false; }
+            if (SpawnsController.IsMonumentPosition(rb.Position, rb.options.ProtectionRadius(RaidableType.Manual)))
+            { reason = "footprint is too close to a monument"; return false; }
+            return true;
         }
 
         private Action CreatePastedCallback(RaidableBase raid, RandomBase rb)
@@ -16255,7 +16296,7 @@ namespace Oxide.Plugins
             }
 
             var baseName = Array.Find(args, FileExists);
-            var (key, profile) = GetBuilding(RaidableType.Manual, baseName, null);
+            var (key, profile) = GetBuilding(RaidableType.Manual, RaidableMode.Normal, baseName, player);
 
             if (!IsProfileValid(key, profile))
             {
@@ -16287,6 +16328,7 @@ namespace Oxide.Plugins
                 RandomBase rb = new();
                 rb.Instance = this;
                 rb.BaseName = key;
+                rb.user = user;
                 rb.Profile = profile;
                 rb.Position = point;
                 rb.type = RaidableType.Manual;
@@ -21253,6 +21295,9 @@ namespace Oxide.Plugins
 
             [JsonProperty(PropertyName = "Maximum Land Level")]
             public float LandLevel = 2.5f;
+
+            [JsonProperty(PropertyName = "Validate footprint before paste (including admin aim spawns)")]
+            public bool ValidateFootprint;
 
             [JsonProperty(PropertyName = "Player Damage To Tool Cupboard Multiplier")]
             public float PlayerDamageMultiplierTC = 1f;

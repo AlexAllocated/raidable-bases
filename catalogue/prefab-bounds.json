@@ -1,0 +1,512 @@
+[
+  {
+    "path": "assets/prefabs/building core/foundation/foundation.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": -1.4,
+      "z": 0.0
+    },
+    "size": {
+      "x": 2.8,
+      "y": 2.8,
+      "z": 2.8
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/floor/floor.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "x": 3.0,
+      "y": 0.2,
+      "z": 3.00000048
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/wall/wall.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.50000012,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 3.00000024,
+      "z": 3.0
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/wall.doorway/wall.doorway.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.50000012,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 3.00000024,
+      "z": 3.0
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/wall.frame/wall.frame.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 3.0,
+      "z": 3.0
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/wall.window/wall.window.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.50000012,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 3.00000024,
+      "z": 3.0
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/wall.half/wall.half.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.75,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 1.5,
+      "z": 3.0
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/stairs.l/block.stair.lshape.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.5,
+      "z": 0.0
+    },
+    "size": {
+      "x": 2.8,
+      "y": 2.8,
+      "z": 2.8
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building core/ramp/ramp.prefab",
+    "valid": true,
+    "center": {
+      "x": 1.5,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "size": {
+      "x": 2.8,
+      "y": 2.8,
+      "z": 2.8
+    },
+    "type": "BuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building/door.hinged/door.hinged.metal.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.1,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 2.2,
+      "z": 1.2
+    },
+    "type": "Door"
+  },
+  {
+    "path": "assets/prefabs/building/door.hinged/door.hinged.wood.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.13,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 2.2,
+      "z": 1.2
+    },
+    "type": "Door"
+  },
+  {
+    "path": "assets/prefabs/building/door.hinged/door.hinged.toptier.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.1,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 2.2,
+      "z": 1.2
+    },
+    "type": "Door"
+  },
+  {
+    "path": "assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.425,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 2.85,
+      "z": 2.7
+    },
+    "type": "Door"
+  },
+  {
+    "path": "assets/prefabs/building/wall.frame.garagedoor/wall.frame.garagedoor.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.425,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2,
+      "y": 2.85,
+      "z": 2.7
+    },
+    "type": "Door"
+  },
+  {
+    "path": "assets/prefabs/building/wall.window.bars/wall.window.bars.metal.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.009474531,
+      "y": 0.6326879,
+      "z": 0.00160717964
+    },
+    "size": {
+      "x": 0.08574885,
+      "y": 1.26537585,
+      "z": 2.211357
+    },
+    "type": "SimpleBuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/building/wall.window.reinforcedglass/wall.window.glass.reinforced.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.009474531,
+      "y": 0.6326879,
+      "z": 0.00160717964
+    },
+    "size": {
+      "x": 0.08574885,
+      "y": 1.26537585,
+      "z": 2.211357
+    },
+    "type": "SimpleBuildingBlock"
+  },
+  {
+    "path": "assets/prefabs/deployable/tool cupboard/cupboard.tool.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.00082165,
+      "y": 0.9542575,
+      "z": 0.01125744
+    },
+    "size": {
+      "x": 1.14332128,
+      "y": 1.91150045,
+      "z": 0.8886315
+    },
+    "type": "BuildingPrivlidge"
+  },
+  {
+    "path": "assets/prefabs/deployable/large wood storage/box.wooden.large.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.00167816877,
+      "y": 0.3948074,
+      "z": 5.96046448E-08
+    },
+    "size": {
+      "x": 1.78,
+      "y": 0.790511,
+      "z": 1.046
+    },
+    "type": "BoxStorage"
+  },
+  {
+    "path": "assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 8.52644444E-05,
+      "y": 0.2776476,
+      "z": 1.1920929E-07
+    },
+    "size": {
+      "x": 0.9684774,
+      "y": 0.5552952,
+      "z": 0.7439779
+    },
+    "type": "BoxStorage"
+  },
+  {
+    "path": "assets/prefabs/deployable/sleeping bag/sleepingbag_leather_deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": -0.00314795971,
+      "y": 0.143233478,
+      "z": 0.176264167
+    },
+    "size": {
+      "x": 1.04387546,
+      "y": 0.354150176,
+      "z": 1.85740876
+    },
+    "type": "SleepingBag"
+  },
+  {
+    "path": "assets/prefabs/deployable/bed/bed_deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": -0.0008277893,
+      "y": 0.348005146,
+      "z": 0.0002810955
+    },
+    "size": {
+      "x": 2.43924618,
+      "y": 0.778860033,
+      "z": 1.34130478
+    },
+    "type": "SleepingBag"
+  },
+  {
+    "path": "assets/prefabs/deployable/furnace/furnace.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": 0.02
+    },
+    "size": {
+      "x": 0.98,
+      "y": 1.6,
+      "z": 1.04
+    },
+    "type": "BaseOven"
+  },
+  {
+    "path": "assets/prefabs/deployable/tier 1 workbench/workbench1.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.000964581966,
+      "y": 1.11823249,
+      "z": -0.021159023
+    },
+    "size": {
+      "x": 1.63974309,
+      "y": 2.236465,
+      "z": 0.9335408
+    },
+    "type": "Workbench"
+  },
+  {
+    "path": "assets/prefabs/deployable/tier 2 workbench/workbench2.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.000964581966,
+      "y": 1.11823249,
+      "z": -0.021159023
+    },
+    "size": {
+      "x": 1.63974309,
+      "y": 2.236465,
+      "z": 0.9335408
+    },
+    "type": "Workbench"
+  },
+  {
+    "path": "assets/prefabs/deployable/tier 3 workbench/workbench3.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": -0.04,
+      "y": 1.01876736,
+      "z": 0.0354317427
+    },
+    "size": {
+      "x": 2.24,
+      "y": 2.03842831,
+      "z": 1.02031028
+    },
+    "type": "Workbench"
+  },
+  {
+    "path": "assets/prefabs/deployable/research table/researchtable_deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": -5.96046448E-08,
+      "y": 0.896049,
+      "z": 0.0120451748
+    },
+    "size": {
+      "x": 1.93497837,
+      "y": 1.79209828,
+      "z": 1.05783224
+    },
+    "type": "ResearchTable"
+  },
+  {
+    "path": "assets/prefabs/deployable/repair bench/repairbench_deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": -0.00526303053,
+      "y": 0.631498635,
+      "z": -0.0005533695
+    },
+    "size": {
+      "x": 2.11680126,
+      "y": 1.27282107,
+      "z": 1.1584661
+    },
+    "type": "RepairBench"
+  },
+  {
+    "path": "assets/prefabs/deployable/mixingtable/mixingtable.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.8067637,
+      "z": 0.0178660154
+    },
+    "size": {
+      "x": 2.8,
+      "y": 1.62647259,
+      "z": 0.9930278
+    },
+    "type": "MixingTable"
+  },
+  {
+    "path": "assets/prefabs/deployable/bbq/bbq.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    },
+    "size": {
+      "x": 1.0,
+      "y": 1.2,
+      "z": 1.2
+    },
+    "type": "BaseOven"
+  },
+  {
+    "path": "assets/prefabs/deployable/lantern/lantern.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.191937,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.2383716,
+      "y": 0.34,
+      "z": 0.2383716
+    },
+    "type": "BaseFuelLightSource"
+  },
+  {
+    "path": "assets/prefabs/deployable/chair/chair.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.6,
+      "z": 0.0
+    },
+    "size": {
+      "x": 0.7,
+      "y": 1.2,
+      "z": 0.708
+    },
+    "type": "BaseChair"
+  },
+  {
+    "path": "assets/prefabs/deployable/table/table.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.425,
+      "z": 0.0
+    },
+    "size": {
+      "x": 2.4,
+      "y": 0.85,
+      "z": 1.5
+    },
+    "type": "DecorDeployable"
+  },
+  {
+    "path": "assets/prefabs/deployable/planters/planter.small.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 0.341948271,
+      "z": 0.00197637081
+    },
+    "size": {
+      "x": 3.23791385,
+      "y": 0.6843113,
+      "z": 1.1
+    },
+    "type": "PlanterBox"
+  },
+  {
+    "path": "assets/prefabs/deployable/locker/locker.deployed.prefab",
+    "valid": true,
+    "center": {
+      "x": 0.0,
+      "y": 1.11096716,
+      "z": 0.0
+    },
+    "size": {
+      "x": 1.8,
+      "y": 2.26193428,
+      "z": 0.72
+    },
+    "type": "Locker"
+  }
+]

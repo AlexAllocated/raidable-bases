@@ -72,7 +72,7 @@ are unaffected.
 
 Admin/server access is required:
 
-- `/rbe`: random base at your aim; upstream admin placement bypasses some checks.
+- `/rbe`: random base at your aim. New catalogue profiles also validate the footprint.
 - `/rbe TEMPLATE`: select a configured template.
 - `/rbevent`: use upstream's checked random-world-location search.
 - `/rbe despawn`: aim at a registered permanent base to remove only that base;
@@ -86,6 +86,24 @@ For an unmarked appearance also disable `UI -> Status UI -> Enabled`,
 enter/exit announcements, NPCs, arena walls, spheres and map markers in the
 ordinary Raidable Bases configuration/profile. The Always Rainy deployment
 does so; upstream defaults are otherwise retained.
+
+## Original Catalogue
+
+The [catalogue](catalogue/README.md) adds 32 hand-authored layouts in eight
+families: expanded starters, narrow homes, courtyard homes, workshops, farms,
+fortified homes, group compounds and two-floor tower homes. These are distinct
+floorplans, not cosmetic variants. Browse their plans and exact commands in
+[`catalogue/dist/index.html`](catalogue/dist/index.html).
+
+Permanent mode always validates placement; event-mode profiles can enable
+`Validate footprint before paste (including admin aim spawns)` independently.
+The entire foundation footprint is checked for water, terrain variation,
+unsupported/buried foundations, structures, deployables, world obstructions and
+monument proximity before entities are created. It is conservative: an admin
+aim spawn can be refused even if the original plugin allowed the aim point.
+Permanent mode also skips raid-event clutter clearing entirely: no surrounding
+trees, resources, deployables or vehicles are removed or relocated to make room.
+Choose a clear site instead. This does not restore objects removed by older versions.
 
 ## Deployment
 

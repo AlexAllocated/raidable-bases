@@ -1,0 +1,8 @@
+{
+  "reason": "Old raid-oriented large layouts withheld from random selection pending ground-entry and furnace/ceiling review after player reports. Existing world bases and explicit named spawns are retained.",
+  "templates": [
+    "3x3x3_betav2_a",
+    "2x2x2_a", "2x2x2_d", "2x2x2_e", "2x2x2_f", "2x2x2_i",
+    "2x2x2_k", "2x2x2_l", "2x2x2_o", "2x2x2_p"
+  ]
+}
