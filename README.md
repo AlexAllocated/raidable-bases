@@ -92,13 +92,20 @@ enter/exit announcements, NPCs, arena walls, spheres and map markers in the
 ordinary Raidable Bases configuration/profile. The Always Rainy deployment
 does so; upstream defaults are otherwise retained.
 
-## Original Catalogue
+## Creator-Sourced Catalogue
 
-The [catalogue](catalogue/README.md) adds 32 hand-authored layouts in eight
-families: expanded starters, narrow homes, courtyard homes, workshops, farms,
-fortified homes, group compounds and two-floor tower homes. These are distinct
-floorplans, not cosmetic variants. Browse their plans and exact commands in
-[`catalogue/dist/index.html`](catalogue/dist/index.html).
+The previous 32 authored `ar_*` layouts, generator and previews have been retired.
+Their live templates, profiles and family mappings were removed. This retirement
+does not delete already-spawned world entities or change the plugin's skin,
+decay, selection or placement behavior.
+
+The replacement [source catalogue](catalogue/research/README.md) tracks real
+creator designs, available saves, related versions and compatibility concerns.
+Research candidates are not approved live templates. Patched mechanics and
+unverified bunker dependencies stay outside the import queue. See the
+[acceptance criteria](catalogue/README.md) before enabling a new template.
+
+## Placement
 
 Permanent mode always validates placement; event-mode profiles can enable
 `Validate footprint before paste (including admin aim spawns)` independently.

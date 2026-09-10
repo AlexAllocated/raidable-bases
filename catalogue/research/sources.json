@@ -1,0 +1,6149 @@
+{
+  "checked_at": "2026-09-10T05:32:11.745Z",
+  "scope": "Source research only; no imports or runtime compatibility approval",
+  "records": [
+    {
+      "name": "2 in 1 Defence and Heli Base",
+      "creator": "Jason Lewis",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/94"
+      ],
+      "video": "https://www.youtube.com/watch?v=ldDGlW5HmCk",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Unique",
+        "Budget",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust Heli Base Design - 2 in 1 Defence and Heli Base",
+        "author": "Jason",
+        "author_url": "https://www.youtube.com/@Jason-pp1lq"
+      },
+      "id": "jason-lewis-2-in-1-defence-and-heli-base",
+      "family_id": "jason-lewis-2-in-1-defence-and-heli-base",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/94"
+        ]
+      },
+      "verified_video_author": "Jason"
+    },
+    {
+      "name": "2 x 1 into a compound For groups",
+      "creator": "Just Another Gamer",
+      "group_size": 14,
+      "sources": [
+        "https://rustbasefinder.com/base_id/88"
+      ],
+      "video": "https://www.youtube.com/watch?v=kf6At303AAU",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Online Oriented",
+        "Peekdowns",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dkf6At303AAU&format=json"
+      },
+      "id": "just-another-gamer-2-x-1-into-a-compound-for-groups",
+      "family_id": "just-another-gamer-2-x-1-into-a-compound-for-groups",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Group expansion guide; check for duplication with the creator's other expansion.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/88"
+        ]
+      }
+    },
+    {
+      "name": "20 Rocket Solo/Duo",
+      "creator": "Crispy",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/11"
+      ],
+      "video": "https://www.youtube.com/watch?v=5nXMmHTBp08",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Ergonomic",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust Base Design | 20 ROCKETS Solo/Duo MINI BASE V1 (Rust Base Building)",
+        "author": "crispy",
+        "author_url": "https://www.youtube.com/@thatcrispy"
+      },
+      "id": "crispy-20-rocket-solo-duo",
+      "family_id": "crispy-20-rocket-solo-duo",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/11"
+        ]
+      },
+      "verified_video_author": "crispy"
+    },
+    {
+      "name": "3x3 replacement (Multi-TC)",
+      "creator": "Just Another Gamer",
+      "group_size": 12,
+      "sources": [
+        "https://rustbasefinder.com/base_id/96"
+      ],
+      "video": "https://www.youtube.com/watch?v=nKM-P2ObNN0",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Offline Oriented",
+        "Multi TC"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "3 x 3 Replacement Multi Tc Design | RUST",
+        "author": "JustAnotherGamer",
+        "author_url": "https://www.youtube.com/@JustAnotherGamerr"
+      },
+      "id": "just-another-gamer-3x3-replacement-multi-tc",
+      "family_id": "just-another-gamer-3x3-replacement-multi-tc",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/96"
+        ]
+      },
+      "verified_video_author": "JustAnotherGamer"
+    },
+    {
+      "name": "5x5 REPLACEMENT?",
+      "creator": "Red apple",
+      "group_size": 10,
+      "sources": [
+        "https://rustbasefinder.com/base_id/80"
+      ],
+      "video": "https://www.youtube.com/watch?v=tqeswk6fnyU",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Online Oriented",
+        "Peekdowns"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "5x5 REPLACEMENT? MultiTC base with a 3x3 core, Inner & Outer PEEKDOWNS // Rust Clan Base Design 2020",
+        "author": "red apple",
+        "author_url": "https://www.youtube.com/@redapplex"
+      },
+      "id": "red-apple-5x5-replacement",
+      "family_id": "red-apple-5x5-replacement",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/80"
+        ]
+      },
+      "verified_video_author": "red apple"
+    },
+    {
+      "name": "Alibi",
+      "creator": "Calvin",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/104"
+      ],
+      "video": "https://www.youtube.com/watch?v=6QI5xHtLFAU",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Peekdowns",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6QI5xHtLFAU&format=json"
+      },
+      "id": "calvin-alibi",
+      "family_id": "calvin-alibi",
+      "review": {
+        "status": "discovery-only",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/104"
+        ]
+      }
+    },
+    {
+      "name": "Bank",
+      "creator": "Maco",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/19"
+      ],
+      "video": "https://www.youtube.com/watch?v=4K2xJ7Git1I",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Offline Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D4K2xJ7Git1I&format=json"
+      },
+      "id": "maco-bank",
+      "family_id": "maco-bank",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/19"
+        ]
+      }
+    },
+    {
+      "name": "Bank X",
+      "creator": "Maco",
+      "group_size": 35,
+      "sources": [
+        "https://rustbasefinder.com/base_id/83"
+      ],
+      "video": "https://www.youtube.com/watch?v=RYZzTqLiSEI",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Peekdowns",
+        "Heli Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRYZzTqLiSEI&format=json"
+      },
+      "id": "maco-bank-x",
+      "family_id": "maco-bank",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/83"
+        ]
+      }
+    },
+    {
+      "name": "Beach Turtle",
+      "creator": "Rust Daddy",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/67"
+      ],
+      "video": "https://www.youtube.com/watch?v=oWj8_5Z63m4",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Offline Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "BeachTurtle V1.0 - Duo/Trio, 41.4 Large Boxes, Up To 65 Rockets",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-beach-turtle",
+      "family_id": "rust-daddy-beach-turtle",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/67"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "Black Widow",
+      "creator": "Rust Daddy",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/54"
+      ],
+      "video": "https://www.youtube.com/watch?v=FC4CUYUsT1Q",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Budget",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust Daddy's Black Widow - Solo Duo Bunker Base",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "rust-daddy-black-widow",
+      "family_id": "rust-daddy-black-widow",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/54"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Brand New Bunker",
+      "creator": "Red Apple",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/13",
+        "https://rustbasefinder.com/base_id/73"
+      ],
+      "video": "https://www.youtube.com/watch?v=lN-UFp6gvxE",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Online Oriented",
+        "Ergonomic",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "NEW META? 2x1 with a Brand New BUNKER [PATCHED], Shooting Floor & PEEKDOWNS // Rust Solo/Duo Base",
+        "author": "red apple",
+        "author_url": "https://www.youtube.com/@redapplex"
+      },
+      "id": "red-apple-brand-new-bunker",
+      "family_id": "red-apple-brand-new-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/13",
+          "https://rustbasefinder.com/base_id/73"
+        ]
+      },
+      "verified_video_author": "red apple"
+    },
+    {
+      "name": "Chadsaw",
+      "creator": "Evil Wurst",
+      "group_size": 8,
+      "sources": [
+        "https://rustbasefinder.com/base_id/56"
+      ],
+      "video": "https://www.youtube.com/watch?v=3qirXpTqUkU",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Online Oriented",
+        "Peekdowns"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Chadsaw - Multi-TC 2x2 Rust Base Design [PATCHED]",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-chadsaw",
+      "family_id": "evil-wurst-chadsaw",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Small",
+        "note": "Creator confirms roofs cannot close the ceiling.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Cheap Strong Solo",
+      "creator": "Witness",
+      "group_size": 1,
+      "sources": [
+        "https://rustbasefinder.com/base_id/5"
+      ],
+      "video": "https://www.youtube.com/watch?v=zNqF3DXYw8Q",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Ergonomic",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "CHEAP YET STRONG Solo Duo RUST Base Design 2020",
+        "author": "Witness",
+        "author_url": "https://www.youtube.com/@witness_"
+      },
+      "id": "witness-cheap-strong-solo",
+      "family_id": "witness-cheap-strong-solo",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/5"
+        ]
+      },
+      "verified_video_author": "Witness"
+    },
+    {
+      "name": "Cheapest Solo Bunker Base",
+      "creator": "Techno",
+      "group_size": 1,
+      "sources": [
+        "https://rustbasefinder.com/base_id/58"
+      ],
+      "video": "https://www.youtube.com/watch?v=g5JGndcJJEI",
+      "download_links": [
+        "https://pastebin.com/PmqmY0Fx"
+      ],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Budget",
+        "Offline Oriented",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/PmqmY0Fx",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 794,
+          "sha256": "f78b3f6479d435521fb67e1588f6e175ba29a72a89faa50e10f503eaa44e5e1f",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/PmqmY0Fx.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dg5JGndcJJEI&format=json"
+      },
+      "id": "techno-cheapest-solo-bunker-base",
+      "family_id": "techno-cheapest-solo-bunker-base",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/58"
+        ]
+      }
+    },
+    {
+      "name": "Colossus",
+      "creator": "Rust Daddy",
+      "group_size": 30,
+      "sources": [
+        "https://rustbasefinder.com/base_id/66",
+        "https://www.corrosionhour.com/rust-colossus-clan-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=ayXzhOtznas",
+      "download_links": [
+        "https://pastebin.com/u7dVQMKi"
+      ],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Furnace Base",
+        "Online Oriented",
+        "Multi TC"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/u7dVQMKi",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 149194,
+          "sha256": "d8bc101736e02f0149e3e3e3fabfb9d465eff89483dac5208fe6162ca88fbfa2",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/u7dVQMKi.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Colossus - 24 Man Zerg Base, Up To 600 Rockets",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-colossus",
+      "family_id": "rust-daddy-colossus",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Clan",
+        "note": "Huge design with bunkered entrances; current access and resource budget unverified.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/66",
+          "https://www.corrosionhour.com/rust-colossus-clan-base-design/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "DOUBLE Bunker Core Starter Base",
+      "creator": "Reksmore",
+      "group_size": 1,
+      "sources": [
+        "https://rustbasefinder.com/base_id/132"
+      ],
+      "video": "https://www.youtube.com/watch?v=qqUWJPnfBJE",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Expandable",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Solo DOUBLE Bunker Core and starter Design! LOW COST - HIGH VALUE!",
+        "author": "Reksmore",
+        "author_url": "https://www.youtube.com/@Reksmore"
+      },
+      "id": "reksmore-double-bunker-core-starter-base",
+      "family_id": "reksmore-double-bunker-core-starter-base",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/132"
+        ]
+      },
+      "verified_video_author": "Reksmore"
+    },
+    {
+      "name": "Desire",
+      "creator": "Maco",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/102"
+      ],
+      "video": "https://www.youtube.com/watch?v=RSF0EQ_ZF18",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRSF0EQ_ZF18&format=json"
+      },
+      "id": "maco-desire",
+      "family_id": "maco-desire",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/102"
+        ]
+      }
+    },
+    {
+      "name": "DirtyRussian",
+      "creator": "Rust Daddy",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/64",
+        "https://www.corrosionhour.com/dirty-russian-trap-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=NQ-bDV0u0hs",
+      "download_links": [
+        "https://pastebin.com/uy86XpHH"
+      ],
+      "flags": [
+        "trap-operation-review",
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Trap Base",
+        "Budget",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/uy86XpHH",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 4842,
+          "sha256": "1cf131d289c99053993d57969340d11d8ebc33cd2572232b44d8c2eb229ae6aa",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/uy86XpHH.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "DirtyRussian - Rust Trap Base (No Electricity Required)",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-dirtyrussian",
+      "family_id": "rust-daddy-dirtyrussian",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/64",
+          "https://www.corrosionhour.com/dirty-russian-trap-base-design/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "Enhanced Bank",
+      "creator": "Maco",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/14"
+      ],
+      "video": "https://www.youtube.com/watch?v=HKkcTx2dfl4",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Egonomic",
+        "Adequate Storage",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DHKkcTx2dfl4&format=json"
+      },
+      "id": "maco-enhanced-bank",
+      "family_id": "maco-bank",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Small",
+        "note": "Related Bank family uses bunker mechanics; missing discovery tags are not clearance.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/14"
+        ]
+      }
+    },
+    {
+      "name": "Enhanced Hoarder",
+      "creator": "Maco",
+      "group_size": 8,
+      "sources": [
+        "https://rustbasefinder.com/base_id/36"
+      ],
+      "video": "https://www.youtube.com/watch?v=DgAhavUzdbg",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Expandable",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDgAhavUzdbg&format=json"
+      },
+      "id": "maco-enhanced-hoarder",
+      "family_id": "maco-hoarder",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Small",
+        "note": "Related Hoarder family uses bunker mechanics; missing discovery tags are not clearance.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/36"
+        ]
+      }
+    },
+    {
+      "name": "Expanded 2x2 2020",
+      "creator": "My Gaming Experience",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/27"
+      ],
+      "video": "https://www.youtube.com/watch?v=XJTiMOQNp_c",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Ergonomic",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "RUST - The BEST 2x2 Rust Base Design 2020 - Rust Base Building",
+        "author": "My Gaming Experience",
+        "author_url": "https://www.youtube.com/@MyGamingExperience"
+      },
+      "id": "my-gaming-experience-expanded-2x2-2020",
+      "family_id": "my-gaming-experience-expanded-2x2-2020",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Creator guide located; do not count expansion stages as separate layouts.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/27"
+        ]
+      },
+      "verified_video_author": "My Gaming Experience"
+    },
+    {
+      "name": "Fortified Unlootable Bunker",
+      "creator": "Papa Percocet",
+      "group_size": 6,
+      "sources": [
+        "https://rustbasefinder.com/base_id/61"
+      ],
+      "video": "https://www.youtube.com/watch?v=ySIy7vQxL70",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Online Oriented",
+        "Heli Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "My UNRAIDED! Personal Group Base │ Fortified Unlootable Bunker! │ Rust Base Build -2019 │",
+        "author": "Papa Percocet",
+        "author_url": "https://www.youtube.com/@papapercocet5416"
+      },
+      "id": "papa-percocet-fortified-unlootable-bunker",
+      "family_id": "papa-percocet-fortified-unlootable-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/61"
+        ]
+      },
+      "verified_video_author": "Papa Percocet"
+    },
+    {
+      "name": "Foundry",
+      "creator": "Rust Daddy",
+      "group_size": 15,
+      "sources": [
+        "https://rustbasefinder.com/base_id/63",
+        "https://www.corrosionhour.com/rust-foundry-clan-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=Ax3TzENR0n8",
+      "download_links": [
+        "https://pastebin.com/Mh6RfNWK"
+      ],
+      "flags": [
+        "multi-tc-review",
+        "special-site",
+        "trap-operation-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Unique",
+        "Furnace Base",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/Mh6RfNWK",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 73645,
+          "sha256": "456041a2ae96caeef350078fe31d66f05c4aa42ef57826aa79e96434442bbfeb",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/Mh6RfNWK.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Foundry - Rust Clan Furnace Base",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-foundry",
+      "family_id": "rust-daddy-foundry",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Clan",
+        "note": "Published build uses removed foundation steps; do not import it as-is.",
+        "evidence": [
+          "https://www.corrosionhour.com/rust-foundry-clan-base-design/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "Frustrator V2",
+      "creator": "Evil Wurst",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/55"
+      ],
+      "video": "https://www.youtube.com/watch?v=WMyEJ2WtbwE",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review",
+        "trap-operation-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Online Oriented",
+        "Multi TC",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Original Frustrator V2 - Small Group Base with Trapped, Unlootable Loot Rooms",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-frustrator-v2",
+      "family_id": "frustrator-original",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Old loot-access or stacking assumptions; no import until door/loot access is demonstrated.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Frustrator X",
+      "creator": "Evil Wurst",
+      "group_size": 8,
+      "sources": [
+        "https://rustbasefinder.com/base_id/33"
+      ],
+      "video": "https://www.youtube.com/watch?v=_i9_88h2Qj8",
+      "download_links": [
+        "https://pastebin.com/hy8mbLHY"
+      ],
+      "flags": [
+        "trap-operation-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Budget",
+        "Trap Base",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/hy8mbLHY",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 34864,
+          "sha256": "0056fc657536d34e84e338de6a9431e42cdf725a362b6d15b99447cf70035a52",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/hy8mbLHY.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Original Frustrator X - Trapped, Unlootable Loot Rooms | RUST Group Base 2020",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-frustrator-x",
+      "family_id": "frustrator-original",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Old loot-access or stacking assumptions; no import until door/loot access is demonstrated.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Frustrator X Multi-Tc",
+      "creator": "Just Another Gamer",
+      "group_size": 10,
+      "sources": [
+        "https://rustbasefinder.com/base_id/105"
+      ],
+      "video": "https://www.youtube.com/watch?v=tJPrI21V2eI",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Online Oriented",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "My take on the Frustrator X  | Rust Base Designs | Read DESCRIPTION",
+        "author": "JustAnotherGamer",
+        "author_url": "https://www.youtube.com/@JustAnotherGamerr"
+      },
+      "id": "just-another-gamer-frustrator-x-multi-tc",
+      "family_id": "frustrator-original",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Old loot-access or stacking assumptions; no import until door/loot access is demonstrated.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "JustAnotherGamer"
+    },
+    {
+      "name": "Gants Trio Main Base",
+      "creator": "Gant",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/120"
+      ],
+      "video": "https://www.youtube.com/watch?v=2pVkiNb2fQg",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Offline Oriented",
+        "Multi TC",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Gant's Trio Main Base",
+        "author": "Gant",
+        "author_url": "https://www.youtube.com/@GantRust"
+      },
+      "id": "gant-gants-trio-main-base",
+      "family_id": "gant-gants-trio-main-base",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/120"
+        ]
+      },
+      "verified_video_author": "Gant"
+    },
+    {
+      "name": "Griffin",
+      "creator": "Nine",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/126"
+      ],
+      "video": "https://www.youtube.com/watch?v=v0y2aNLj20U",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review",
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Peekdowns",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The GRIFFIN / Medium Group Base / Bunkers / Wide Gaps / RUST Base Building",
+        "author": "Nine",
+        "author_url": "https://www.youtube.com/@NineRust"
+      },
+      "id": "nine-griffin",
+      "family_id": "nine-griffin",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/126"
+        ]
+      },
+      "verified_video_author": "Nine"
+    },
+    {
+      "name": "Hell Maw 2",
+      "creator": "Evil Wurst",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/52"
+      ],
+      "video": "https://www.youtube.com/watch?v=VUyfBLyVBBA",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Heli Storage",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Hell Maw 2 - Rust Solo/Duo/Trio Base | 27 Rockets to TC",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-hell-maw-2",
+      "family_id": "evil-wurst-hell-maw-2",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/52"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Hoarder",
+      "creator": "Maco",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/16"
+      ],
+      "video": "https://www.youtube.com/watch?v=7t70YghscY8",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Adequate Storage",
+        "Bunker",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7t70YghscY8&format=json"
+      },
+      "id": "maco-hoarder",
+      "family_id": "maco-hoarder",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/16"
+        ]
+      }
+    },
+    {
+      "name": "How to expand a 2x1",
+      "creator": "Just Another Gamer",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/108"
+      ],
+      "video": "https://www.youtube.com/watch?v=p_rYy6y9RIo",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Online Oriented",
+        "Adequate Storage",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "How to expand a 2 x 1 | Rust Solo/Duo/Trio Base Design| Rust Building 4.0 | Starter To Main",
+        "author": "JustAnotherGamer",
+        "author_url": "https://www.youtube.com/@JustAnotherGamerr"
+      },
+      "id": "just-another-gamer-how-to-expand-a-2x1",
+      "family_id": "just-another-gamer-how-to-expand-a-2x1",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Expansion guide; compare footprint with other 2x1-family entries.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/108"
+        ]
+      },
+      "verified_video_author": "JustAnotherGamer"
+    },
+    {
+      "name": "How to expand a 2x1 w/ bunker`",
+      "creator": "Just Another Gamer",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/110"
+      ],
+      "video": "https://www.youtube.com/watch?v=ezp6rOx5N-w",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Offline Oriented",
+        "Bunker",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "How to expand a 2x1 V2( w/ bunker)| Rust Base Building 4.0| Solo/Duo/Trio",
+        "author": "JustAnotherGamer",
+        "author_url": "https://www.youtube.com/@JustAnotherGamerr"
+      },
+      "id": "just-another-gamer-how-to-expand-a-2x1-w-bunker",
+      "family_id": "just-another-gamer-how-to-expand-a-2x1-w-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/110"
+        ]
+      },
+      "verified_video_author": "JustAnotherGamer"
+    },
+    {
+      "name": "Imaginary",
+      "creator": "Maco",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/24"
+      ],
+      "video": "https://www.youtube.com/watch?v=KsLVgEXXVeA",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "External TC",
+        "Online Oriented",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKsLVgEXXVeA&format=json"
+      },
+      "id": "maco-imaginary",
+      "family_id": "maco-imaginary",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/24"
+        ]
+      }
+    },
+    {
+      "name": "King",
+      "creator": "Maco",
+      "group_size": 1,
+      "sources": [
+        "https://rustbasefinder.com/base_id/92"
+      ],
+      "video": "https://www.youtube.com/watch?v=ylcKkgvWZ_o",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Adequate Storage",
+        "Budget",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DylcKkgvWZ_o&format=json"
+      },
+      "id": "maco-king",
+      "family_id": "maco-king",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/92"
+        ]
+      }
+    },
+    {
+      "name": "King of All Solo Starters",
+      "creator": "TronaN",
+      "group_size": 1,
+      "sources": [
+        "https://rustbasefinder.com/base_id/4"
+      ],
+      "video": "https://www.youtube.com/watch?v=L6FPrmxAKB8",
+      "download_links": [
+        "https://pastebin.com/4sQc18Xn"
+      ],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Ergonomic",
+        "Unique",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/4sQc18Xn",
+          "status": "not-a-verified-base-payload",
+          "format": "unrecognized",
+          "bytes": 1396,
+          "sha256": "7eb87e0552521691f39cd9fdbfcfe2a969dbf48acc98df2db4814fd210c81389"
+        }
+      ],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DL6FPrmxAKB8&format=json"
+      },
+      "id": "tronan-king-of-all-solo-starters",
+      "family_id": "tronan-king-of-all-solo-starters",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/4"
+        ]
+      }
+    },
+    {
+      "name": "Leech 2",
+      "creator": "Evil Wurst",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/48"
+      ],
+      "video": "https://www.youtube.com/watch?v=ldl4oC32nCY",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Bunker",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Leech 2 - Late-Game 2x1 RUST Bunker Base 2020 (Solo/Duo/Trio) [ROOF BUNKER PATCHED]",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-leech-2",
+      "family_id": "evil-wurst-leech-2",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Small",
+        "note": "Creator confirms patched roof seal.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Little Tokyo",
+      "creator": "Red Apple",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/72"
+      ],
+      "video": "https://www.youtube.com/watch?v=5_Itw3YsHd0",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Online Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "LITTLE TOKYO: My approach to AMAZING aloneintokyo's solo/duo/trio RUST Base Design 2020 [PATCHED]",
+        "author": "red apple",
+        "author_url": "https://www.youtube.com/@redapplex"
+      },
+      "id": "red-apple-little-tokyo",
+      "family_id": "little-tokyo",
+      "review": {
+        "status": "discovery-only",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/72"
+        ]
+      },
+      "verified_video_author": "red apple"
+    },
+    {
+      "name": "Little tokyo",
+      "creator": "Aloneintokyo",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/82"
+      ],
+      "video": "https://www.youtube.com/watch?v=b-TBIdURVic",
+      "download_links": [],
+      "flags": [
+        "precision-placement-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Peekdowns",
+        "Wall Stack"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "ALONEINTOKYO BASE DESIGN 2020 | (Little Tokyo) Base Build Tutorial",
+        "author": "aloneintokyo",
+        "author_url": "https://www.youtube.com/@aloneintokyo"
+      },
+      "id": "aloneintokyo-little-tokyo",
+      "family_id": "little-tokyo",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/82"
+        ]
+      },
+      "verified_video_author": "aloneintokyo"
+    },
+    {
+      "name": "MICROVAULT II",
+      "creator": "Kubius",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/81"
+      ],
+      "video": "https://www.youtube.com/watch?v=J8u2yVn9w4o",
+      "download_links": [
+        "https://pastebin.com/wdci9s5L"
+      ],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Expandable",
+        "No bluprints",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/wdci9s5L",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 855,
+          "sha256": "720b77d8593e64db069ab926eda6ba45d17c2087441a69750acc4c6a53207667",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/wdci9s5L.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "[OLD] Rust Solo Base, No Metal Required: MICROVAULT II Demo and Guide",
+        "author": "Kubius",
+        "author_url": "https://www.youtube.com/@Kubius"
+      },
+      "id": "kubius-microvault-ii",
+      "family_id": "kubius-microvault-ii",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Starter",
+        "note": "Creator labels this guide OLD; verify all entry and storage mechanics.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/81"
+        ]
+      },
+      "verified_video_author": "Kubius"
+    },
+    {
+      "name": "Mega Aggravator",
+      "creator": "Evil Wurst",
+      "group_size": 25,
+      "sources": [
+        "https://rustbasefinder.com/base_id/31"
+      ],
+      "video": "https://www.youtube.com/watch?v=kTFahqBUoS8",
+      "download_links": [
+        "https://pastebin.com/8T4i4Rv7"
+      ],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Multi TC",
+        "Adequate Storage",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/8T4i4Rv7",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 65546,
+          "sha256": "2461e8f71a3554c65b723af3b700cf76e3cd7923a66ff827ef1f99801768033e",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/8T4i4Rv7.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Mega Aggravator - Multi-TC Rust Clan Base",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-mega-aggravator",
+      "family_id": "evil-wurst-mega-aggravator",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/31"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Mini Compact Bunker",
+      "creator": "PrinceVidz",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/103"
+      ],
+      "video": "https://www.youtube.com/watch?v=ZaNG7u8aIwc",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Expandable",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "MINI COMPACT BUNKER BASE | Rust Building",
+        "author": "PrinceVidz",
+        "author_url": "https://www.youtube.com/@PrinceVidz"
+      },
+      "id": "princevidz-mini-compact-bunker",
+      "family_id": "princevidz-mini-compact-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/103"
+        ]
+      },
+      "verified_video_author": "PrinceVidz"
+    },
+    {
+      "name": "Mini Fort 2",
+      "creator": "Evil Wurst",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/35"
+      ],
+      "video": "https://www.youtube.com/watch?v=BDe_ttjRQpE",
+      "download_links": [
+        "https://pastebin.com/FFDKsB55"
+      ],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Budget",
+        "Adequate Storage",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/FFDKsB55",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 1298,
+          "sha256": "4a30b4fd10047d78357a6da512ed6413930dc45aaf9383dcc5ade47eb320e22f",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/FFDKsB55.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Mini Fort 2 - My Favorite 2x1 Starter Base (Solo/Duo/Trio)",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-mini-fort-2",
+      "family_id": "evil-wurst-mini-fort-2",
+      "review": {
+        "status": "review-first",
+        "category": "Starter",
+        "note": "Small starter with shooting floor.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Mini Frustrator 2",
+      "creator": "Evil Wurst",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/10"
+      ],
+      "video": "https://www.youtube.com/watch?v=vpAvIJ_PCcQ",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Online Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Mini Frustrator 2 - Solo / Duo RUST Base Design for Casual Players",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-mini-frustrator-2",
+      "family_id": "evil-wurst-mini-frustrator-2",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Small",
+        "note": "Creator warns vending-machine colliders changed; test access before importing.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Most Efficient Car Garage Base",
+      "creator": "2Troo",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/111"
+      ],
+      "video": "https://www.youtube.com/watch?v=7IHB9mamaJw",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Adequate Storage",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "MOST EFFICIENT CAR GARAGE BASE - Truly Quick Builds",
+        "author": "TresAnatomy",
+        "author_url": "https://www.youtube.com/@TresAnatomy"
+      },
+      "id": "2troo-most-efficient-car-garage-base",
+      "family_id": "2troo-most-efficient-car-garage-base",
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Garage example; verify current vehicle and lift clearances.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/111"
+        ]
+      },
+      "verified_video_author": "TresAnatomy"
+    },
+    {
+      "name": "Multi TC Frustrator X",
+      "creator": "Evil Wurst",
+      "group_size": 15,
+      "sources": [
+        "https://rustbasefinder.com/base_id/59"
+      ],
+      "video": "https://www.youtube.com/watch?v=0rJQHK71178",
+      "download_links": [
+        "https://pastebin.com/PhU0wLLq"
+      ],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Heli Storage",
+        "Multi TC",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/PhU0wLLq",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 38867,
+          "sha256": "88829f6601fe65307b52909e52667a17d05e4376e2da327ca62c54afec645ea1",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/PhU0wLLq.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Multi-TC Original Frustrator X - Rust Peekdown Base Design 2020 [OUTDATED]",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-multi-tc-frustrator-x",
+      "family_id": "frustrator-original",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Old loot-access or stacking assumptions; no import until door/loot access is demonstrated.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Multi TC Grand Frustrator",
+      "creator": "Evil Wurst",
+      "group_size": 10,
+      "sources": [
+        "https://rustbasefinder.com/base_id/32"
+      ],
+      "video": "https://www.youtube.com/watch?v=bCnGt8pcAEM",
+      "download_links": [
+        "https://pastebin.com/EaYD5h5s"
+      ],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review",
+        "precision-placement-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Multi TC",
+        "Adequate Storage",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/EaYD5h5s",
+          "status": "unavailable",
+          "error": "HTTP 404: https://pastebin.com/raw/EaYD5h5s"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Multi TC Grand Frustrator - Wall-Stacked Clan Base | 61 hours Upkeep",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-multi-tc-grand-frustrator",
+      "family_id": "frustrator-original",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Old loot-access or stacking assumptions; no import until door/loot access is demonstrated.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Myth",
+      "creator": "Maco",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/23"
+      ],
+      "video": "https://www.youtube.com/watch?v=YPhtM7Nugj4",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Adequate Storage",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DYPhtM7Nugj4&format=json"
+      },
+      "id": "maco-myth",
+      "family_id": "maco-myth",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/23"
+        ]
+      }
+    },
+    {
+      "name": "NorseMan",
+      "creator": "Rust Daddy",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/62",
+        "https://www.corrosionhour.com/norseman-duo-starter-base-design-2019/"
+      ],
+      "video": "https://www.youtube.com/watch?v=A7hr4Ip0SKQ",
+      "download_links": [
+        "https://pastebin.com/0YznBD6x"
+      ],
+      "flags": [
+        "trap-operation-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Ergonomic",
+        "Online Oriented",
+        "Heli Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/0YznBD6x",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 6127,
+          "sha256": "10dd3b7e3810d3eb28f55fed3707eac42b9fb14e9621d1416b60affdb19ccea1",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/0YznBD6x.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Norseman - Rust Solo Duo Starter Base with Automated Helipad",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-norseman",
+      "family_id": "rust-daddy-norseman",
+      "review": {
+        "status": "review-first",
+        "category": "Starter",
+        "note": "Small furnished home with roof facilities; review wiring separately.",
+        "evidence": [
+          "https://www.corrosionhour.com/norseman-duo-starter-base-design-2019/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "NutHut",
+      "creator": "air pods",
+      "group_size": 6,
+      "sources": [
+        "https://rustbasefinder.com/base_id/130"
+      ],
+      "video": "https://www.youtube.com/watch?v=o8j1DEf5vYM",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Online Oriented",
+        "Peekdowns"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE NUTHUT - META 3-6 Man Rust Base | Open Core + Wide Gap | Rust Building Tutorial 2022",
+        "author": "ap - rust",
+        "author_url": "https://www.youtube.com/@aprust"
+      },
+      "id": "air-pods-nuthut",
+      "family_id": "air-pods-nuthut",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/130"
+        ]
+      },
+      "verified_video_author": "ap - rust"
+    },
+    {
+      "name": "Phoenix 2",
+      "creator": "Evil Wurst",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/46"
+      ],
+      "video": "https://www.youtube.com/watch?v=97ZtIKyJOHk",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Online Oriented",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Phoenix 2 - NO BP Solo/Duo/Trio Starter to Main Base [ROOF BUNKER PATCHED]",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-phoenix-2",
+      "family_id": "evil-wurst-phoenix-2",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Small",
+        "note": "Patched roof seal and old loot-room arrangement.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Pooper 5x",
+      "creator": "Lighthouse farms",
+      "group_size": 10,
+      "sources": [
+        "https://rustbasefinder.com/base_id/122"
+      ],
+      "video": "https://www.youtube.com/watch?v=tx5NqilIowc",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Offline Oriented",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "STRONG 2X2 Group Base // 78+ Rockets // Wide Gap // Roof Bunker // Multi-TC // 2021",
+        "author": "Smuffy ",
+        "author_url": "https://www.youtube.com/@Smuffy"
+      },
+      "id": "lighthouse-farms-pooper-5x",
+      "family_id": "lighthouse-farms-pooper-5x",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/122"
+        ]
+      },
+      "verified_video_author": "Smuffy "
+    },
+    {
+      "name": "Poor Man's 3x3",
+      "creator": "Hybrid Recovery",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/75"
+      ],
+      "video": "https://www.youtube.com/watch?v=vscJWevEm7A",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Online Oriented",
+        "Adequate Storage",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvscJWevEm7A&format=json"
+      },
+      "id": "hybrid-recovery-poor-man-s-3x3",
+      "family_id": "hybrid-recovery-poor-man-s-3x3",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/75"
+        ]
+      }
+    },
+    {
+      "name": "Punisher",
+      "creator": "Maco",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/91"
+      ],
+      "video": "https://www.youtube.com/watch?v=W6mDjB4AAKw",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Adequate Storage",
+        "Multi TC",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DW6mDjB4AAKw&format=json"
+      },
+      "id": "maco-punisher",
+      "family_id": "maco-punisher",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/91"
+        ]
+      }
+    },
+    {
+      "name": "Raptor",
+      "creator": "Evil Wurst",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/53"
+      ],
+      "video": "https://www.youtube.com/watch?v=EJJf321Zo18",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Raptor - Solo/Duo-Trio Bunker Base 2020 | RUST",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-raptor",
+      "family_id": "raptor-lineage",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Small",
+        "note": "Original bunker seal is explicitly patched; remasters need separate review.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Retaliator",
+      "creator": "Evil Wurst",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/57"
+      ],
+      "video": "https://www.youtube.com/watch?v=3PPRXvG_uw0",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Peekdowns",
+        "Online Oriented",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Retaliator - Multi-TC Trio/Small Group Base with Peekdowns",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-retaliator",
+      "family_id": "evil-wurst-retaliator",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Updated roof-ramp version only; removed foundation steps cannot be imported.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "STRONG Solo/Duo/Trio Base Design",
+      "creator": "Faded",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/121"
+      ],
+      "video": "https://www.youtube.com/watch?v=-D_IYri_MQ0",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Peekdowns",
+        "Bunker",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "STRONG Solo/Duo/Trio Base Design - Rust Base Building 2021",
+        "author": "Faded",
+        "author_url": "https://www.youtube.com/@FadedRust."
+      },
+      "id": "faded-strong-solo-duo-trio-base-design",
+      "family_id": "faded-strong-solo-duo-trio-base-design",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/121"
+        ]
+      },
+      "verified_video_author": "Faded"
+    },
+    {
+      "name": "Scavenger",
+      "creator": "TronaN",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/22"
+      ],
+      "video": "https://www.youtube.com/watch?v=oVgyjHa3Vjo",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "External TC",
+        "Online Oriented",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DoVgyjHa3Vjo&format=json"
+      },
+      "id": "tronan-scavenger",
+      "family_id": "tronan-scavenger",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/22"
+        ]
+      }
+    },
+    {
+      "name": "Solo/Duo Double Bunker",
+      "creator": "Evil Wurst",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/47",
+        "https://rustbasefinder.com/base_id/8"
+      ],
+      "video": "https://www.youtube.com/watch?v=PUK_AXC2kWY",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Offline Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Viking - No BP Solo/Duo DOUBLE BUNKER Base | 27 Rockets to TC",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-solo-duo-double-bunker",
+      "family_id": "evil-wurst-solo-duo-double-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/47",
+          "https://rustbasefinder.com/base_id/8"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Star",
+      "creator": "Maco",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/18"
+      ],
+      "video": "https://www.youtube.com/watch?v=Jrt9wxyb-4w",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "External TC",
+        "Online Oriented",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJrt9wxyb-4w&format=json"
+      },
+      "id": "maco-star",
+      "family_id": "maco-star",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/18"
+        ]
+      }
+    },
+    {
+      "name": "THE ALPHA",
+      "creator": "RustBaseDesign",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/128"
+      ],
+      "video": "https://www.youtube.com/watch?v=EXxYzA89EIE",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Budget",
+        "Bunker",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "DOUBLE FLOOR \"THE ALPHA\" BUNKER / Rust Base Design / Tutorial",
+        "author": "Egor K.",
+        "author_url": "https://www.youtube.com/@EgorKKcs"
+      },
+      "id": "rustbasedesign-the-alpha",
+      "family_id": "rustbasedesign-the-alpha",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/128"
+        ]
+      },
+      "verified_video_author": "Egor K."
+    },
+    {
+      "name": "THE MAXIMA",
+      "creator": "RustBaseDesign",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/129"
+      ],
+      "video": "https://www.youtube.com/watch?v=xvs18J2TJ_0",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Online Oriented",
+        "Peekdowns"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "2x1 \"THE MAXIMA\" BUNKER  / TRIO+ / RUST BASE DESIGN 2023",
+        "author": "Egor K.",
+        "author_url": "https://www.youtube.com/@EgorKKcs"
+      },
+      "id": "rustbasedesign-the-maxima",
+      "family_id": "rustbasedesign-the-maxima",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/129"
+        ]
+      },
+      "verified_video_author": "Egor K."
+    },
+    {
+      "name": "THE SIGMA BUNKER",
+      "creator": "RustBaseDesign",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/127"
+      ],
+      "video": "https://www.youtube.com/watch?v=_dr4z8-jVtI",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Multi TC",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "NEW META \"SIGMA\" BUNKER V1.5 Solo/Duo/Trio Rust Base Design 2023 TUTORIAL",
+        "author": "Egor K.",
+        "author_url": "https://www.youtube.com/@EgorKKcs"
+      },
+      "id": "rustbasedesign-the-sigma-bunker",
+      "family_id": "rustbasedesign-the-sigma-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/127"
+        ]
+      },
+      "verified_video_author": "Egor K."
+    },
+    {
+      "name": "THE ULTIMA BUNKER",
+      "creator": "RustBaseDesign",
+      "group_size": 10,
+      "sources": [
+        "https://rustbasefinder.com/base_id/131"
+      ],
+      "video": "https://www.youtube.com/watch?v=bRZz9TykPVA",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Unique",
+        "Offline Oriented",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "2X2 \"THE ULTIMA\" BUNKER V1.5 / RUST BASE DESIGN 2023",
+        "author": "Egor K.",
+        "author_url": "https://www.youtube.com/@EgorKKcs"
+      },
+      "id": "rustbasedesign-the-ultima-bunker",
+      "family_id": "rustbasedesign-the-ultima-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/131"
+        ]
+      },
+      "verified_video_author": "Egor K."
+    },
+    {
+      "name": "TRIumphant",
+      "creator": "ADDER",
+      "group_size": 6,
+      "sources": [
+        "https://rustbasefinder.com/base_id/97"
+      ],
+      "video": "https://www.youtube.com/watch?v=_Ihe6MtvoZc",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Bunker",
+        "Peekdowns"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "TRIumphant - 90+ rockets (Rust Coreless Multi TC Base Design 2020)",
+        "author": "ADDER",
+        "author_url": "https://www.youtube.com/@A.D.D.E.R"
+      },
+      "id": "adder-triumphant",
+      "family_id": "adder-triumphant",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/97"
+        ]
+      },
+      "verified_video_author": "ADDER"
+    },
+    {
+      "name": "The ABUSER",
+      "creator": "CEEG",
+      "group_size": 50,
+      "sources": [
+        "https://rustbasefinder.com/base_id/136"
+      ],
+      "video": "https://www.youtube.com/watch?v=mYn2rt_i8Ts",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Peekdowns",
+        "Multi TC",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The ABUSER | MASSIVE Open Core | Rust Clan Base Building Tutorial",
+        "author": "CEEG",
+        "author_url": "https://www.youtube.com/@CEEGrust"
+      },
+      "id": "ceeg-the-abuser",
+      "family_id": "ceeg-the-abuser",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/136"
+        ]
+      },
+      "verified_video_author": "CEEG"
+    },
+    {
+      "name": "The Aggravator",
+      "creator": "Evil Wurst",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/51"
+      ],
+      "video": "https://www.youtube.com/watch?v=F7MzbWdt4fk",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review",
+        "trap-operation-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Ergonomic",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Aggravator - Duo, Trios, Small Group Base with Trapped Loot Rooms",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-the-aggravator",
+      "family_id": "evil-wurst-the-aggravator",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Small",
+        "note": "Check vending-machine access; stacked variant has a door-replacement warning.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "The Alamo",
+      "creator": "Evil Wurst",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/101"
+      ],
+      "video": "https://www.youtube.com/watch?v=_kV6xcWJAN8",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Heli Storage",
+        "Multi TC"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Alamo - 2x2 Peekdown Multi-TC RUST Group Base",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-the-alamo",
+      "family_id": "evil-wurst-the-alamo",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Non-bunker variant only; creator says roof seal is patched but optional.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "The Armageddon v2",
+      "creator": "Gerter Pol",
+      "group_size": 30,
+      "sources": [
+        "https://rustbasefinder.com/base_id/141"
+      ],
+      "video": "https://www.youtube.com/watch?v=RDZgGd7vFnA",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Peekdowns",
+        "Unique",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE ARMAGANDON v2 - LARGE Rust Clan Base | Funnel, Mountain Roof & China Wall | Base Guide 2023",
+        "author": "Gerter Pol",
+        "author_url": "https://www.youtube.com/@gerterpol"
+      },
+      "id": "gerter-pol-the-armageddon-v2",
+      "family_id": "gerter-pol-the-armageddon-v2",
+      "review": {
+        "status": "discovery-only",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/141"
+        ]
+      },
+      "verified_video_author": "Gerter Pol"
+    },
+    {
+      "name": "The Best 2x2 Courtesy of Hjune",
+      "creator": "Hjune",
+      "group_size": 6,
+      "sources": [
+        "https://rustbasefinder.com/base_id/78"
+      ],
+      "video": "https://www.youtube.com/watch?v=P6mXdVECyUo",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Peekdowns",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust Base Design 2020 - The Best 2 x 2 Courtesy of hJune",
+        "author": "Kimchi",
+        "author_url": "https://www.youtube.com/@KimchiRust"
+      },
+      "id": "hjune-the-best-2x2-courtesy-of-hjune",
+      "family_id": "hjune-the-best-2x2-courtesy-of-hjune",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/78"
+        ]
+      },
+      "verified_video_author": "Kimchi"
+    },
+    {
+      "name": "The Better Alternative to a 2 by",
+      "creator": "Jason Lewis",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/93"
+      ],
+      "video": "https://www.youtube.com/watch?v=-xYmuwdNo7I",
+      "download_links": [
+        "https://pastebin.com/Bp5qZX8P"
+      ],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Ergonomic",
+        "Budget",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/Bp5qZX8P",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 1053,
+          "sha256": "8dd42a12e7eb0b0e329a7860a09c8dcaf9ff6b525ffa657106619a5ccbc32f3b",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/Bp5qZX8P.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust Starter Base Design - The Better Alternative to a 2 by 1",
+        "author": "Jason",
+        "author_url": "https://www.youtube.com/@Jason-pp1lq"
+      },
+      "id": "jason-lewis-the-better-alternative-to-a-2-by",
+      "family_id": "jason-lewis-the-better-alternative-to-a-2-by",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/93"
+        ]
+      },
+      "verified_video_author": "Jason"
+    },
+    {
+      "name": "The Cat Starter",
+      "creator": "Weasel Logic",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/107"
+      ],
+      "video": "https://www.youtube.com/watch?v=GZser7RZktc",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "No Blueprints",
+        "Budget",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "A Starter Base to Replace the 2x1",
+        "author": "weslog",
+        "author_url": "https://www.youtube.com/@weslog."
+      },
+      "id": "weasel-logic-the-cat-starter",
+      "family_id": "weasel-logic-the-cat-starter",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/107"
+        ]
+      },
+      "verified_video_author": "weslog"
+    },
+    {
+      "name": "The Compactor",
+      "creator": "Zypic",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/76"
+      ],
+      "video": "https://www.youtube.com/watch?v=1u0PZzzmPY0",
+      "download_links": [],
+      "flags": [
+        "precision-placement-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Wall Stack",
+        "Online Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1u0PZzzmPY0&format=json"
+      },
+      "id": "zypic-the-compactor",
+      "family_id": "zypic-the-compactor",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/76"
+        ]
+      }
+    },
+    {
+      "name": "The Covert",
+      "creator": "Zypic",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/40"
+      ],
+      "video": "https://www.youtube.com/watch?v=6wkIeGd_Dvs",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "precision-placement-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Wall Stack",
+        "Offline Oriented",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6wkIeGd_Dvs&format=json"
+      },
+      "id": "zypic-the-covert",
+      "family_id": "zypic-the-covert",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/40"
+        ]
+      }
+    },
+    {
+      "name": "The Deception Bunker",
+      "creator": "Zypic",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/9"
+      ],
+      "video": "https://www.youtube.com/watch?v=wD20HQPUi3Q",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "precision-placement-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Wall Stack",
+        "Offline Oriented",
+        "Bunker"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwD20HQPUi3Q&format=json"
+      },
+      "id": "zypic-the-deception-bunker",
+      "family_id": "zypic-the-deception-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/9"
+        ]
+      }
+    },
+    {
+      "name": "The Destroyer",
+      "creator": "TrueNader",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/114"
+      ],
+      "video": "https://www.youtube.com/watch?v=wlDKGnm_SpA",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Adequate Storage",
+        "Expandable",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DwlDKGnm_SpA&format=json"
+      },
+      "id": "truenader-the-destroyer",
+      "family_id": "truenader-the-destroyer",
+      "review": {
+        "status": "discovery-only",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/114"
+        ]
+      }
+    },
+    {
+      "name": "The Double Ender",
+      "creator": "ADDER",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/109",
+        "https://rustbasefinder.com/base_id/26"
+      ],
+      "video": "https://www.youtube.com/watch?v=rW6BQFO2T-c",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Multi TC",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE DOUBLE ENDER Coreless Multi TC Rust Base Design - ( DUO/TRIO/QUAD )",
+        "author": "ADDER",
+        "author_url": "https://www.youtube.com/@A.D.D.E.R"
+      },
+      "id": "adder-the-double-ender",
+      "family_id": "adder-the-double-ender",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/109",
+          "https://rustbasefinder.com/base_id/26"
+        ]
+      },
+      "verified_video_author": "ADDER"
+    },
+    {
+      "name": "The Dynamic Group Base",
+      "creator": "TronaN",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/30"
+      ],
+      "video": "https://www.youtube.com/watch?v=68cTzV41j_4",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Adequate Storage",
+        "Unique",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D68cTzV41j_4&format=json"
+      },
+      "id": "tronan-the-dynamic-group-base",
+      "family_id": "tronan-the-dynamic-group-base",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/30"
+        ]
+      }
+    },
+    {
+      "name": "The Emerald",
+      "creator": "Red Apple",
+      "group_size": 6,
+      "sources": [
+        "https://rustbasefinder.com/base_id/74"
+      ],
+      "video": "https://www.youtube.com/watch?v=_aSUOYFXkc8",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE EMERALD: DOUBLE BUNKER BASE DESIGN with Shooting Floor // RUST Base Build 2020 [PATCHED]",
+        "author": "red apple",
+        "author_url": "https://www.youtube.com/@redapplex"
+      },
+      "id": "red-apple-the-emerald",
+      "family_id": "red-apple-the-emerald",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/74"
+        ]
+      },
+      "verified_video_author": "red apple"
+    },
+    {
+      "name": "The Falcon",
+      "creator": "Zypic",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/44"
+      ],
+      "video": "https://www.youtube.com/watch?v=60rkZD_t3dk",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D60rkZD_t3dk&format=json"
+      },
+      "id": "zypic-the-falcon",
+      "family_id": "zypic-the-falcon",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/44"
+        ]
+      }
+    },
+    {
+      "name": "The Hannibal",
+      "creator": "Willjum",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/71"
+      ],
+      "video": "https://www.youtube.com/watch?v=Vxck9Jbpv48",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Ergonomic",
+        "Offline Oriented",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Super Strong Solo/Duo Rust Base Design 2019!!! - \"The Hannibal\" - (31 Rockets to TC)",
+        "author": "Willjum",
+        "author_url": "https://www.youtube.com/@Willjum"
+      },
+      "id": "willjum-the-hannibal",
+      "family_id": "willjum-the-hannibal",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/71"
+        ]
+      },
+      "verified_video_author": "Willjum"
+    },
+    {
+      "name": "The Horizon",
+      "creator": "Willjum",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/42"
+      ],
+      "video": "https://www.youtube.com/watch?v=vs3vrXHvjvQ",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Expandable",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "'The Horizon' | My Own SOLO Series Base | Rust Base Design 2020 | (27 Rockets To TC)",
+        "author": "Willjum",
+        "author_url": "https://www.youtube.com/@Willjum"
+      },
+      "id": "willjum-the-horizon",
+      "family_id": "willjum-the-horizon",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/42"
+        ]
+      },
+      "verified_video_author": "Willjum"
+    },
+    {
+      "name": "The Hulk",
+      "creator": "bM0nster",
+      "group_size": 10,
+      "sources": [
+        "https://rustbasefinder.com/base_id/89"
+      ],
+      "video": "https://www.youtube.com/watch?v=z6daIvMW4bc",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Peekdowns",
+        "Adequate Storage",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Hulk: Base Design 56+ Rockets | CHEAP DUO-TRIO-QUAD-CLAN Base | Rust Base Design",
+        "author": "bM0nster",
+        "author_url": "https://www.youtube.com/@bm0nster510"
+      },
+      "id": "bm0nster-the-hulk",
+      "family_id": "bm0nster-the-hulk",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/89"
+        ]
+      },
+      "verified_video_author": "bM0nster"
+    },
+    {
+      "name": "The Illuminator Bunker",
+      "creator": "Zypic",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/39"
+      ],
+      "video": "https://www.youtube.com/watch?v=2KW6U6yhuwk",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Online Oriented",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2KW6U6yhuwk&format=json"
+      },
+      "id": "zypic-the-illuminator-bunker",
+      "family_id": "zypic-the-illuminator-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/39"
+        ]
+      }
+    },
+    {
+      "name": "The Incinerator",
+      "creator": "Zypic",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/41"
+      ],
+      "video": "https://www.youtube.com/watch?v=CbMC1taqUrk",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Offline Oriented",
+        "Ergonomic",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE INCINERATOR | RUST BASE DESIGN",
+        "author": "Zypic",
+        "author_url": "https://www.youtube.com/@Zypic"
+      },
+      "id": "zypic-the-incinerator",
+      "family_id": "zypic-the-incinerator",
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Creator guide located; inspect furnace access and roof clearance.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/41"
+        ]
+      },
+      "verified_video_author": "Zypic"
+    },
+    {
+      "name": "The Infuriator Bunker",
+      "creator": "Zypic",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/7"
+      ],
+      "video": "https://www.youtube.com/watch?v=KBJCAazQM4Q",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DKBJCAazQM4Q&format=json"
+      },
+      "id": "zypic-the-infuriator-bunker",
+      "family_id": "zypic-the-infuriator-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/7"
+        ]
+      }
+    },
+    {
+      "name": "The Kingsman",
+      "creator": "Willjum",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/21"
+      ],
+      "video": "https://www.youtube.com/watch?v=j63QttpcgaY",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Ergonomic",
+        "Offline Oriented",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust Strong TRIO/SMALL GROUP Base Design 2019!! (31 Rockets to TC,50+ Full Raid) ' The Kingsman '",
+        "author": "Willjum",
+        "author_url": "https://www.youtube.com/@Willjum"
+      },
+      "id": "willjum-the-kingsman",
+      "family_id": "willjum-the-kingsman",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/21"
+        ]
+      },
+      "verified_video_author": "Willjum"
+    },
+    {
+      "name": "The Magnum Opus",
+      "creator": "Vice Versa Games",
+      "group_size": 20,
+      "sources": [
+        "https://rustbasefinder.com/base_id/84"
+      ],
+      "video": "https://www.youtube.com/watch?v=DeDAtnwDxD0",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Adequate Storage",
+        "Multi TC",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DDeDAtnwDxD0&format=json"
+      },
+      "id": "vice-versa-games-the-magnum-opus",
+      "family_id": "vice-versa-games-the-magnum-opus",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/84"
+        ]
+      }
+    },
+    {
+      "name": "The Minotaur",
+      "creator": "TronaN",
+      "group_size": 8,
+      "sources": [
+        "https://rustbasefinder.com/base_id/29"
+      ],
+      "video": "https://www.youtube.com/watch?v=LmOEk87hu2A",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Heli Storage",
+        "External TC",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLmOEk87hu2A&format=json"
+      },
+      "id": "tronan-the-minotaur",
+      "family_id": "tronan-the-minotaur",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/29"
+        ]
+      }
+    },
+    {
+      "name": "The Moscow",
+      "creator": "Red Tilt",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/6"
+      ],
+      "video": "https://www.youtube.com/watch?v=riFdk60J-BE",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE MOSCOW | SOLO/DUO/TRIO | BUNKER Base | 1000 Subscriber Special | -Rust",
+        "author": "Red Tilt",
+        "author_url": "https://www.youtube.com/@RedTiltRust"
+      },
+      "id": "red-tilt-the-moscow",
+      "family_id": "red-tilt-the-moscow",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/6"
+        ]
+      },
+      "verified_video_author": "Red Tilt"
+    },
+    {
+      "name": "The Origin",
+      "creator": "Willjum",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/69"
+      ],
+      "video": "https://www.youtube.com/watch?v=uBj54ipavOE",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Offline Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Strong Solo/Duo/Trio Rust Base Design | \"The Origin\" |The King Of the Two by Two (31+ Rockets to TC)",
+        "author": "Willjum",
+        "author_url": "https://www.youtube.com/@Willjum"
+      },
+      "id": "willjum-the-origin",
+      "family_id": "willjum-the-origin",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/69"
+        ]
+      },
+      "verified_video_author": "Willjum"
+    },
+    {
+      "name": "The Palisade",
+      "creator": "Dust",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/124"
+      ],
+      "video": "https://www.youtube.com/watch?v=6qiEQ9Aqt2c",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Peekdowns",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Palisade - The FUTURE of 2x1 Meta Trio Bases (Open Core)",
+        "author": "Dust",
+        "author_url": "https://www.youtube.com/@dustgg"
+      },
+      "id": "dust-the-palisade",
+      "family_id": "dust-the-palisade",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/124"
+        ]
+      },
+      "verified_video_author": "Dust"
+    },
+    {
+      "name": "The Perfect 2x1",
+      "creator": "EutoBuilds",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/148"
+      ],
+      "video": "https://www.youtube.com/watch?v=0c5GbSU3uIg",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Bunker",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Perfect 2x1 (rust duo/trio base expansion tutorial)",
+        "author": "Euto",
+        "author_url": "https://www.youtube.com/@Euto2"
+      },
+      "id": "eutobuilds-the-perfect-2x1",
+      "family_id": "eutobuilds-the-perfect-2x1",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/148"
+        ]
+      },
+      "verified_video_author": "Euto"
+    },
+    {
+      "name": "The Predator",
+      "creator": "TronaN",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/15"
+      ],
+      "video": "https://www.youtube.com/watch?v=Vt9Nt2BJC0s",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Ergonomic",
+        "Adequate Storage",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DVt9Nt2BJC0s&format=json"
+      },
+      "id": "tronan-the-predator",
+      "family_id": "tronan-the-predator",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/15"
+        ]
+      }
+    },
+    {
+      "name": "The Predator",
+      "creator": "Willjum",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/28"
+      ],
+      "video": "https://www.youtube.com/watch?v=17IhM7wby_0",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Ergonomic",
+        "Online Oriented",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "STRONG Rust Group Base Design 2019! (Expandable, Modular and 27 Rockets to TC) \" The Predator \"!",
+        "author": "Willjum",
+        "author_url": "https://www.youtube.com/@Willjum"
+      },
+      "id": "willjum-the-predator",
+      "family_id": "willjum-the-predator",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/28"
+        ]
+      },
+      "verified_video_author": "Willjum"
+    },
+    {
+      "name": "The Prometheus",
+      "creator": "2Troo",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/112",
+        "https://rustbasefinder.com/base_id/113"
+      ],
+      "video": "https://www.youtube.com/watch?v=hngyyEvACAU",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Peekdowns",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "DOUBLE EXPLOIT VORTEX BUNKER GROUP BASE - THE PROMETHEUS",
+        "author": "TresAnatomy",
+        "author_url": "https://www.youtube.com/@TresAnatomy"
+      },
+      "id": "2troo-the-prometheus",
+      "family_id": "2troo-the-prometheus",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/112",
+          "https://rustbasefinder.com/base_id/113"
+        ]
+      },
+      "verified_video_author": "TresAnatomy"
+    },
+    {
+      "name": "The Speculator",
+      "creator": "Zypic",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/79"
+      ],
+      "video": "https://www.youtube.com/watch?v=8KYTSeJunIA",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Ergonomic",
+        "Offline Oriented",
+        "Expandable"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8KYTSeJunIA&format=json"
+      },
+      "id": "zypic-the-speculator",
+      "family_id": "zypic-the-speculator",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Creator guide located; inspect access and any special placement techniques.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/79"
+        ]
+      }
+    },
+    {
+      "name": "The Witcher",
+      "creator": "Willjum",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/70"
+      ],
+      "video": "https://www.youtube.com/watch?v=H2WdwtWtjYQ",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Heli Storage",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "'The Witcher' - 30 Rockets To TC Rust Solo Main Base 2020!! (Modular, Expandable, Minimal BPs)",
+        "author": "Willjum",
+        "author_url": "https://www.youtube.com/@Willjum"
+      },
+      "id": "willjum-the-witcher",
+      "family_id": "willjum-the-witcher",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Creator guide located; full walkthrough and mechanics review pending.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/70"
+        ]
+      },
+      "verified_video_author": "Willjum"
+    },
+    {
+      "name": "The Yurt",
+      "creator": "Kubius",
+      "group_size": 1,
+      "sources": [
+        "https://rustbasefinder.com/base_id/140"
+      ],
+      "video": "https://www.youtube.com/watch?v=qrcV8DdI5CA",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Unique",
+        "Bunker",
+        "Budget"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "How to Yurt: No Metal Required, High Floor Space RUST Budget Bunker Base",
+        "author": "Kubius",
+        "author_url": "https://www.youtube.com/@Kubius"
+      },
+      "id": "kubius-the-yurt",
+      "family_id": "kubius-the-yurt",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/140"
+        ]
+      },
+      "verified_video_author": "Kubius"
+    },
+    {
+      "name": "Thrifty Scot 2",
+      "creator": "Evil Wurst",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/68"
+      ],
+      "video": "https://www.youtube.com/watch?v=CJ8RVi5VTr4",
+      "download_links": [
+        "https://pastebin.com/BS6hnzQN"
+      ],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Budget",
+        "Online Oriented",
+        "Ergonomic"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/BS6hnzQN",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 4186,
+          "sha256": "4af6bf7378dd8265251592510effcae90c483426fddacc0f26e0c49cbf0d7497",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/BS6hnzQN.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Thrifty Scot 2 - RUST High-Storage Solo/Duo/Trio Starter Base",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-thrifty-scot-2",
+      "family_id": "evil-wurst-thrifty-scot-2",
+      "review": {
+        "status": "review-first",
+        "category": "Starter",
+        "note": "Starter with separated TC and storage.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Trident",
+      "creator": "Evil Wurst",
+      "group_size": 15,
+      "sources": [
+        "https://rustbasefinder.com/base_id/34"
+      ],
+      "video": "https://www.youtube.com/watch?v=BNr0w-6w_5M",
+      "download_links": [
+        "https://pastebin.com/EnB7r1vH"
+      ],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Fortify",
+        "Multi TC",
+        "Adequate Storage",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/EnB7r1vH",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 37207,
+          "sha256": "4b24139ee34bedac420b4ce54a292838e12b7413826831426ae9e9930c1cf5a8",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/EnB7r1vH.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Trident - Multi-TC Group Base / Clan Base | 120 Rockets",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-trident",
+      "family_id": "evil-wurst-trident",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/34"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Trinity",
+      "creator": "Evil Wurst",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/49"
+      ],
+      "video": "https://www.youtube.com/watch?v=sDGnLoVLkGw",
+      "download_links": [],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Multi TC",
+        "Unique",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Trinity - Multi-TC Solo/Duo/Trio Base [PATCHED]",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-trinity",
+      "family_id": "evil-wurst-trinity",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Small",
+        "note": "Creator says removed foundation steps invalidate the original.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Ultimate Solo/Duo/Trio",
+      "creator": "TronaN",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/12"
+      ],
+      "video": "https://www.youtube.com/watch?v=6W9yeb2i3Eo",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Ergonomic",
+        "Budget",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 403: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D6W9yeb2i3Eo&format=json"
+      },
+      "id": "tronan-ultimate-solo-duo-trio",
+      "family_id": "tronan-ultimate-solo-duo-trio",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/12"
+        ]
+      }
+    },
+    {
+      "name": "Valkyrie",
+      "creator": "Evil Wurst",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/50"
+      ],
+      "video": "https://www.youtube.com/watch?v=w1Ril--lIyw",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Ergonomic",
+        "Online Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Valkyrie - Solo/Duo/Trio Main Base | 27-Rockets to TC [ROOF BUNKER PATCHED]",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-valkyrie",
+      "family_id": "evil-wurst-valkyrie",
+      "review": {
+        "status": "patched-excluded",
+        "category": "Small",
+        "note": "Creator confirms patched roof seal in this version.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Valkyrie",
+      "creator": "Calvin",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/98"
+      ],
+      "video": "https://www.youtube.com/watch?v=2aFGmqEj2gI",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Bunker",
+        "Unique",
+        "Offline Oriented"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D2aFGmqEj2gI&format=json"
+      },
+      "id": "calvin-valkyrie",
+      "family_id": "calvin-valkyrie",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/98"
+        ]
+      }
+    },
+    {
+      "name": "Valkyrie Mini",
+      "creator": "Calvin",
+      "group_size": 2,
+      "sources": [
+        "https://rustbasefinder.com/base_id/99"
+      ],
+      "video": "https://www.youtube.com/watch?v=mg_knhDjsuE",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Budget",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dmg_knhDjsuE&format=json"
+      },
+      "id": "calvin-valkyrie-mini",
+      "family_id": "calvin-valkyrie-mini",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/99"
+        ]
+      }
+    },
+    {
+      "name": "Witches Hut",
+      "creator": "Daikoslime",
+      "group_size": 5,
+      "sources": [
+        "https://rustbasefinder.com/base_id/38"
+      ],
+      "video": "https://www.youtube.com/watch?v=u8Ezznxweeo",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Online Oriented",
+        "Ergonomic",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "unverified",
+        "error": "HTTP 404: https://www.youtube.com/oembed?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Du8Ezznxweeo&format=json"
+      },
+      "id": "daikoslime-witches-hut",
+      "family_id": "daikoslime-witches-hut",
+      "review": {
+        "status": "discovery-only",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/38"
+        ]
+      }
+    },
+    {
+      "name": "Zillator",
+      "creator": "bM0nster",
+      "group_size": 3,
+      "sources": [
+        "https://rustbasefinder.com/base_id/90"
+      ],
+      "video": "https://www.youtube.com/watch?v=EVs1i3S1yWg",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "Expandable",
+        "Budget",
+        "Adequate Storage"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Zillator: Base Design 24+ Rockets | CHEAP SOLO-DUO-TRIO Base | WITH AUTO TURRETS | Rust Base Design",
+        "author": "bM0nster",
+        "author_url": "https://www.youtube.com/@bm0nster510"
+      },
+      "id": "bm0nster-zillator",
+      "family_id": "bm0nster-zillator",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/90"
+        ]
+      },
+      "verified_video_author": "bM0nster"
+    },
+    {
+      "name": "humbug",
+      "creator": "crow",
+      "group_size": 4,
+      "sources": [
+        "https://rustbasefinder.com/base_id/135"
+      ],
+      "video": "https://www.youtube.com/watch?v=GQZhY9IAp10",
+      "download_links": [],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "basefinder",
+      "tags": [
+        "Peekdowns",
+        "Bunker",
+        "Unique"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "THE HUMBUG • A Grub's Grotto • Cheap Solo/Duo Bunker Base • RUST",
+        "author": "Crow",
+        "author_url": "https://www.youtube.com/@CrowRust"
+      },
+      "id": "crow-humbug",
+      "family_id": "crow-humbug",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/135"
+        ]
+      },
+      "verified_video_author": "Crow"
+    },
+    {
+      "name": "⭐⭐⭐THE STARR⭐⭐⭐ Small Group Base",
+      "creator": "GATO",
+      "group_size": 8,
+      "sources": [
+        "https://rustbasefinder.com/base_id/125"
+      ],
+      "video": "https://www.youtube.com/watch?v=o8N36LSFZRw",
+      "download_links": [],
+      "flags": [],
+      "discovery": "basefinder",
+      "tags": [
+        "CT múltiple",
+        "Orientado en línea",
+        "Miradas hacia abajo"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "⭐⭐⭐THE STARR⭐⭐⭐ Small Group Base 🟡 OPEN CORE 🟡 STRONG ONLINE DEFENSE",
+        "author": "GATO ",
+        "author_url": "https://www.youtube.com/@GATO-FPS"
+      },
+      "id": "gato-the-starr-small-group-base",
+      "family_id": "gato-the-starr-small-group-base",
+      "review": {
+        "status": "discovery-only",
+        "category": "Group",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://rustbasefinder.com/base_id/125"
+        ]
+      },
+      "verified_video_author": "GATO "
+    },
+    {
+      "name": "2x2 Starter",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://www.corrosionhour.com/how-to-build-a-simple-2x2-starter-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=E8uLJAtriY0",
+      "download_links": [
+        "https://pastebin.com/KL0scXkg"
+      ],
+      "flags": [
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/KL0scXkg",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 5085,
+          "sha256": "2bf4953e683b4f9a6839a810b5883469985dbeacef82b31371fd9c1e3cbd5019",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/KL0scXkg.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "How to Build a Simple 2x2 Starter Base Design 2020 in RUST",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-2x2-starter",
+      "family_id": "evil-wurst-2x2-starter",
+      "review": {
+        "status": "review-first",
+        "category": "Starter",
+        "note": "Conventional compact starter; check furnishings against current colliders.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Serenity",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://www.corrosionhour.com/serenity-duo-rust-bunker-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=26_1JfhBPC0",
+      "download_links": [
+        "https://pastebin.com/Z9Xku8WK"
+      ],
+      "flags": [
+        "bunker-review",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/Z9Xku8WK",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 10278,
+          "sha256": "709fba11ea1120f48260aece149837442f38393fcf7fea55e81d9f5cf21b7844",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/Z9Xku8WK.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Serenity - Simple 2x2 Solo/Duo RUST Bunker Base | 23-27 Rockets to TC",
+        "author": "Evil Wurst",
+        "author_url": "https://www.youtube.com/@EvilWurst"
+      },
+      "id": "evil-wurst-serenity",
+      "family_id": "evil-wurst-serenity",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/serenity-duo-rust-bunker-base-design/"
+        ]
+      },
+      "verified_video_author": "Evil Wurst"
+    },
+    {
+      "name": "Garrison",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/the-garrison-trio-base-design-2020/"
+      ],
+      "video": "https://www.youtube.com/watch?v=L5bnNdrZc50",
+      "download_links": [
+        "https://pastebin.com/2KeyrH7C"
+      ],
+      "flags": [
+        "precision-placement-review",
+        "multi-tc-review",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/2KeyrH7C",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 13654,
+          "sha256": "28a8223e7b76203af0e5c68cc65e2f18d3ab0a26eca1d3559fe5f2d22518cc75",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/2KeyrH7C.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Garrison - Decisive Defense. (Small Group Base) | ±28 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-garrison",
+      "family_id": "cosmonatic-garrison",
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Single-TC livable group layout; prioritize the original rather than the multi-TC revision.",
+        "evidence": [
+          "https://www.corrosionhour.com/the-garrison-trio-base-design-2020/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Garrison 2.0",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/the-garrison-2-0-trio-base-design-2021/"
+      ],
+      "video": "https://www.youtube.com/watch?v=fC-jrYW7HM0",
+      "download_links": [
+        "https://pastebin.com/1aruaJNA"
+      ],
+      "flags": [
+        "multi-tc-review",
+        "special-site",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/1aruaJNA",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 31264,
+          "sha256": "759dd3dd2a8e613fe139fd3662c4ccf19b0f0247b306937695ba514c39f264af",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/1aruaJNA.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Garrison 2.0 - Defense Reborn. (Duo-Trio Base) | ±23 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-garrison-2-0",
+      "family_id": "cosmonatic-garrison",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Same family as Garrison; split-TC revision needs independent review.",
+        "evidence": [
+          "https://www.corrosionhour.com/the-garrison-2-0-trio-base-design-2021/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Raptor 2.0",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/rust-raptor-2-trio-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=0m3p_VQ5GCo",
+      "download_links": [
+        "https://pastebin.com/nREFESLK"
+      ],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/nREFESLK",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 20397,
+          "sha256": "8e910a617457bbe1bc94e72968b3e994cbc51d3583bcf17b0517557cee6f383b",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/nREFESLK.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Raptor 2.0 - Deadly Defense. (Solo-Trio Base) | ±30 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-raptor-2-0",
+      "family_id": "raptor-lineage",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/rust-raptor-2-trio-base-design/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Armada",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/the-armada-large-group-base-design-2021/"
+      ],
+      "video": "https://www.youtube.com/watch?v=mrEQ03jk_-8",
+      "download_links": [
+        "https://pastebin.com/L98bPmbs"
+      ],
+      "flags": [
+        "bunker-review",
+        "precision-placement-review",
+        "multi-tc-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/L98bPmbs",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 94714,
+          "sha256": "74271249a455b60b1c75384e9318a90db1273f0939132a92773c4f6115de31ec",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/L98bPmbs.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Armada - Flagship of Defense. (Large Group Base) | 100+ Rockets",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-armada",
+      "family_id": "cosmonatic-films-armada",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/the-armada-large-group-base-design-2021/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Bullhorn",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/the-bullhorn-rust-base-design-2021/"
+      ],
+      "video": "https://www.youtube.com/watch?v=YPJZdejIgjk",
+      "download_links": [
+        "https://pastebin.com/mKNABrUH"
+      ],
+      "flags": [
+        "bunker-review",
+        "special-site",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/mKNABrUH",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 15194,
+          "sha256": "526138c45b095a30a4cce7fa099427855e5434f9ab8b4e9372785e60ef7cd930",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/mKNABrUH.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Bullhorn - Territory Dominance. (Solo/Duo/Trio Base) | ±24 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-bullhorn",
+      "family_id": "cosmonatic-films-bullhorn",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/the-bullhorn-rust-base-design-2021/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Javelin",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/rust-javelin-trio-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=8jWHNByrICc",
+      "download_links": [
+        "https://pastebin.com/aezxpd6T"
+      ],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/aezxpd6T",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 10042,
+          "sha256": "a51fd18e50c38e73d94e6c1d7013ece11a97b8b566e48b80794d367a215f2b68",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/aezxpd6T.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Javelin - A Sharp Nuisance. (Solo-Trio Base) | ±24 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-javelin",
+      "family_id": "cosmonatic-javelin",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/rust-javelin-trio-base-design/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Javelin Multi-TC",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/rust-javelin-multi-tc-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=6gu8rbVBlfQ",
+      "download_links": [],
+      "flags": [
+        "bunker-review",
+        "multi-tc-review",
+        "special-site",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Javelin [Multi-TC Version] - A Double Edged Nuisance. (Small Group Base) | ±30 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-javelin-multi-tc",
+      "family_id": "cosmonatic-javelin",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/rust-javelin-multi-tc-base-design/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "Hexapod 2.0",
+      "creator": "Cosmonatic Films",
+      "sources": [
+        "https://www.corrosionhour.com/rust-hexapod-2-0-disconnectable-tc/"
+      ],
+      "video": "https://www.youtube.com/watch?v=p7P0BuCwfSE",
+      "download_links": [
+        "https://pastebin.com/3RSXELGR"
+      ],
+      "flags": [
+        "multi-tc-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/3RSXELGR",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 1884,
+          "sha256": "4dba575e986e3e75fd08b9049b64a93491e6d0c2fe99ea191d7f2b062cbe46de",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/3RSXELGR.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Rust: The Hexapod - The Best Disconnectable External TC. | ±7 / ±14 Rockets!",
+        "author": "Cosmonatic Films",
+        "author_url": "https://www.youtube.com/@Cosmonatic_Films"
+      },
+      "id": "cosmonatic-films-hexapod-2-0",
+      "family_id": "cosmonatic-films-hexapod-2-0",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/rust-hexapod-2-0-disconnectable-tc/"
+        ]
+      },
+      "verified_video_author": "Cosmonatic Films"
+    },
+    {
+      "name": "El Padre",
+      "creator": "Rust Daddy",
+      "sources": [
+        "https://www.corrosionhour.com/el-padre-clan-base-design-2020/"
+      ],
+      "video": "https://www.youtube.com/watch?v=jTAgDjd51Fo",
+      "download_links": [
+        "https://pastebin.com/fKidiS93"
+      ],
+      "flags": [
+        "multi-tc-review",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/fKidiS93",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 116772,
+          "sha256": "ac7c71a4152c5cd9b143c4d54f2f345476a26f0c2b22894e731078ec15cc86ca",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/fKidiS93.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "El Padre - Rust Clan Base",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-el-padre",
+      "family_id": "rust-daddy-el-padre",
+      "review": {
+        "status": "review-first",
+        "category": "Clan",
+        "note": "Large multi-TC compound; inspect connections, entrances and entity budget.",
+        "evidence": [
+          "https://www.corrosionhour.com/el-padre-clan-base-design-2020/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "Harvester",
+      "creator": "Rust Daddy",
+      "sources": [
+        "https://www.corrosionhour.com/the-harvester-rust-furnace-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=I-mHW8wqSvw",
+      "download_links": [],
+      "flags": [
+        "special-site",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Harvester – Rust Furnace Base",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-harvester",
+      "family_id": "rust-daddy-harvester",
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Four-furnace outbuilding; find the structural save, not the separate Rustrician circuit.",
+        "evidence": [
+          "https://www.corrosionhour.com/the-harvester-rust-furnace-base-design/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "BlackWidow",
+      "creator": "Rust Daddy",
+      "sources": [
+        "https://www.corrosionhour.com/rust-blackwidow-bunker-base-design/"
+      ],
+      "video": "https://www.youtube.com/watch?v=kxHnKy1qirQ",
+      "download_links": [
+        "https://pastebin.com/Qqfdzfgm"
+      ],
+      "flags": [
+        "bunker-review",
+        "trap-operation-review"
+      ],
+      "discovery": "creator-partner-guide",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://pastebin.com/Qqfdzfgm",
+          "status": "download-verified",
+          "format": "legacy-fortify",
+          "bytes": 17502,
+          "sha256": "f41b9c3851223426dd671c2ebaffbe25a14c07dec0d82f7370bdaa80a1e6784c",
+          "local_path": "/home/alx/server-ops/physgun/creator-blueprints/Qqfdzfgm.fortify.txt"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "BlackWidow - Solo/Duo Rust Bunker Base (27 Rockets to TC)",
+        "author": "Rust Daddy",
+        "author_url": "https://www.youtube.com/@RustDaddy"
+      },
+      "id": "rust-daddy-blackwidow",
+      "family_id": "rust-daddy-blackwidow",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://www.corrosionhour.com/rust-blackwidow-bunker-base-design/"
+        ]
+      },
+      "verified_video_author": "Rust Daddy"
+    },
+    {
+      "name": "Kastro Mini - V2",
+      "creator": "AKFreiheit",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3681328489"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3681328489"
+      ],
+      "flags": [
+        "special-site"
+      ],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3681328489",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "akfreiheit-kastro-mini-v2",
+      "family_id": "akfreiheit-kastro-mini-v2",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3681328489"
+        ]
+      },
+      "uploader": "AKFreiheit"
+    },
+    {
+      "name": "The Snail Solo",
+      "creator": "Leontine",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3367890438"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3367890438"
+      ],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367890438",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "leontine-the-snail-solo",
+      "family_id": "leontine-the-snail-solo",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3367890438"
+        ]
+      },
+      "uploader": "Leontine"
+    },
+    {
+      "name": "Solos, Starters, & Camps",
+      "creator": "Leontine",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=1410382853"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=1410382853"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1410382853",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "leontine-solos-starters-camps",
+      "family_id": "leontine-solos-starters-camps",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=1410382853"
+        ]
+      },
+      "uploader": "Leontine"
+    },
+    {
+      "name": "Western Saloon - Roleplay Base",
+      "creator": "Bahamut",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3571906373"
+      ],
+      "video": "https://www.youtube.com/watch?v=5B2nZP92n8k",
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3571906373"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3571906373",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "Western Saloon | Rust",
+        "author": "BahamutGm",
+        "author_url": "https://www.youtube.com/@BahamutGm"
+      },
+      "id": "bahamut-western-saloon-roleplay-base",
+      "family_id": "bahamut-western-saloon-roleplay-base",
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Visual variety; non-meta roleplay building, verify ordinary entrances.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3571906373"
+        ]
+      },
+      "verified_video_author": "BahamutGm",
+      "uploader": "Bahamut"
+    },
+    {
+      "name": "House for Three",
+      "creator": "SKIROW",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2026082180"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2026082180"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2026082180",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "skirow-house-for-three",
+      "family_id": "skirow-house-for-three",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Workshop layout; inspect downloaded model before accepting.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2026082180"
+        ]
+      },
+      "uploader": "SKIROW"
+    },
+    {
+      "name": "Simple Trap",
+      "creator": "Vitgor Sunfox",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3488405424"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3488405424"
+      ],
+      "flags": [
+        "trap-operation-review"
+      ],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3488405424",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "vitgor-sunfox-simple-trap",
+      "family_id": "vitgor-sunfox-simple-trap",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3488405424"
+        ]
+      },
+      "uploader": "Vitgor Sunfox"
+    },
+    {
+      "name": "Simple_Solo_1",
+      "creator": "Battle Grandma",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2850494914"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2850494914"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2850494914",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "battle-grandma-simple-solo-1",
+      "family_id": "battle-grandma-simple-solo-1",
+      "review": {
+        "status": "review-first",
+        "category": "Starter",
+        "note": "Workshop layout; inspect downloaded model before accepting.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2850494914"
+        ]
+      },
+      "uploader": "Battle Grandma"
+    },
+    {
+      "name": "Mega Starter",
+      "creator": "Itchy_Nuts",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=1192110102"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=1192110102"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1192110102",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "itchy-nuts-mega-starter",
+      "family_id": "itchy-nuts-mega-starter",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=1192110102"
+        ]
+      },
+      "uploader": "Itchy_Nuts"
+    },
+    {
+      "name": "[PVE] Solo base #27",
+      "creator": "Trippy",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3175833005"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3175833005"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3175833005",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "trippy-pve-solo-base-27",
+      "family_id": "trippy-pve-solo-base-27",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3175833005"
+        ]
+      },
+      "uploader": "Trippy"
+    },
+    {
+      "name": "best 2x2 base",
+      "creator": "пожиратель говна",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3760307251"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3760307251"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3760307251",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "best-2x2-base",
+      "family_id": "best-2x2-base",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3760307251"
+        ]
+      },
+      "uploader": "пожиратель говна"
+    },
+    {
+      "name": "Small SHOP - By SLOF",
+      "creator": "SLOF",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3733113402"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3733113402"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733113402",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "slof-small-shop-by-slof",
+      "family_id": "slof-small-shop-by-slof",
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Shop variety; inspect counter and shop-door access.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3733113402"
+        ]
+      },
+      "uploader": "SLOF"
+    },
+    {
+      "name": "2by1 solo duo (my lovely hom",
+      "creator": "Calys",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3610103151"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3610103151"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3610103151",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "calys-2by1-solo-duo-my-lovely-hom",
+      "family_id": "calys-2by1-solo-duo-my-lovely-hom",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3610103151"
+        ]
+      },
+      "uploader": "Calys"
+    },
+    {
+      "name": "Tortuga",
+      "creator": "Lemon",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3580896994"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3580896994"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580896994",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "lemon-tortuga",
+      "family_id": "lemon-tortuga",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3580896994"
+        ]
+      },
+      "uploader": "Lemon"
+    },
+    {
+      "name": "Dust - The Dugout",
+      "creator": "tobi-polar",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3467830200"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3467830200"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3467830200",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "tobi-polar-dust-the-dugout",
+      "family_id": "dust-dugout",
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Community reconstruction of Dust; verify fidelity against the original guide.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3467830200"
+        ]
+      },
+      "uploader": "tobi-polar"
+    },
+    {
+      "name": "The Tower Bunker",
+      "creator": "Billie Ice-ish",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3443704176"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3443704176"
+      ],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3443704176",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "billie-ice-ish-the-tower-bunker",
+      "family_id": "billie-ice-ish-the-tower-bunker",
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3443704176"
+        ]
+      },
+      "uploader": "Billie Ice-ish"
+    },
+    {
+      "name": "Solo (SmallHard-Cave) 4xBunker ~90Rockets",
+      "creator": "Karl",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3379436365"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3379436365"
+      ],
+      "flags": [
+        "bunker-review"
+      ],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3379436365",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "karl-solo-smallhard-cave-4xbunker-90rockets",
+      "family_id": "karl-solo-smallhard-cave-4xbunker-90rockets",
+      "review": {
+        "status": "site-hold",
+        "category": "Small",
+        "note": "Cave-specific bunker; not eligible for general surface placement.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3379436365"
+        ]
+      },
+      "uploader": "Karl"
+    },
+    {
+      "name": "Tlennka Furnace 2.0",
+      "creator": "Tlennka",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3367515491"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3367515491"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367515491",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "tlennka-tlennka-furnace-2-0",
+      "family_id": "tlennka-tlennka-furnace-2-0",
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Furnace variety; inspect model and clearances.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3367515491"
+        ]
+      },
+      "uploader": "Tlennka"
+    },
+    {
+      "name": "PVE Solo Base",
+      "creator": "Zim",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3073203923"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=3073203923"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3073203923",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "zim-pve-solo-base",
+      "family_id": "zim-pve-solo-base",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=3073203923"
+        ]
+      },
+      "uploader": "Zim"
+    },
+    {
+      "name": "RWPVP Easy#1",
+      "creator": "jlee2834",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258636"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258636"
+      ],
+      "flags": [],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258636",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "jlee2834-rwpvp-easy-1",
+      "family_id": "jlee2834-rwpvp-easy-1",
+      "review": {
+        "status": "discovery-only",
+        "category": "Unclassified",
+        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258636"
+        ]
+      },
+      "uploader": "jlee2834"
+    },
+    {
+      "name": "Rust Deco Tower",
+      "creator": "AKFreiheit",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2798756514"
+      ],
+      "video": null,
+      "download_links": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2798756514"
+      ],
+      "flags": [
+        "bunker-review",
+        "special-site",
+        "trap-operation-review"
+      ],
+      "discovery": "workshop",
+      "tags": [
+        "Building 4.0"
+      ],
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "downloads": [
+        {
+          "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2798756514",
+          "status": "listing-only-not-downloaded"
+        }
+      ],
+      "id": "akfreiheit-rust-deco-tower",
+      "family_id": "akfreiheit-rust-deco-tower",
+      "review": {
+        "status": "discovery-only",
+        "category": "Utility",
+        "note": "Decorative tower rather than a complete lived-in home; not a priority.",
+        "evidence": [
+          "https://steamcommunity.com/sharedfiles/filedetails/?id=2798756514"
+        ]
+      },
+      "uploader": "AKFreiheit"
+    },
+    {
+      "name": "Concord",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Expanded 2x1; check separate upkeep sections.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/soloduotrio-bases"
+        ]
+      },
+      "id": "evil-wurst-concord",
+      "family_id": "evil-wurst-concord"
+    },
+    {
+      "name": "2x1 With Triangle Airlock",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Starter",
+        "note": "Check research-bench and garage-door clearance.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
+        ]
+      },
+      "id": "evil-wurst-2x1-with-triangle-airlock",
+      "family_id": "evil-wurst-2x1-with-triangle-airlock"
+    },
+    {
+      "name": "MACK",
+      "creator": "Zedge",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Clan",
+        "note": "Creator catalogue describes a straightforward PvP clan layout.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "id": "zedge-mack",
+      "family_id": "zedge-mack"
+    },
+    {
+      "name": "Multi-TC Peekdown Concept",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Concept rather than proven import; separate upkeep and connections need review.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "id": "evil-wurst-multi-tc-peekdown-concept",
+      "family_id": "evil-wurst-multi-tc-peekdown-concept"
+    },
+    {
+      "name": "Other Frustrator",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Old dropdown-room layout; inspect trap and access assumptions.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "id": "evil-wurst-other-frustrator",
+      "family_id": "evil-wurst-other-frustrator"
+    },
+    {
+      "name": "Simple Large Furnace Base",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Furnace enclosure; check clearance.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+        ]
+      },
+      "id": "evil-wurst-simple-large-furnace-base",
+      "family_id": "evil-wurst-simple-large-furnace-base"
+    },
+    {
+      "name": "Dolphin",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "site-hold",
+        "category": "Utility",
+        "note": "Boat outpost; needs a water-specific placement path.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+        ]
+      },
+      "id": "evil-wurst-dolphin",
+      "family_id": "evil-wurst-dolphin"
+    },
+    {
+      "name": "Shark",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "site-hold",
+        "category": "Utility",
+        "note": "RHIB boathouse; needs a water-specific placement path.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+        ]
+      },
+      "id": "evil-wurst-shark",
+      "family_id": "evil-wurst-shark"
+    },
+    {
+      "name": "Simple Heli Tower",
+      "creator": "Zedge",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Compact helicopter-defense tower.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+        ]
+      },
+      "id": "zedge-simple-heli-tower",
+      "family_id": "zedge-simple-heli-tower"
+    },
+    {
+      "name": "Bee Sting",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Utility",
+        "note": "Tiny helicopter-defense outpost.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+        ]
+      },
+      "id": "evil-wurst-bee-sting",
+      "family_id": "evil-wurst-bee-sting"
+    },
+    {
+      "name": "Ocean Vault",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "patched-excluded",
+        "category": "Utility",
+        "note": "Creator confirms remote-upkeep exploit was patched.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/utility-bases"
+        ]
+      },
+      "id": "evil-wurst-ocean-vault",
+      "family_id": "evil-wurst-ocean-vault"
+    },
+    {
+      "name": "Quadruple Stability Bunker",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "patched-excluded",
+        "category": "Group",
+        "note": "Creator confirms removed foundation steps broke it.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "id": "evil-wurst-quadruple-stability-bunker",
+      "family_id": "evil-wurst-quadruple-stability-bunker"
+    },
+    {
+      "name": "Exasperator",
+      "creator": "Evil Wurst",
+      "sources": [
+        "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+      ],
+      "video": null,
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Group",
+        "note": "Loot-transfer exploit warning; not a conventional import candidate.",
+        "evidence": [
+          "https://sites.google.com/view/evilwurstsbases/home/group-bases"
+        ]
+      },
+      "id": "evil-wurst-exasperator",
+      "family_id": "evil-wurst-exasperator"
+    },
+    {
+      "name": "Hold",
+      "creator": "Spinky",
+      "sources": [
+        "https://www.youtube.com/watch?v=i_Sew1f4N14"
+      ],
+      "video": "https://www.youtube.com/watch?v=i_Sew1f4N14",
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Single-TC progressive layout; source guide, not a downloaded save.",
+        "evidence": [
+          "https://www.youtube.com/watch?v=i_Sew1f4N14"
+        ]
+      },
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Hold - SOLO/Duo Design - Single TC & Progressive - RUST Base Designs 2023",
+        "author": "spinky.",
+        "author_url": "https://www.youtube.com/@spinky"
+      },
+      "id": "spinky-hold",
+      "family_id": "spinky-hold",
+      "verified_video_author": "spinky."
+    },
+    {
+      "name": "Halo",
+      "creator": "Spinky",
+      "sources": [
+        "https://www.youtube.com/watch?v=PTbyI67NMJ8"
+      ],
+      "video": "https://www.youtube.com/watch?v=PTbyI67NMJ8",
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Small-group funnel layout; review full build before conversion.",
+        "evidence": [
+          "https://www.youtube.com/watch?v=PTbyI67NMJ8"
+        ]
+      },
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Halo - COZY & META - Small GROUP Funneled Base - RUST Base Designs 2023",
+        "author": "spinky.",
+        "author_url": "https://www.youtube.com/@spinky"
+      },
+      "id": "spinky-halo",
+      "family_id": "spinky-halo",
+      "verified_video_author": "spinky."
+    },
+    {
+      "name": "Dugout 2025 Remaster",
+      "creator": "Zypic",
+      "sources": [
+        "https://www.youtube.com/watch?v=MWtW7f1FHnk"
+      ],
+      "video": "https://www.youtube.com/watch?v=MWtW7f1FHnk",
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Small",
+        "note": "Remaster of Dust's Dugout; count as the same family.",
+        "evidence": [
+          "https://www.youtube.com/watch?v=MWtW7f1FHnk"
+        ]
+      },
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Dugout (2025) - An OPEN CORE Affordable Solo/Duo/Trio Rust Base",
+        "author": "Zypic",
+        "author_url": "https://www.youtube.com/@Zypic"
+      },
+      "id": "zypic-dugout-2025-remaster",
+      "family_id": "dust-dugout",
+      "verified_video_author": "Zypic"
+    },
+    {
+      "name": "Saber",
+      "creator": "Dust",
+      "sources": [
+        "https://www.youtube.com/watch?v=cHzAjcQxsPw"
+      ],
+      "video": "https://www.youtube.com/watch?v=cHzAjcQxsPw",
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "review-first",
+        "category": "Group",
+        "note": "Trio layout; inspect wide gaps and external TCs.",
+        "evidence": [
+          "https://www.youtube.com/watch?v=cHzAjcQxsPw"
+        ]
+      },
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Saber - RUST Defendable TRIO Base Design 2022",
+        "author": "Dust",
+        "author_url": "https://www.youtube.com/@dustgg"
+      },
+      "id": "dust-saber",
+      "family_id": "dust-saber",
+      "verified_video_author": "Dust"
+    },
+    {
+      "name": "Raptor 2025 Remaster",
+      "creator": "Zypic",
+      "sources": [
+        "https://www.youtube.com/watch?v=OZ1h84-P53U"
+      ],
+      "video": "https://www.youtube.com/watch?v=OZ1h84-P53U",
+      "download_links": [],
+      "downloads": [],
+      "flags": [],
+      "tags": [],
+      "discovery": "creator-source",
+      "approval": "not-approved",
+      "current_game_tested": false,
+      "review": {
+        "status": "mechanics-hold",
+        "category": "Small",
+        "note": "Five-bunker remaster; verify mechanics, not a conventional import.",
+        "evidence": [
+          "https://www.youtube.com/watch?v=OZ1h84-P53U"
+        ]
+      },
+      "video_check": {
+        "status": "metadata-verified",
+        "title": "The Raptor (2025) - A Solo/Duo's CHEAP DREAM Base | Rust Base Design",
+        "author": "Zypic",
+        "author_url": "https://www.youtube.com/@Zypic"
+      },
+      "id": "zypic-raptor-2025-remaster",
+      "family_id": "raptor-lineage",
+      "verified_video_author": "Zypic"
+    }
+  ],
+  "failures": [],
+  "discarded_discovery": [
+    {
+      "name": "drfrrfgf",
+      "source": "https://rustbasefinder.com/base_id/158",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "fghjhgfdfghu",
+      "source": "https://rustbasefinder.com/base_id/151",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "fghjkjhfueye",
+      "source": "https://rustbasefinder.com/base_id/154",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "gfrfgfrc",
+      "source": "https://rustbasefinder.com/base_id/160",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "ghgfbskap",
+      "source": "https://rustbasefinder.com/base_id/150",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "ghghhghg",
+      "source": "https://rustbasefinder.com/base_id/152",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "ghjuikolkhgyu",
+      "source": "https://rustbasefinder.com/base_id/155",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "ghuiuytrtyh",
+      "source": "https://rustbasefinder.com/base_id/162",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "jfhghghfghfh",
+      "source": "https://rustbasefinder.com/base_id/156",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "kokokoko",
+      "source": "https://rustbasefinder.com/base_id/161",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    },
+    {
+      "name": "mmm,,mmmmdd",
+      "source": "https://rustbasefinder.com/base_id/159",
+      "reason": "Unrelated or junk submission; not a base-design candidate."
+    }
+  ],
+  "methodology": {
+    "approval": "No runtime-approved or installed templates in this research inventory.",
+    "review_first": "Priority for inspecting/converting, not proof of current compatibility.",
+    "automatic_flags": "Keyword flags can be false positives, including negated descriptions. Use explicit review notes.",
+    "counts": "Records are sources/versions, not unique approved floorplans. Known lineages are grouped; further geometric deduplication is required.",
+    "rights": "Downloaded saves remain local; licensing and attribution must be checked before redistribution.",
+    "payloads": "Format signature, content hash and local bytes verified; not yet imported into Fortify or Rust."
+  },
+  "counts": {
+    "records": 160,
+    "review_first": 38,
+    "review_first_families": 37,
+    "mechanics_hold": 82,
+    "site_hold": 3,
+    "patched_excluded": 9,
+    "discovery_only": 28,
+    "unique_payloads": 24,
+    "workshop_listings": 20,
+    "metadata_verified_videos": 95,
+    "discarded_junk": 11,
+    "runtime_approved": 0
+  }
+}
