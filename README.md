@@ -54,11 +54,16 @@ or wiped and therefore consume persistent entity capacity.
 ## Consistent Skins
 
 Set `Random Building Skins (one supported skin and color per grade per base)` to
-`true`. Each new base selects one skin per wood/stone/metal/armored grade from
+`true`. Each new base rolls once: a two-thirds chance of default cosmetics,
+or a one-third chance of non-default skins. The same decision applies to
+construction, doors, deployables, boxes and loot. This is a probability, not
+a fixed every-third-base sequence. On the non-default branch it selects one
+skin per wood/stone/metal/armored grade from
 the game's construction definitions, intersecting compatibility across every
 piece of that grade. The selected grade's color is shared too. Building grades
 and structural strength are unchanged. A new base can randomly choose the same
-skin as a previous base; the unskinned appearance is also a valid choice.
+skin as a previous base. Items or grades without an eligible non-default skin
+fall back to their default appearance.
 
 Color-capable skins use their actual one-based palette, excluding Rust's zero
 (random/default) sentinel. The selected color is supplied during skin creation

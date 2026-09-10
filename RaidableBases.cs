@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.6")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.7")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -3889,6 +3889,15 @@ namespace Oxide.Plugins
 
         public class RaidableBase : FacepunchBehaviour
         {
+            private bool? nonDefaultSkins;
+            private bool useNonDefaultSkins
+            {
+                get
+                {
+                    if (!nonDefaultSkins.HasValue) nonDefaultSkins = UnityEngine.Random.Range(0, 3) == 0;
+                    return nonDefaultSkins.Value;
+                }
+            }
             public HashSet<ulong> alliance = Pool.Get<HashSet<ulong>>();
             public HashSet<ulong> cooldowns = Pool.Get<HashSet<ulong>>();
             public HashSet<ulong> intruders = Pool.Get<HashSet<ulong>>();
@@ -7572,6 +7581,7 @@ namespace Oxide.Plugins
             private ulong GetWholeBaseSkin(BuildingBlock first, BuildingGrade.Enum grade)
             {
                 if (skinWhole.TryGetValue(grade, out var selected)) return selected;
+                if (!useNonDefaultSkins) return skinWhole[grade] = 0;
                 var candidates = new List<ulong>();
                 foreach (var entry in first.blockDefinition.grades)
                 {
@@ -7593,6 +7603,7 @@ namespace Oxide.Plugins
                     };
                     if (target == grade) candidates.RemoveAll(skin => !HasSkin(block, grade, skin));
                 }
+                candidates.Remove(0);
                 selected = candidates.Count == 0 ? 0 : candidates.GetRandom();
                 skinWhole[grade] = selected;
                 return selected;
@@ -8455,6 +8466,13 @@ namespace Oxide.Plugins
 
             private void SetupBoxSkin(StorageContainer container)
             {
+                if (!IsBox(container, false)) return;
+                if (!useNonDefaultSkins)
+                {
+                    container.skinID = 0;
+                    container.SendNetworkUpdate();
+                    return;
+                }
                 if (!IsBox(container, false) || config.Skins.Boxes.IgnoreSkinned && container.skinID != 0uL)
                 {
                     return;
@@ -8498,6 +8516,14 @@ namespace Oxide.Plugins
 
             private void SetupSkin(BaseEntity entity)
             {
+                if (IsUnloading || IsBox(entity, false)) return;
+                if (!Instance.DeployableItems.TryGetValue(entity.gameObject.name, out var def) || def == null) return;
+                if (!useNonDefaultSkins)
+                {
+                    entity.skinID = 0;
+                    entity.SendNetworkUpdate();
+                    return;
+                }
                 if (IsUnloading || IsBox(entity, false) || config.Skins.Deployables.IgnoreSkinned && entity.skinID != 0uL)
                 {
                     return;
@@ -8507,11 +8533,6 @@ namespace Oxide.Plugins
                 {
                     entity.skinID = skin;
                     entity.SendNetworkUpdate();
-                    return;
-                }
-
-                if (!Instance.DeployableItems.TryGetValue(entity.gameObject.name, out var def) || def == null)
-                {
                     return;
                 }
 
@@ -9745,6 +9766,7 @@ namespace Oxide.Plugins
 
             public ulong GetItemSkin(ItemDefinition def, SkinType skinType, ulong defaultSkin, bool stackable, bool nonstackable, bool random, bool workshop, bool importedworkshop, bool approved, int stacksize)
             {
+                if (!useNonDefaultSkins) return 0;
                 ulong skin = defaultSkin;
                 if (skin != 0 && !GetItemSkins(def, approved).Allowed(skin)) skin = 0;
 
@@ -9877,19 +9899,19 @@ namespace Oxide.Plugins
 
                 if (random && si.skins.Count > 0)
                 {
-                    var eligible = si.skins.Where(si.Allowed).ToList();
+                    var eligible = si.skins.Where(id => id != 0 && si.Allowed(id)).ToList();
                     if (eligible.Count > 0) skins.Add(eligible.GetRandom());
                 }
 
                 if (workshop && si.workshopSkins.Count > 0)
                 {
-                    var eligible = si.workshopSkins.Where(si.Allowed).ToList();
+                    var eligible = si.workshopSkins.Where(id => id != 0 && si.Allowed(id)).ToList();
                     if (eligible.Count > 0) skins.Add(eligible.GetRandom());
                 }
 
                 if (importedworkshop && si.importedWorkshopSkins.Count > 0)
                 {
-                    var eligible = si.importedWorkshopSkins.Where(si.Allowed).ToList();
+                    var eligible = si.importedWorkshopSkins.Where(id => id != 0 && si.Allowed(id)).ToList();
                     if (eligible.Count > 0) skins.Add(eligible.GetRandom());
                 }
 
