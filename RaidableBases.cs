@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.1")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.2")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -15250,7 +15250,7 @@ namespace Oxide.Plugins
 
             if ((config.PermanentWorldBases || rb.options.ValidateFootprint) && !ValidateFootprint(rb, preloadData, out var footprintError))
             {
-                string message = $"{rb.BaseName} was not spawned: {footprintError}. Choose clear, flatter ground.";
+                string message = $"{rb.BaseName} was not spawned: {footprintError}. Try a nearby spot or a smaller layout.";
                 rb.user?.Reply(message);
                 Puts(message);
                 IsSpawnerBusy = false;
@@ -15290,30 +15290,68 @@ namespace Oxide.Plugins
         {
             reason = null;
             float lowest = float.MaxValue, highest = float.MinValue;
+            float minimumLift = 0f, maximumLift = 1.5f;
             bool hasFoundation = false;
+            var foundations = new List<(Vector3 position, Quaternion rotation)>();
             int mask = LayerMask.GetMask("Construction", "Deployed", "World", "Tree", "Resource", "Vehicle_Large", "Vehicle_Detailed");
             foreach (var entity in entities)
             {
                 if (!entity.TryGetValue("prefabname", out var prefab) || !prefab.ToString().Contains("/foundation.")) continue;
                 hasFoundation = true;
                 var position = (Vector3)entity["position"];
+                var rotation = entity.TryGetValue("rotation", out var rot) && rot is Quaternion q ? q : Quaternion.identity;
+                foundations.Add((position, rotation));
                 foreach (float x in new[] { -1.35f, 0f, 1.35f }) foreach (float z in new[] { -1.35f, 0f, 1.35f })
                 {
-                    var point = position + new Vector3(x, 0, z);
+                    var point = position + rotation * new Vector3(x, 0, z);
                     if (Mathf.Abs(point.x) > World.Size / 2f || Mathf.Abs(point.z) > World.Size / 2f) { reason = "outside the map"; return false; }
                     float ground = TerrainMeta.HeightMap.GetHeight(point);
                     float water = Mathf.Max(TerrainMeta.WaterMap.GetHeight(point), WaterSystem.OceanLevel);
                     if (water > ground + .1f) { reason = "footprint crosses water"; return false; }
                     lowest = Mathf.Min(lowest, ground); highest = Mathf.Max(highest, ground);
-                    if (ground > position.y + .05f || ground < position.y - 2.5f) { reason = "a foundation would be buried or unsupported"; return false; }
+                    if (config.PermanentWorldBases)
+                    {
+                        // Fit the whole building upward, without burying uphill floors or floating downhill foundations.
+                        minimumLift = Mathf.Max(minimumLift, ground + .1f - position.y);
+                        maximumLift = Mathf.Min(maximumLift, ground + 2.5f - position.y);
+                        if (SpawnsController.IsSafeZone(point, 2f)) { reason = "footprint enters a safe zone"; return false; }
+                        if (TerrainMeta.Path?.Monuments != null && TerrainMeta.Path.Monuments.Exists(m => m != null && m.IsInBounds(new Vector3(point.x, ground + .5f, point.z))))
+                        { reason = "footprint enters a monument"; return false; }
+                    }
+                    else if (ground > position.y + .05f || ground < position.y - 2.5f) { reason = "a foundation would be buried or unsupported"; return false; }
                 }
-                if (Physics.CheckBox(position + Vector3.up * 3.2f, new Vector3(1.5f, 3f, 1.5f), Quaternion.identity, mask, QueryTriggerInteraction.Ignore))
-                { reason = "footprint intersects a structure, deployable or world obstruction"; return false; }
             }
             if (!hasFoundation) { reason = "no supported foundation footprint was found"; return false; }
-            if (highest - lowest > rb.options.GetLandLevel) { reason = "terrain varies too much across this layout"; return false; }
-            if (SpawnsController.IsMonumentPosition(rb.Position, rb.options.ProtectionRadius(RaidableType.Manual)))
+            if (config.PermanentWorldBases && minimumLift > maximumLift)
+            { reason = "terrain is too steep to seat every foundation (maximum lift 1.5m, support depth 2.5m)"; return false; }
+            if (!config.PermanentWorldBases && highest - lowest > rb.options.GetLandLevel) { reason = "terrain varies too much across this layout"; return false; }
+            if (!config.PermanentWorldBases && SpawnsController.IsMonumentPosition(rb.Position, rb.options.ProtectionRadius(RaidableType.Manual)))
             { reason = "footprint is too close to a monument"; return false; }
+            foreach (var foundation in foundations)
+            {
+                var position = foundation.position + Vector3.up * minimumLift;
+                foreach (var collider in Physics.OverlapBox(position + Vector3.up * 3.2f, new Vector3(1.45f, 3f, 1.45f), foundation.rotation, mask, QueryTriggerInteraction.Ignore))
+                {
+                    var tree = collider.GetComponentInParent<TreeEntity>();
+                    if (config.PermanentWorldBases && tree != null)
+                    {
+                        var trunk = Quaternion.Inverse(foundation.rotation) * (tree.transform.position - position);
+                        if (Mathf.Abs(trunk.x) > 1.75f || Mathf.Abs(trunk.z) > 1.75f) continue;
+                        reason = "a tree trunk is inside the building footprint";
+                        return false;
+                    }
+                    reason = $"footprint intersects {collider.GetComponentInParent<BaseEntity>()?.ShortPrefabName ?? collider.name}";
+                    return false;
+                }
+            }
+            // Only mutate paste data after all checks pass. Child positions remain parent-relative.
+            if (minimumLift > 0f)
+            {
+                foreach (var entity in entities)
+                    if (entity.TryGetValue("position", out var obj) && obj is Vector3 position)
+                        entity["position"] = position + Vector3.up * minimumLift;
+                rb.heightAdj += minimumLift;
+            }
             return true;
         }
 

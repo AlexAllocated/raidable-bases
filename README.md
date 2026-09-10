@@ -97,10 +97,15 @@ floorplans, not cosmetic variants. Browse their plans and exact commands in
 
 Permanent mode always validates placement; event-mode profiles can enable
 `Validate footprint before paste (including admin aim spawns)` independently.
-The entire foundation footprint is checked for water, terrain variation,
-unsupported/buried foundations, structures, deployables, world obstructions and
-monument proximity before entities are created. It is conservative: an admin
-aim spawn can be refused even if the original plugin allowed the aim point.
+The foundation footprint is checked for water, unsupported/buried foundations,
+structures, deployables and world obstructions before entities are created.
+Permanent bases can lift uniformly by up to 1.5m to fit gentle slopes, provided
+all sampled foundations remain above ground and within 2.5m of support. This
+replaces the event profile's stricter land-level limit in permanent mode.
+Monument checks use actual monument bounds and safe zones instead of a broad
+raid-event exclusion circle. Overhanging branches are allowed when the tree
+trunk is outside the foundation footprint; trunks inside still block placement.
+Rejections identify the obstruction, and failed checks do not adjust paste data.
 Permanent mode also skips raid-event clutter clearing entirely: no surrounding
 trees, resources, deployables or vehicles are removed or relocated to make room.
 Choose a clear site instead. This does not restore objects removed by older versions.

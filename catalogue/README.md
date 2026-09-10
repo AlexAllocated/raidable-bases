@@ -31,8 +31,11 @@ The existing permanent-base, per-base skin and TC-triggered decay behavior is
 unchanged. Garage bays vary in depth; a one-cell bay is a utility/bike space,
 not a claim that every garage fits a long car.
 
-Permanent-mode placement preserves the surrounding environment. Trees, resource
-nodes and world obstructions block placement instead of being removed or moved.
+Permanent-mode placement preserves the surrounding environment. Tree trunks,
+resource nodes and world obstructions inside the footprint block placement
+instead of being removed or moved; overhanging branches alone do not.
+The building can lift up to 1.5m to fit uneven ground while retaining foundation
+support. The permanent check uses monument bounds, not raid-event buffer circles.
 This applies to legacy templates too, even if their optional profile check is off.
 
 ## Build

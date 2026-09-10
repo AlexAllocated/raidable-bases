@@ -16,6 +16,11 @@
 - [x] All 32 layouts pass native entity counts, furnishing support and sampled room routes.
 - [x] Profiles and family rotation deployed; isolated test area verified empty.
 - [x] Permanent-mode environment clearing disabled; legacy large families quarantined after player feedback.
+- [x] v3.2.2 relaxes permanent placement: uniform height fit, actual monument bounds,
+  and trunk-aware checks. Live read-only sampling accepted 74/100 nearby layout/site
+  combinations, including 52 above the old 1m variation limit and 36 using a lift.
+  Verified uniform whole-base movement, unchanged data on rejection, and continued
+  outside-map, unsupported, water and tree-trunk rejection. No test bases spawned.
 - [x] Documentation and desktop/mobile-checked floorplan previews complete.
 
 The full world-location integration spawn was not run: the first request was
