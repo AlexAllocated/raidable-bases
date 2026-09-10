@@ -51,7 +51,7 @@
       "uploaderSteamId": "76561198100733407",
       "family": "76561198100733407:solo base by kesha f1",
       "sourceSha256": "6b894d45f5529238c31368920bf99e41c1ed6f213b7bf2428d0cfa7011d6b0d7",
-      "templateSha256": "e759d142754a9a78f0dc126d49cc5afb372bafac3b28861f202669e044cc223c",
+      "templateSha256": "953ff4fcb603fcf8dac587d21665fc0294e7e13d9046a8d1710f4b728d063ef9",
       "entities": 272,
       "stockedBoxes": 20,
       "tcHours": 57,
@@ -62,7 +62,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "e759d142754a9a78f0dc126d49cc5afb372bafac3b28861f202669e044cc223c",
+      "exteriorWallCorrections": 12
     },
     {
       "template": "meta_exp_2789732802",
@@ -91,7 +93,7 @@
       "uploaderSteamId": "76561198236492034",
       "family": "76561198236492034:pvp base building 3 0",
       "sourceSha256": "b78b34424a0b3d1e709b26cfeebff8e17d3afcfef8cc426f66c8f7c991f98bb5",
-      "templateSha256": "a8c679f711976d2ebf5e9ddace1094caacbeb1302ac1d5b40f22e68a7e12e964",
+      "templateSha256": "d0c09879b557aa863a06588390d3cf19fa497e0bea0878c2f402613c9dd8f11f",
       "entities": 435,
       "stockedBoxes": 20,
       "tcHours": 30,
@@ -102,7 +104,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "a8c679f711976d2ebf5e9ddace1094caacbeb1302ac1d5b40f22e68a7e12e964",
+      "exteriorWallCorrections": 33
     },
     {
       "template": "meta_exp_1749984150",
@@ -111,7 +115,7 @@
       "uploaderSteamId": "76561197970729648",
       "family": "76561197970729648:the pill box",
       "sourceSha256": "38e4e3ba2c175e8dc8308c71684ab9fcecd343bda50db38810d3415e095c382b",
-      "templateSha256": "90e94777db9a484b0431ea4ed3a2b7ef1af183d77022c1c0d24060ac7bbf33ab",
+      "templateSha256": "bd686912f6a64add9a4f4e12d835044c3cd5448f638ed0da573bd4c0aaf15ba1",
       "entities": 256,
       "stockedBoxes": 29,
       "tcHours": 56,
@@ -122,7 +126,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "90e94777db9a484b0431ea4ed3a2b7ef1af183d77022c1c0d24060ac7bbf33ab",
+      "exteriorWallCorrections": 48
     },
     {
       "template": "meta_exp_2352780716",
@@ -131,7 +137,7 @@
       "uploaderSteamId": "76561198868326501",
       "family": "76561198868326501:starter base vanilla trio",
       "sourceSha256": "d65c52b51706fb6878727c61fbe66f8c129035fcdcde5ec050f1ee9e20ab8839",
-      "templateSha256": "587885f0924b8272605e69e4812a37db613140997db86fba588cb27b2ab7a096",
+      "templateSha256": "43d26d0a14a599a1da06a0e1f6b8305e32233b74930e790ac859e15b54d09913",
       "entities": 77,
       "stockedBoxes": 10,
       "tcHours": 242,
@@ -142,7 +148,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "587885f0924b8272605e69e4812a37db613140997db86fba588cb27b2ab7a096",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_2166299203",
@@ -151,7 +159,7 @@
       "uploaderSteamId": "76561199065699660",
       "family": "76561199065699660:mid tier starter base",
       "sourceSha256": "dfe3b3734ad58f38ff12eacf8bec0db21f7b2429a361b49f2d2e947841e1c0fb",
-      "templateSha256": "3a11c5d09353308e64ac06a09ddee853e8d663096beda513e6dd6514622640cc",
+      "templateSha256": "5ee4ad46a257503aae9b8b00d6664496b17509bb41d11006ac81028745d4c898",
       "entities": 167,
       "stockedBoxes": 8,
       "tcHours": 72,
@@ -162,7 +170,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "3a11c5d09353308e64ac06a09ddee853e8d663096beda513e6dd6514622640cc",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_1900997980",
@@ -171,7 +181,7 @@
       "uploaderSteamId": "76561198118604638",
       "family": "76561198118604638:op starter main solo base",
       "sourceSha256": "571cfa3fd14400972211bc86e96d5e9d1bedae2f2e24182b9f37d7584f46a945",
-      "templateSha256": "08c5681bd53fd6ed0bc1fee62c1bec5ef2fe945a8ff26e17e89b15c9a723ba32",
+      "templateSha256": "526efd8bb31f9d6708a5810d06c9f0baabf2d6909e4cc4c490783185f85e4fab",
       "entities": 349,
       "stockedBoxes": 24,
       "tcHours": 30,
@@ -182,7 +192,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "08c5681bd53fd6ed0bc1fee62c1bec5ef2fe945a8ff26e17e89b15c9a723ba32",
+      "exteriorWallCorrections": 25
     },
     {
       "template": "meta_exp_2014588675",
@@ -191,7 +203,7 @@
       "uploaderSteamId": "76561198059027669",
       "family": "76561198059027669:evil wurst raptor my way",
       "sourceSha256": "dd78967fe4ed2ae0e1ad054009638537d4fdbc8cd4d4d256d788644e6871196b",
-      "templateSha256": "e51799d8dae483171be129c68ffe4b5c2d30ab355dd25c088d63e999d7968370",
+      "templateSha256": "bd043694a62bab265c894902c51309b17047dfc3b2b6d2529daa62a7b9746be8",
       "entities": 444,
       "stockedBoxes": 28,
       "tcHours": 34,
@@ -202,7 +214,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "e51799d8dae483171be129c68ffe4b5c2d30ab355dd25c088d63e999d7968370",
+      "exteriorWallCorrections": 17
     },
     {
       "template": "meta_exp_2165748865",
@@ -231,7 +245,7 @@
       "uploaderSteamId": "76561198033590914",
       "family": "76561198033590914:trapper s shack",
       "sourceSha256": "c8cb91f661bbe75ce13e93908ef535056d9d7244d357a1507f6d95b5cfe87a34",
-      "templateSha256": "9de3d5971206e00271f84d56191bf0365a8204b2d1183c877d11d11c0398a120",
+      "templateSha256": "d3ca4d01431e9960f1af8b2a8c3738b4f8c6124c42bc3d5e1fbd23ba29550538",
       "entities": 74,
       "stockedBoxes": 4,
       "tcHours": 99,
@@ -247,7 +261,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "9de3d5971206e00271f84d56191bf0365a8204b2d1183c877d11d11c0398a120",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_2866185032",
@@ -276,7 +292,7 @@
       "uploaderSteamId": "76561198125173563",
       "family": "76561198125173563:solo meta",
       "sourceSha256": "bfd9a3dc677acc0b2b7da75060c317934550844ced336a3cf6407fadb7361b1d",
-      "templateSha256": "0fb19fd3f16dd3bb9c71db2b93d9c62d9558408a4714c4617429112b83df6f0c",
+      "templateSha256": "e9d5c0d1aba552b05a02f76dc1fe54c9de0950c178bcc0f9a61a4aedcfae7a7f",
       "entities": 490,
       "stockedBoxes": 41,
       "tcHours": 55,
@@ -292,7 +308,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "0fb19fd3f16dd3bb9c71db2b93d9c62d9558408a4714c4617429112b83df6f0c",
+      "exteriorWallCorrections": 50
     },
     {
       "template": "meta_exp_2413416773",
@@ -301,7 +319,7 @@
       "uploaderSteamId": "76561197980077228",
       "family": "76561197980077228:2x2 heavy storage starter",
       "sourceSha256": "d8340f6371a6028f8b021a3c71df701855da93d16cf874b108cccab32cba746b",
-      "templateSha256": "2a972639add393da0eb30e593b4aedeaac41563db8f8242afad49e5f023c8dee",
+      "templateSha256": "2c8d390554c5c8558eca3cf185bda9a6a2802eecc965ffd9119b48d2b6428c09",
       "entities": 81,
       "stockedBoxes": 11,
       "tcHours": 198,
@@ -312,7 +330,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "2a972639add393da0eb30e593b4aedeaac41563db8f8242afad49e5f023c8dee",
+      "exteriorWallCorrections": 16
     },
     {
       "template": "meta_exp_1813418959",
@@ -321,7 +341,7 @@
       "uploaderSteamId": "76561198168246529",
       "family": "76561198168246529:good house",
       "sourceSha256": "118687749552194438cca8c2d08ef7d817ce83a0eaeb3b19681191d3ee984815",
-      "templateSha256": "f872cebaa5ec73d02d331f1a30686e3556491ae8ba8792cea76e7d9de31204fb",
+      "templateSha256": "5517713836f87176bdc96a7b8cfb0ecff4522ab2bf84552a3faa890cb067835d",
       "entities": 133,
       "stockedBoxes": 18,
       "tcHours": 107,
@@ -332,7 +352,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "f872cebaa5ec73d02d331f1a30686e3556491ae8ba8792cea76e7d9de31204fb",
+      "exteriorWallCorrections": 9
     },
     {
       "template": "meta_exp_1970351961",
@@ -341,7 +363,7 @@
       "uploaderSteamId": "76561198035810574",
       "family": "76561198035810574:spicy teepee",
       "sourceSha256": "6c8184a6004864f4a62f19bb8bf7ed608072d6529a9ea86eefcd670289f49dd4",
-      "templateSha256": "3f932121f4695d7d0d4764b8c3613bf7f703e52f3d927755a1eb9d6628c19cfd",
+      "templateSha256": "25ab2ecd3d813798de9043b327ccb04a1a1e84d2bc0cc9213b4a035431c4b49e",
       "entities": 603,
       "stockedBoxes": 22,
       "tcHours": 30,
@@ -352,7 +374,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "3f932121f4695d7d0d4764b8c3613bf7f703e52f3d927755a1eb9d6628c19cfd",
+      "exteriorWallCorrections": 44
     },
     {
       "template": "meta_exp_1911085546",
@@ -381,7 +405,7 @@
       "uploaderSteamId": "76561198116671927",
       "family": "76561198116671927:the dunce",
       "sourceSha256": "16f02e9fcede0fe96d5a154d8a7a8de18669541acc292adbbb889e0ecf5452de",
-      "templateSha256": "04df858df376065e1768cac44a783689255849a129c4e1fdb7fb31e77632f8e8",
+      "templateSha256": "6a9cec35a66ab57da7f4736b8af0bf4c467a49fd24de9cb6020637d1e7f2be50",
       "entities": 147,
       "stockedBoxes": 9,
       "tcHours": 90,
@@ -392,7 +416,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "04df858df376065e1768cac44a783689255849a129c4e1fdb7fb31e77632f8e8",
+      "exteriorWallCorrections": 19
     },
     {
       "template": "meta_exp_2275238630",
@@ -401,7 +427,7 @@
       "uploaderSteamId": "76561199095370761",
       "family": "76561199095370761:lotus",
       "sourceSha256": "1d5d9931355fa37837722f4bb1fb040887a741cd28d836dbd423c24a83cceda6",
-      "templateSha256": "9d4f6b8cea8eac90c4576886cda6cf4310e42932f6f9390b2923d5dd3fd3b3c2",
+      "templateSha256": "3c0c35b7e8e1524d0cc2bc410ccb10a33f18651ff6c30ca19e5119747f24f7d9",
       "entities": 313,
       "stockedBoxes": 33,
       "tcHours": 43,
@@ -412,7 +438,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "9d4f6b8cea8eac90c4576886cda6cf4310e42932f6f9390b2923d5dd3fd3b3c2",
+      "exteriorWallCorrections": 23
     },
     {
       "template": "meta_exp_1595719325",
@@ -421,7 +449,7 @@
       "uploaderSteamId": "76561198045702679",
       "family": "76561198045702679:solo starter base",
       "sourceSha256": "e5aa5192b07773782cd1f8178b77990da15212080859fbe580f83c0dd432b163",
-      "templateSha256": "91f21ae5a1566e2151b7ff444ac04531e097d9bccba8239c797272687e91b16c",
+      "templateSha256": "24e304633bfce327c40cbf25e230395c1cc3ea502067ec9a68c6041aa44bd8b8",
       "entities": 42,
       "stockedBoxes": 3,
       "tcHours": 481,
@@ -432,7 +460,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "91f21ae5a1566e2151b7ff444ac04531e097d9bccba8239c797272687e91b16c",
+      "exteriorWallCorrections": 5
     },
     {
       "template": "meta_exp_1789930153",
@@ -441,7 +471,7 @@
       "uploaderSteamId": "76561198390405017",
       "family": "76561198390405017:2by2 inside 23to29 rocket raid",
       "sourceSha256": "7d2a758a282ac235286e6e16a8b6aa4a7c99fb9af6a3f270e7b459ca0d56c294",
-      "templateSha256": "3e4ecabb390c6a1cd74b009fe23c9adad52d654d6334ce5d1301b5fd4e0ab9e0",
+      "templateSha256": "5d38954d5b777eca432cf8098b7c9e9a677b37e994cf117f5189b767a01e2d04",
       "entities": 262,
       "stockedBoxes": 34,
       "tcHours": 69,
@@ -452,7 +482,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "3e4ecabb390c6a1cd74b009fe23c9adad52d654d6334ce5d1301b5fd4e0ab9e0",
+      "exteriorWallCorrections": 13
     },
     {
       "template": "meta_exp_1670162221",
@@ -461,7 +493,7 @@
       "uploaderSteamId": "76561198034629273",
       "family": "76561198034629273:hazard solo base",
       "sourceSha256": "4609ec401ee9b83a82beb5823b116dbac8729e68773abbed1fdeb6ea47f66069",
-      "templateSha256": "f1da13603a6b8220556d63b38d9b525d222e396a0a094e16d12c4e3a0e174bab",
+      "templateSha256": "dc6c77b955a662c7b19317f3217a6a3da774b1b525391d8298c544d74d9ff81c",
       "entities": 197,
       "stockedBoxes": 15,
       "tcHours": 88,
@@ -472,7 +504,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "f1da13603a6b8220556d63b38d9b525d222e396a0a094e16d12c4e3a0e174bab",
+      "exteriorWallCorrections": 9
     },
     {
       "template": "meta_exp_1813577892",
@@ -481,7 +515,7 @@
       "uploaderSteamId": "76561198168246529",
       "family": "76561198168246529:star house",
       "sourceSha256": "446f4741202086284030dcc4b656be2874310af43b21695dfacd725a2a88d1ab",
-      "templateSha256": "8afd1345e8c887c959ce3aa318440cd00a068e18d6e3010a857c2593673bb449",
+      "templateSha256": "9e6cfa5861e19367e941a2674dd0387202879e51fb04876481bc3089d5a38671",
       "entities": 158,
       "stockedBoxes": 12,
       "tcHours": 84,
@@ -492,7 +526,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "8afd1345e8c887c959ce3aa318440cd00a068e18d6e3010a857c2593673bb449",
+      "exteriorWallCorrections": 9
     },
     {
       "template": "meta_exp_2449689775",
@@ -501,7 +537,7 @@
       "uploaderSteamId": "76561199049752910",
       "family": "76561199049752910:anti raid base for small clan",
       "sourceSha256": "94375c6986d8d6e66c4ca33c61454d77028925dc8b3e68e3ac52a22f4cb2ce8f",
-      "templateSha256": "bd87712bfe257fec76b350f9c3a645a947b135dfa2e64a26395034276f6a80cd",
+      "templateSha256": "36de3b54259bd8bd04b477cbb15ae143f99bd1376c29e00a95be280401ba459c",
       "entities": 577,
       "stockedBoxes": 19,
       "tcHours": 30,
@@ -512,7 +548,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "bd87712bfe257fec76b350f9c3a645a947b135dfa2e64a26395034276f6a80cd",
+      "exteriorWallCorrections": 48
     },
     {
       "template": "meta_exp_2885307473",
@@ -521,7 +559,7 @@
       "uploaderSteamId": "76561198012751266",
       "family": "76561198012751266:cozy and comfy yurt base",
       "sourceSha256": "d9e97381618165bbc770938c5631f0969f64a78a4e534bc78ab68344e7269d76",
-      "templateSha256": "9aa291d286b8c92314a09bf99804e9b686baf778ccbe09aa0ba328c9d6efdd91",
+      "templateSha256": "efc69a24fea39956efc5e78e21264ec292d34de5a8e3517f037f056e5d22aff4",
       "entities": 139,
       "stockedBoxes": 16,
       "tcHours": 166,
@@ -532,7 +570,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "9aa291d286b8c92314a09bf99804e9b686baf778ccbe09aa0ba328c9d6efdd91",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_1910566606",
@@ -561,7 +601,7 @@
       "uploaderSteamId": "76561198125742717",
       "family": "76561198125742717:tlennka smart furnase",
       "sourceSha256": "ec79882c742c69241bcc593b9ecec7343f21c2e5b224d22186549f3c9c671ed8",
-      "templateSha256": "a1fb9fc22366c504eadeb5faa1772f45db932821d00164b05603628cd2daa937",
+      "templateSha256": "46604d4ad9e228646ffadeb2e2555f63aa95bff293ca72a26f880cc108b10d39",
       "entities": 157,
       "stockedBoxes": 15,
       "tcHours": 212,
@@ -572,7 +612,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "a1fb9fc22366c504eadeb5faa1772f45db932821d00164b05603628cd2daa937",
+      "exteriorWallCorrections": 9
     },
     {
       "template": "meta_exp_1789925295",
@@ -581,7 +623,7 @@
       "uploaderSteamId": "76561198390405017",
       "family": "76561198390405017:circle 34 to 47 rocket raid",
       "sourceSha256": "888ee47a72a2d693a1b567097452dac2735bcc4ec56e9c834815be81ed52e0bd",
-      "templateSha256": "dcb357f064f8eff6d38ce6ef092116e97307e6976ed5505d923ea58e1beea871",
+      "templateSha256": "132e6d5218e2aa8fe801b40408de495769fba37bcf9ce3f9660d66439c2e4cc8",
       "entities": 471,
       "stockedBoxes": 46,
       "tcHours": 38,
@@ -597,7 +639,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "dcb357f064f8eff6d38ce6ef092116e97307e6976ed5505d923ea58e1beea871",
+      "exteriorWallCorrections": 63
     },
     {
       "template": "meta_exp_1905015091",
@@ -606,7 +650,7 @@
       "uploaderSteamId": "76561198056473273",
       "family": "76561198056473273:solo duo base",
       "sourceSha256": "d3e82efe1441af43d117020b14e2923c9474ccab47be4e9fcec7906f91967264",
-      "templateSha256": "cdfb0d838867ee513d419ae7266b2e3cc378ddee459cae2b0e95ed58a7ed2b77",
+      "templateSha256": "50efcd9f08b11fdc6a4f890a6aeabdb1319ecefcb5c4fb569091a276d0e97561",
       "entities": 46,
       "stockedBoxes": 9,
       "tcHours": 852,
@@ -617,7 +661,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "cdfb0d838867ee513d419ae7266b2e3cc378ddee459cae2b0e95ed58a7ed2b77",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_1764893110",
@@ -626,7 +672,7 @@
       "uploaderSteamId": "76561198073621946",
       "family": "76561198073621946:solo base",
       "sourceSha256": "24f3c5dfbec33ba0ef7f3d83abcff61d2f96ae7c75bb57b40534acd25a33cac7",
-      "templateSha256": "96d95d92d7d2b245d605220dddad6c55033eba04e1602ba05d8f562edd6ec90e",
+      "templateSha256": "6580ea5e77d0466bb5cce66499664eb59e201e4a6fd87b19a94848bd0e38b480",
       "entities": 418,
       "stockedBoxes": 31,
       "tcHours": 30,
@@ -637,7 +683,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "96d95d92d7d2b245d605220dddad6c55033eba04e1602ba05d8f562edd6ec90e",
+      "exteriorWallCorrections": 70
     },
     {
       "template": "meta_exp_2001884784",
@@ -646,7 +694,7 @@
       "uploaderSteamId": "76561198841882325",
       "family": "76561198841882325:4 gah house",
       "sourceSha256": "e2cdcde72254601d46c74f449106e9aad0085de84c235b7e158e90d96d8ddd74",
-      "templateSha256": "e0045bef5f09dcf95ec38d78f113e4dce2a0e05a158fd6f364aca314fd66d5cd",
+      "templateSha256": "2f91fe016b584e07aab51593db72ee644549fe3c951295fc2242d60ce37c263e",
       "entities": 538,
       "stockedBoxes": 20,
       "tcHours": 30,
@@ -674,7 +722,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "e0045bef5f09dcf95ec38d78f113e4dce2a0e05a158fd6f364aca314fd66d5cd",
+      "exteriorWallCorrections": 3
     },
     {
       "template": "meta_exp_2408606065",
@@ -683,7 +733,7 @@
       "uploaderSteamId": "76561198190971022",
       "family": "76561198190971022:willjum starter base feb 2021",
       "sourceSha256": "9110369298130367ab9d604bd97dbb7d6096def05cdcaccdebc75827a367ceaf",
-      "templateSha256": "a4764d97a8da4eec637e4105fc7d35583330d254eee845800506705706fa4488",
+      "templateSha256": "28dfb06a8f20ead0267871f8e2c47140f4cc0fc0427d02da2137e3ade32252d1",
       "entities": 133,
       "stockedBoxes": 12,
       "tcHours": 99,
@@ -694,7 +744,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "a4764d97a8da4eec637e4105fc7d35583330d254eee845800506705706fa4488",
+      "exteriorWallCorrections": 11
     },
     {
       "template": "meta_exp_1976034372",
@@ -703,7 +755,7 @@
       "uploaderSteamId": "76561198845142344",
       "family": "76561198845142344:vanilabig",
       "sourceSha256": "4521c6271bfbc83e03df14c9d41c57c59ac0df7938719b5ed0610e959d147bdd",
-      "templateSha256": "6a261dd57a2b61125b5b9fb7727fd9af3aad73b3f537e84d7e3122213f1efbd1",
+      "templateSha256": "47013442c9dfde3fd8f66433978f1adf64cab4fb9074a0758dc525dd4b578c75",
       "entities": 168,
       "stockedBoxes": 8,
       "tcHours": 102,
@@ -723,7 +775,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "6a261dd57a2b61125b5b9fb7727fd9af3aad73b3f537e84d7e3122213f1efbd1",
+      "exteriorWallCorrections": 3
     },
     {
       "template": "meta_exp_1625189886",
@@ -752,7 +806,7 @@
       "uploaderSteamId": "76561198126320716",
       "family": "76561198126320716:fortified oval small clan",
       "sourceSha256": "3cb38075379043085962877e870954d4fae1008f9fa11e72aefdc2d8b008e146",
-      "templateSha256": "5b4ec63c1aa5a8811273796f6baf4067dab18c229eee6f20701123e61d07cddf",
+      "templateSha256": "0c8b55c1018602eac0f43ec20d59fe417a4ef50b792ccf3d0ec13c8c278b6534",
       "entities": 601,
       "stockedBoxes": 16,
       "tcHours": 30,
@@ -763,7 +817,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "5b4ec63c1aa5a8811273796f6baf4067dab18c229eee6f20701123e61d07cddf",
+      "exteriorWallCorrections": 8
     },
     {
       "template": "meta_exp_1838476429",
@@ -792,7 +848,7 @@
       "uploaderSteamId": "76561198978937950",
       "family": "76561198978937950:2",
       "sourceSha256": "53ef992e936480dfd4da2c5bd0c62007e432fb6700ce0dc45cc5aa8e2688d25b",
-      "templateSha256": "4132f9340920bd64d0f221c7d191e80fe757eda93d9c32a011b9bbc4a62e51e0",
+      "templateSha256": "1e20550777c5b2eee651ba29b9df269e9dff5c6f83dc3f34d5eaad0bb4fe17cd",
       "entities": 70,
       "stockedBoxes": 8,
       "tcHours": 254,
@@ -803,7 +859,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "4132f9340920bd64d0f221c7d191e80fe757eda93d9c32a011b9bbc4a62e51e0",
+      "exteriorWallCorrections": 10
     },
     {
       "template": "meta_exp_3056550964",
@@ -812,7 +870,7 @@
       "uploaderSteamId": "76561199444629334",
       "family": "76561199444629334:solo sanction",
       "sourceSha256": "d35cd31d2d45fdb39046d74f3486b27ef9bc93d8b1300e86e3a6999f93a698e2",
-      "templateSha256": "e852c1449ba6d191db275b0fcd36ac3ac415062f94829779d46e85b0a590b410",
+      "templateSha256": "d1f6c05688358f82d86eba2a2af9188385fb43747e9d8b4de8426594a4f640d7",
       "entities": 103,
       "stockedBoxes": 9,
       "tcHours": 308,
@@ -823,7 +881,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "e852c1449ba6d191db275b0fcd36ac3ac415062f94829779d46e85b0a590b410",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_1635088943",
@@ -832,7 +892,7 @@
       "uploaderSteamId": "76561198110856912",
       "family": "76561198110856912:stong clan base",
       "sourceSha256": "79834f884d72885d098101c23621df62f63afa6186e1fa882349ef9fd837a7ed",
-      "templateSha256": "99c7022939077007bc481ad379ab371d49983adbdf3624b814e0aba436abc6be",
+      "templateSha256": "00c89591c9767c67827d1bff0cdc9f7a780482c8008a7702a7fdd1111a34bd8f",
       "entities": 397,
       "stockedBoxes": 9,
       "tcHours": 30,
@@ -843,7 +903,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "99c7022939077007bc481ad379ab371d49983adbdf3624b814e0aba436abc6be",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_2843259621",
@@ -872,7 +934,7 @@
       "uploaderSteamId": "76561198393008904",
       "family": "76561198393008904:secret loot solo base 2 0",
       "sourceSha256": "6881ba16f95278176dfd2fd89828b37625333b822362d9f9230cc97215537fc2",
-      "templateSha256": "18b29e4db6d6c7547e1e3dc8d13c852bc6e0423bdac0898077f1a66129e5a32e",
+      "templateSha256": "472ec7c807a326d5a54b23ff3a65bbd2adcebb3b42800bf110eb1d52d0c35ae7",
       "entities": 110,
       "stockedBoxes": 18,
       "tcHours": 160,
@@ -883,7 +945,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "18b29e4db6d6c7547e1e3dc8d13c852bc6e0423bdac0898077f1a66129e5a32e",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_1909984094",
@@ -892,7 +956,7 @@
       "uploaderSteamId": "76561198174436035",
       "family": "76561198174436035:complex starter",
       "sourceSha256": "54818572e4fb54c47258d9959e60d156ec659210f402ca2e31798eeb0d7cdcbf",
-      "templateSha256": "a27f2a52a7a2fe088792f77b714cf630b3d15ee75998164e02db50d0b3722dd1",
+      "templateSha256": "d17464884280308e2ea04fd4a15caa1fbc5a1736d2b9f927c54caabc6d92bfd6",
       "entities": 373,
       "stockedBoxes": 14,
       "tcHours": 30,
@@ -903,7 +967,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "a27f2a52a7a2fe088792f77b714cf630b3d15ee75998164e02db50d0b3722dd1",
+      "exteriorWallCorrections": 40
     },
     {
       "template": "meta_exp_1834850395",
@@ -952,7 +1018,7 @@
       "uploaderSteamId": "76561198069021880",
       "family": "76561198069021880:4 turret 4 sensors duo base",
       "sourceSha256": "0597f7613d5a60719b81cee02af37205c1ba7f937b386133e7cf31f69b5f9525",
-      "templateSha256": "3097b1b1284aa731e8057a0f603e46bbfdb25babca18fc546b4936de5aeb9b6e",
+      "templateSha256": "e5c73368240fe2c25ed2c292b69cec6066bce028c4f16d41a7e023132bc9962b",
       "entities": 241,
       "stockedBoxes": 8,
       "tcHours": 112,
@@ -963,7 +1029,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "3097b1b1284aa731e8057a0f603e46bbfdb25babca18fc546b4936de5aeb9b6e",
+      "exteriorWallCorrections": 1
     },
     {
       "template": "meta_exp_2102068765",
@@ -992,7 +1060,7 @@
       "uploaderSteamId": "76561197997655894",
       "family": "76561197997655894:exeter small boy",
       "sourceSha256": "af3c2a10331db023cc5303192ef51ff3f14deaa9e7c87d3c464b36ea7d7ebf4b",
-      "templateSha256": "33ae644151f7cdf6f4244c3367d65cb196c5256f20f26f57e719fa854701690a",
+      "templateSha256": "66310597d9d4a108ff1953c44e34593c6deb41d2fb121c9d310c273b69a10568",
       "entities": 46,
       "stockedBoxes": 1,
       "tcHours": 441,
@@ -1003,7 +1071,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "33ae644151f7cdf6f4244c3367d65cb196c5256f20f26f57e719fa854701690a",
+      "exteriorWallCorrections": 5
     },
     {
       "template": "meta_exp_3146806805",
@@ -1032,7 +1102,7 @@
       "uploaderSteamId": "76561198170993554",
       "family": "76561198170993554:hive base",
       "sourceSha256": "0d6e58b85efb154fa3443765dc28a37133bfc2ee11494cec316b73bef28dcacd",
-      "templateSha256": "b72992047dff7a0f7fc1064d10b813523d804fb64d9db18f91438c15cbd0ae4c",
+      "templateSha256": "0ff9efd78efef0f40666049513c6dcc4da42dd72c99dc3f529dbc7c55b1305a7",
       "entities": 118,
       "stockedBoxes": 4,
       "tcHours": 134,
@@ -1043,7 +1113,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "b72992047dff7a0f7fc1064d10b813523d804fb64d9db18f91438c15cbd0ae4c",
+      "exteriorWallCorrections": 2
     },
     {
       "template": "meta_exp_1901282259",
@@ -1052,7 +1124,7 @@
       "uploaderSteamId": "76561198160825855",
       "family": "76561198160825855:starter to main base for 2",
       "sourceSha256": "abc9aaac97382d840ba49e691ddcb56e15abc4876a320cc7eda4040f50e1c18b",
-      "templateSha256": "deaa5a2a673b0cfc7209d2b1bdb3696e4018e1037b2e6dc9e44cac522f152c9e",
+      "templateSha256": "3c85e16e9157aa9c320ef3480a8251fbc08bc3047d2964b389e2f441850fc9ec",
       "entities": 116,
       "stockedBoxes": 4,
       "tcHours": 124,
@@ -1063,7 +1135,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "deaa5a2a673b0cfc7209d2b1bdb3696e4018e1037b2e6dc9e44cac522f152c9e",
+      "exteriorWallCorrections": 5
     },
     {
       "template": "meta_exp_2671091187",
@@ -1072,7 +1146,7 @@
       "uploaderSteamId": "76561199013005745",
       "family": "76561199013005745:duo 3x3 hidden tc",
       "sourceSha256": "859ec5c07cda3636fece5f843b0a46041042c8a28c4a1eed9686064463d26dd4",
-      "templateSha256": "2305df1d7a07dd975cd3e2429b25a77e8a67efa42a2bfcd9b224eac1835cd174",
+      "templateSha256": "e34047be912d91024f1958dec043a3410b57e31d2475811c30e09f16e56ccc42",
       "entities": 298,
       "stockedBoxes": 44,
       "tcHours": 44,
@@ -1083,7 +1157,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "2305df1d7a07dd975cd3e2429b25a77e8a67efa42a2bfcd9b224eac1835cd174",
+      "exteriorWallCorrections": 31
     },
     {
       "template": "meta_exp_1760006485",
@@ -1092,7 +1168,7 @@
       "uploaderSteamId": "76561198124897480",
       "family": "76561198124897480:solo compact 2x2",
       "sourceSha256": "6299c661fe4b15dab52e5badf4ef2fa3c5e6e8b115608019b3d8e8a658b8a9d2",
-      "templateSha256": "b1096956c6da403e9a580f4bc4d5b6785afe118c379e6e1c27912e08d0d156df",
+      "templateSha256": "3b11bc89f7e62e54ad63310b3d4810b335e145b42aad29366a59f63d7086db65",
       "entities": 80,
       "stockedBoxes": 21,
       "tcHours": 371,
@@ -1103,7 +1179,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "b1096956c6da403e9a580f4bc4d5b6785afe118c379e6e1c27912e08d0d156df",
+      "exteriorWallCorrections": 13
     },
     {
       "template": "meta_exp_2138546492",
@@ -1112,7 +1190,7 @@
       "uploaderSteamId": "76561198118893164",
       "family": "76561198118893164:base for 4",
       "sourceSha256": "55a03bf2773f3b83ff0ba2acd48ab6e51ca47b3818b3b0f14e16bbdcc1a77556",
-      "templateSha256": "f21a349ff3cef664ab59da9fc4fc8b303cd4893b64ee424c3f022121d8beb0e7",
+      "templateSha256": "2847f11966dc5ac8b3094b25b61b651ed1315e004d8b324787c874f1007a090a",
       "entities": 213,
       "stockedBoxes": 16,
       "tcHours": 99,
@@ -1123,7 +1201,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "f21a349ff3cef664ab59da9fc4fc8b303cd4893b64ee424c3f022121d8beb0e7",
+      "exteriorWallCorrections": 16
     },
     {
       "template": "meta_exp_3029587736",
@@ -1132,7 +1212,7 @@
       "uploaderSteamId": "76561198911139590",
       "family": "76561198911139590:group building design",
       "sourceSha256": "923377b0c77083ac06f71e600fb69dcef08b44a9c38d6361ef44c5d553f9aeb7",
-      "templateSha256": "69776bb0daebac49790165a01cf718e21a7ab24ec08b7e65823174c03eea3ec3",
+      "templateSha256": "7732ebc44083914148e2ebfa72864ed8a533671359f7bcafbdec830e30097bb4",
       "entities": 400,
       "stockedBoxes": 14,
       "tcHours": 30,
@@ -1143,7 +1223,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "69776bb0daebac49790165a01cf718e21a7ab24ec08b7e65823174c03eea3ec3",
+      "exteriorWallCorrections": 49
     },
     {
       "template": "meta_exp_1878433914",
@@ -1172,7 +1254,7 @@
       "uploaderSteamId": "76561198274530093",
       "family": "76561198274530093:the core",
       "sourceSha256": "f9cffea5600eec4917b21ff799960138fd0de8c15f100b2521e9665b1dff9d8b",
-      "templateSha256": "f191e7e8f29e0b9ff39c5019a65d1e0308c533a4c401b88f88459e1840e71d6d",
+      "templateSha256": "f5f358196810bfcb178bb553037e0e84ace52086c6e46bcd595330b50f726a49",
       "entities": 229,
       "stockedBoxes": 19,
       "tcHours": 30,
@@ -1183,7 +1265,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "f191e7e8f29e0b9ff39c5019a65d1e0308c533a4c401b88f88459e1840e71d6d",
+      "exteriorWallCorrections": 13
     },
     {
       "template": "meta_exp_1613124190",
@@ -1212,7 +1296,7 @@
       "uploaderSteamId": "76561198064314280",
       "family": "76561198064314280:oval hatch core",
       "sourceSha256": "156558dd0ed9230a0cab6077f98ba305812c9ffe46f35ab234241438d757a15d",
-      "templateSha256": "413c3e0d5f7994e0cab1b8a1918aa90b3e42e4225e5972d19a8292cfe62e9b05",
+      "templateSha256": "d312a80a1cff13d335fbbc8b3d8c64bcab1472e1c7608147af943868a8a1fcff",
       "entities": 259,
       "stockedBoxes": 23,
       "tcHours": 68,
@@ -1228,7 +1312,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "413c3e0d5f7994e0cab1b8a1918aa90b3e42e4225e5972d19a8292cfe62e9b05",
+      "exteriorWallCorrections": 15
     },
     {
       "template": "meta_exp_1834826134",
@@ -1257,7 +1343,7 @@
       "uploaderSteamId": "76561198802129160",
       "family": "76561198802129160:base",
       "sourceSha256": "d7823ebf9c6ab59d2155d3c385b8be4d6935c698bc74ae790a01b9757f5fb52b",
-      "templateSha256": "cf2df66bed6ae074578cb5ffb13aedfc930e84ac0d0a87a7ddabb5b45c07e15d",
+      "templateSha256": "e6d86d511937ad0069f11b8f7f0269783a0a3f1977549c5323f697fdd7fe7850",
       "entities": 534,
       "stockedBoxes": 4,
       "tcHours": 30,
@@ -1268,7 +1354,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "cf2df66bed6ae074578cb5ffb13aedfc930e84ac0d0a87a7ddabb5b45c07e15d",
+      "exteriorWallCorrections": 67
     },
     {
       "template": "meta_exp_1775955438",
@@ -1277,7 +1365,7 @@
       "uploaderSteamId": "76561198235824658",
       "family": "76561198235824658:the citadel",
       "sourceSha256": "a037c442ac0951c2b8b6774959ae599405525d6703bbae7d56e78c4a52efde7e",
-      "templateSha256": "89ae11bc31fe21320527bafafcd7102b8a7e22a8b18bbf5d43f2c4a522051b42",
+      "templateSha256": "8aeb2fe2493f62c00af4f9d2e3b2a904aabf4e06dccd50042f51fa4fec30ac81",
       "entities": 815,
       "stockedBoxes": 64,
       "tcHours": 30,
@@ -1301,7 +1389,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "89ae11bc31fe21320527bafafcd7102b8a7e22a8b18bbf5d43f2c4a522051b42",
+      "exteriorWallCorrections": 47
     },
     {
       "template": "meta_exp_1878386554",
@@ -1310,7 +1400,7 @@
       "uploaderSteamId": "76561198016832265",
       "family": "76561198016832265:starbase vanilla med upkeep",
       "sourceSha256": "f3b422e02d770bb7f17926a1bd9d2712b1151fae05f444cfdbf755860e4451a8",
-      "templateSha256": "7827d54831a43b368dc00b8f56f695a54fb9ccb391150e71f3d936dce0bb11f3",
+      "templateSha256": "423e7983adcb9f856073f856cdeb234b10ff68de3318536a852cdc4c5b987c57",
       "entities": 414,
       "stockedBoxes": 14,
       "tcHours": 30,
@@ -1321,7 +1411,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "7827d54831a43b368dc00b8f56f695a54fb9ccb391150e71f3d936dce0bb11f3",
+      "exteriorWallCorrections": 14
     },
     {
       "template": "meta_exp_3771614370",
@@ -1330,7 +1422,7 @@
       "uploaderSteamId": "76561198191280147",
       "family": "76561198191280147:dust",
       "sourceSha256": "21131ac0cea1ec385016e0bbfbbb83e07a815a1b35b67e6f72e585bb72a8800c",
-      "templateSha256": "7613d9c36e7c659171c0e7934d28538379709447808ecec817a44101fcc96a84",
+      "templateSha256": "af681ffd0d13ac7215e5f4d695237316c24f8cc26dd4af9935a0c374dd040a98",
       "entities": 612,
       "stockedBoxes": 24,
       "tcHours": 30,
@@ -1341,7 +1433,9 @@
         "ground": true,
         "playerWalkthrough": false,
         "electricalCircuitTest": false
-      }
+      },
+      "preWallCorrectionTemplateSha256": "7613d9c36e7c659171c0e7934d28538379709447808ecec817a44101fcc96a84",
+      "exteriorWallCorrections": 2
     }
   ]
 }

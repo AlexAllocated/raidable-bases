@@ -34,3 +34,13 @@ runtime and ground validation; 600 live selection calls covered every family and
 template without premature family repeats. Selection history was restored, 97
 test removals were verified, and temporary diagnostics/staging were removed.
 See expansion-75.md for source attribution and live-trial limits.
+
+## Reversed Exterior Walls
+
+- [x] Verify native Rust soft-side direction and audit active exports / spawned bases.
+- [x] Exclude interior partitions, enclosed floorless gaps and ambiguous levels.
+- [x] Correct 941 wall rotations in 50 active templates; include the check in import preparation.
+- [x] Pass geometry regressions and isolated native rotation tests before live repairs.
+- [x] Repair 169 matching walls in 14 existing bases without respawning the structures.
+- [x] Restore the one affected ceiling light and its saved wiring / native attachment.
+- [x] Verify all saved rotations, preserved state and inventories, and zero temporary fixtures.

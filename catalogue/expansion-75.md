@@ -14,6 +14,16 @@ These remain **live-trial layouts**: automated passage checks are not complete p
 
 All 97 recorded ground-test removals were checked for zero surviving registered entities. Temporary diagnostics and rejected staging files were removed from the live server.
 
+## Exterior Wall Correction
+
+The subsequent wall audit found reversed exposed walls in the exported templates. On 2026-09-10, 941 wall rotations across 50 active templates were corrected, along with 169 matching walls in 14 existing protected bases. The catalogue still contains 75 families / 84 templates. No layout positions, grades, skins, loot or TC stock were changed in the templates.
+
+The audit uses native Rust wall soft-side direction (local -X), square/triangle tile footprints, floor and ceiling heights, and checks for enclosed floorless gaps. Interior partitions, conflicting levels and ambiguous cases are deliberately left unchanged. This is not an exhaustive certification of every wall or room.
+
+`orient-exterior-walls.mjs` is the repeatable post-export check. Without `--write` it reports proposed corrections; with `--write` it updates only the affected wall yaw values. The import preparation process runs this before staging new candidates. [wall-orientation-corrections.json](wall-orientation-corrections.json) records entity indices and before/after checksums; the original creator-source checksums are retained separately.
+
+Five focused geometry tests pass. Three native fixture repair tests and two corrected-template spawn tests passed; a native file audit verified all 941 corrected rotations. Final live verification accounted for 5,275 original entities and all 169 saved wall rotations, with no test fixtures left. One ceiling light lost its attachment during the live refresh and was restored from the pre-repair save, including its wire, with a 1 cm mounting adjustment. All other entity identities, transforms, health, grades and skins were preserved; affected-base inventory snapshots matched.
+
 ## Added Layouts
 
 | Template | Creator save | Saved entities | Stocked boxes | TC hours |
