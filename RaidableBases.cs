@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.4")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.5")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -226,12 +226,18 @@ namespace Oxide.Plugins
 
         private void OnLootEntity(BasePlayer player, BaseEntity entity)
         {
-            if (player != null && entity is BuildingPrivlidge cupboard) ActivatePermanentDecay(cupboard, "TC opened");
+            if (entity is BuildingPrivlidge cupboard) ActivatePermanentDecayFromInteraction(cupboard, player, "TC opened");
         }
 
-        private void OnCupboardDeauthorize(BuildingPrivlidge cupboard, BasePlayer player) => ActivatePermanentDecay(cupboard, "TC authorization changed");
-        private void OnCupboardClearList(BuildingPrivlidge cupboard, BasePlayer player) => ActivatePermanentDecay(cupboard, "TC authorization cleared");
-        private void OnCupboardAssign(BuildingPrivlidge cupboard, ulong userId, BasePlayer player) => ActivatePermanentDecay(cupboard, "TC authorization assigned");
+        private void ActivatePermanentDecayFromInteraction(BuildingPrivlidge cupboard, BasePlayer player, string reason)
+        {
+            if (player == null || player.IsAdmin || player.net?.connection?.authLevel >= 1) return;
+            ActivatePermanentDecay(cupboard, reason);
+        }
+
+        private void OnCupboardDeauthorize(BuildingPrivlidge cupboard, BasePlayer player) => ActivatePermanentDecayFromInteraction(cupboard, player, "TC authorization changed");
+        private void OnCupboardClearList(BuildingPrivlidge cupboard, BasePlayer player) => ActivatePermanentDecayFromInteraction(cupboard, player, "TC authorization cleared");
+        private void OnCupboardAssign(BuildingPrivlidge cupboard, ulong userId, BasePlayer player) => ActivatePermanentDecayFromInteraction(cupboard, player, "TC authorization assigned");
 
         private void RegisterPermanent(RaidableBase raid)
         {
@@ -13221,7 +13227,7 @@ namespace Oxide.Plugins
 
         private void OnCupboardAuthorize(BuildingPrivlidge priv, BasePlayer player)
         {
-            if (player != null) ActivatePermanentDecay(priv, "TC authorized");
+            ActivatePermanentDecayFromInteraction(priv, player, "TC authorized");
             bool isHookNeeded = permanent.Bases.Count > 0;
 
             foreach (var raid in Raids)

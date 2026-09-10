@@ -22,10 +22,12 @@ Keep this data file with the Rust world save in backups. The fork must remain
 installed to restore protection for untouched bases after server restarts; the structures themselves
 are saved by Rust. New player-built additions are not made permanent automatically.
 
-New bases are decay-free until somebody opens their TC, changes its authorization
+New bases are decay-free until a regular player opens their TC, changes its authorization
 (including assigning, clearing or removing authorization), or destroys it.
 That permanently enables normal Rust upkeep and decay for the entire registered
-base. Admin interactions count too; merely opening a storage box does not.
+base. TC opening and authorization changes by Rust admins or moderators
+(auth level 1 or 2, or the admin flag) do not activate decay. TC destruction still
+does, regardless of who destroys it. Merely opening a storage box does not.
 An intact stocked TC continues buying upkeep normally, so interaction does not
 mean immediate damage. Destroying a TC follows Rust's ordinary grace periods.
 Replacing/refilling a TC can provide upkeep, but never restores the special
