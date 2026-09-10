@@ -2,27 +2,31 @@
 
 ## Current Inventory
 
-This is a source library for replacing the retired authored layouts, not a pack
-of tested CopyPaste bases. No new creator template has been deployed yet.
+This source library replaces the retired authored layouts. The first eight
+creator imports are listed separately in the [live batch](../creator-release.md).
+The remainder is research or quarantine, not a pack of playable bases.
 
 | Stage | Count | Meaning |
 | --- | ---: | --- |
 | Source records | 160 | Guides, versions and Workshop listings, not distinct approved bases |
-| Review-first candidates | 38 | 37 provisional families; inspect these before the backlog |
-| Mechanics hold | 82 | Bunkers, precision placement, old access tricks or unresolved dependencies |
-| Site hold | 3 | Water/cave-specific placement rather than ordinary surface bases |
-| Patched builds excluded | 9 | Do not import the published version |
-| Other discovery leads | 28 | Still need substantive review |
-| Downloaded blueprint payloads | 24 | Unique Fortify files, format and SHA-256 checked |
-| Workshop listings | 20 | Listings verified, Workshop payloads not downloaded |
+| Downloaded blueprint payloads | 39 | 24 Pastebin saves and 15 Workshop files |
+| Native FORTIFY exports | 39 | Converted with the purchased current exporter |
+| Current-game candidates checked | 21 | Includes rejects and held layouts, not just successes |
+| Live-trial additions | 8 | Final adjusted files tested on real ground with stock/upkeep checks |
+| Tested but rejected | 11 | Missing pieces, collapse, inadequate amenities or buried/lost furnishings |
+| Tested but still held | 2 | Basic structure passes; access/mechanics review incomplete |
+| Workshop listings | 20 | Fifteen payloads acquired; the remainder are still leads |
 | Verified video metadata | 95 | Confirms video/title/channel, not current mechanics |
-| Current-game approved additions | 0 | Conversion and acceptance tests remain |
+
+These live trials have not received exhaustive in-player walkthroughs or
+electrical-system certification. Current per-record review categories, including
+the broader mechanics/site holds, are in the structured inventory.
 
 Eleven junk submissions were removed from the discovery index. Known versions
 are grouped rather than counted as independent variety: Garrison/Garrison 2.0,
 Javelin variants, the Dugout reconstruction/remaster, Raptor lineage, Bank,
 Hoarder and Original Frustrator variants. Other geometric duplicates may remain;
-the 37-family count is provisional, not a claim of 37 unique usable imports.
+Research family counts are provisional, not a claim that each is a usable import.
 
 ## Browse
 
@@ -33,14 +37,19 @@ the 37-family count is provisional, not a claim of 37 unique usable imports.
 - [Acceptance criteria](../README.md) and [work checklist](../WORK.md).
 
 The saved source files live in
-`/home/alx/server-ops/physgun/creator-blueprints/`, outside this public repository.
+`/home/alx/server-ops/physgun/creator-blueprints/` and the private FORTIFY staging
+directory, outside this public repository. Converted release files and test
+evidence are under `/home/alx/server-ops/physgun/creator-release/` and
+`/home/alx/server-ops/physgun/creator-integration/`.
 Public availability alone does not establish redistribution rights. Keep author
 credit and check the applicable permissions before publishing converted saves.
 
-## First Conversion Batch
+## Initial Shortlist
 
-Start with these six downloaded layouts. They cover starters through a large
-compound without inventing another floorplan. They still need inspection.
+These six downloaded layouts formed the initial shortlist. Mini Fort, El Padre
+and Garrison failed runtime or ground-integration checks; the other three are
+in the live batch after documented import adjustments. The table retains their
+source references.
 
 | Design | Creator | Save | Initial check |
 | --- | --- | --- | --- |

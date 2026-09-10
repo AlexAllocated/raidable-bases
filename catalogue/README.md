@@ -5,8 +5,9 @@ the owner's request. Their live profiles and Copy-Paste files are also removed;
 they are not fallback choices or part of the replacement import queue. Existing
 world entities are not deleted by removing a template.
 
-The replacement is being researched in [research](research/README.md).
-Source records are research leads, not installed or compatibility-approved bases.
+The first converted batch is documented in [creator-release](creator-release.md).
+The broader source library remains in [research](research/README.md).
+Source records are research leads, not automatically installed or compatibility-approved bases.
 Prioritize faithful creator saves and complete build tutorials over invented
 geometry. Small starter bases, ordinary homes, utility buildings, group bases,
 and large compounds all contribute variety.

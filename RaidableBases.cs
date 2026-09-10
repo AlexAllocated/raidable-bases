@@ -25,7 +25,7 @@ namespace Oxide.Plugins
 {
     // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
     // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
-    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.3")]
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.2.4")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -669,7 +669,8 @@ namespace Oxide.Plugins
             {
                 yield return CoroutineEx.waitForSeconds(0.1f);
 
-                while (Performance.report.frameRate < 15 && ConVar.FPS.limit > 15)
+                // Hosts may throttle empty servers below this threshold indefinitely.
+                while (Performance.report.frameRate < 15 && ConVar.FPS.limit > 15 && BasePlayer.activePlayerList.Count > 0)
                 {
                     BadFrameRate = true;
 
@@ -15050,8 +15051,10 @@ namespace Oxide.Plugins
         {
             var prefabname = entity["prefabname"].ToString();
 
-            return prefabname.Contains("/foundation.") || prefabname.EndsWith("diesel_collectable.prefab") && entity.TryGetValue("skinid", out var skinid) && skinid != null && skinid.ToString() == "1337424001";
+            return IsFoundationPrefab(prefabname) || prefabname.EndsWith("diesel_collectable.prefab") && entity.TryGetValue("skinid", out var skinid) && skinid != null && skinid.ToString() == "1337424001";
         }
+
+        private static bool IsFoundationPrefab(string prefabname) => prefabname.EndsWith("/foundation.prefab") || prefabname.EndsWith("/foundation.triangle.prefab");
 
         private bool IsPrefabExternalWall(Dictionary<string, object> entity)
         {
@@ -15311,7 +15314,7 @@ namespace Oxide.Plugins
             int mask = LayerMask.GetMask("Construction", "Deployed", "World", "Tree", "Resource", "Vehicle_Large", "Vehicle_Detailed");
             foreach (var entity in entities)
             {
-                if (!entity.TryGetValue("prefabname", out var prefab) || !prefab.ToString().Contains("/foundation.")) continue;
+                if (!entity.TryGetValue("prefabname", out var prefab) || !IsFoundationPrefab(prefab.ToString())) continue;
                 hasFoundation = true;
                 var position = (Vector3)entity["position"];
                 var rotation = entity.TryGetValue("rotation", out var rot) && rot is Quaternion q ? q : Quaternion.identity;

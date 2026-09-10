@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-09-10T05:32:11.745Z",
-  "scope": "Source research only; no imports or runtime compatibility approval",
+  "checked_at": "2026-09-10T06:58:09.247Z",
+  "scope": "Creator source inventory and explicitly identified live-trial imports; research leads are not playable templates.",
   "records": [
     {
       "name": "2 in 1 Defence and Heli Base",
@@ -535,6 +535,12 @@
         "evidence": [
           "https://rustbasefinder.com/base_id/58"
         ]
+      },
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "6160fda9dd922022067c4ce4cb495db1f3927956088d2ad5a25b8f9b0646c403",
+        "format": "CopyPaste",
+        "tested_template": null
       }
     },
     {
@@ -588,7 +594,13 @@
           "https://www.corrosionhour.com/rust-colossus-clan-base-design/"
         ]
       },
-      "verified_video_author": "Rust Daddy"
+      "verified_video_author": "Rust Daddy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "941e4d0960568598a37fbe929801862e5f3c3f76b1acd943735803eb1aaa0449",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "DOUBLE Bunker Core Starter Base",
@@ -716,7 +728,13 @@
           "https://www.corrosionhour.com/dirty-russian-trap-base-design/"
         ]
       },
-      "verified_video_author": "Rust Daddy"
+      "verified_video_author": "Rust Daddy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "14ddc9dc797fc1188141ee57c511ac68590420922a87a73e6031135e50fdd44c",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Enhanced Bank",
@@ -914,7 +932,13 @@
           "https://www.corrosionhour.com/rust-foundry-clan-base-design/"
         ]
       },
-      "verified_video_author": "Rust Daddy"
+      "verified_video_author": "Rust Daddy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "197788662f5c81a61f346af0aa8e39b48b9f983de624b1f61a792470d4a8635e",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Frustrator V2",
@@ -1006,7 +1030,13 @@
           "https://sites.google.com/view/evilwurstsbases/home/group-bases"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "2aed1c23512adffc2c627d9674e4b4daae67e89738d8b4a969910904df40a30a",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Frustrator X Multi-Tc",
@@ -1556,7 +1586,13 @@
           "https://rustbasefinder.com/base_id/81"
         ]
       },
-      "verified_video_author": "Kubius"
+      "verified_video_author": "Kubius",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "b37f16a4de878119390a2a9d928ea51da0ae0de3023bd9ceaf6b3b77c109802e",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Mega Aggravator",
@@ -1608,7 +1644,13 @@
           "https://rustbasefinder.com/base_id/31"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "4f26b0c05d1b799249cf684428fb94f0e0bb3db080b852560a2dcdcfc7e75be5",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Mini Compact Bunker",
@@ -1669,7 +1711,7 @@
         "Ergonomic"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://pastebin.com/FFDKsB55",
@@ -1689,14 +1731,32 @@
       "id": "evil-wurst-mini-fort-2",
       "family_id": "evil-wurst-mini-fort-2",
       "review": {
-        "status": "review-first",
+        "status": "runtime-rejected",
         "category": "Starter",
-        "note": "Small starter with shooting floor.",
+        "note": "No workbench; No loot boxes; Structural collapse with foundation supports: 2",
         "evidence": [
           "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "3b37fea4ec0c7914d863743b08996fe2d0bb5479b8e6aae10d5e7bfd63a45713",
+        "format": "CopyPaste",
+        "tested_template": "meta_ew_mini_fort"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "No workbench",
+          "No loot boxes",
+          "Structural collapse with foundation supports: 2"
+        ],
+        "warnings": [],
+        "collapsed": 2,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "Mini Frustrator 2",
@@ -1821,7 +1881,13 @@
           "https://sites.google.com/view/evilwurstsbases/home/group-bases"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "2e30fb643131caa9acc079a942f49e79442b060f05a38abddbd7383a4bcc854b",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Multi TC Grand Frustrator",
@@ -1931,8 +1997,8 @@
         "Online Oriented",
         "Heli Storage"
       ],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://pastebin.com/0YznBD6x",
@@ -1952,14 +2018,47 @@
       "id": "rust-daddy-norseman",
       "family_id": "rust-daddy-norseman",
       "review": {
-        "status": "review-first",
+        "status": "live-trial",
         "category": "Starter",
-        "note": "Small furnished home with roof facilities; review wiring separately.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://www.corrosionhour.com/norseman-duo-starter-base-design-2019/"
         ]
       },
-      "verified_video_author": "Rust Daddy"
+      "verified_video_author": "Rust Daddy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "4502d5825f63c2a3e733d5539680bd041886d399ad99cc223dd7843de050f2ee",
+        "format": "CopyPaste",
+        "tested_template": "meta_rd_norseman"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.frame (0.26, 0.00, -2.53) by item_drop",
+          "Frame obstruction: wall.frame (1.77, 0.00, -1.03) by item_drop",
+          "Ground-floor passage sampling inconclusive; player walkthrough required"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_rd_norseman",
+        "sha256": "b512e041dfaa9c24f9a1cf080d18f4646841d9d4e0ee162fa95be5c6cf7f4903",
+        "entities": 144,
+        "box_count": 15,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          212
+        ],
+        "compatibility_omissions": [],
+        "height_corrections": []
+      }
     },
     {
       "name": "NutHut",
@@ -2818,7 +2917,13 @@
           "https://rustbasefinder.com/base_id/93"
         ]
       },
-      "verified_video_author": "Jason"
+      "verified_video_author": "Jason",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "bc370b76a98e84b2cd2639ab3c22c96e96384fbaa9b60c3a140e5d33dfab9966",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "The Cat Starter",
@@ -3879,8 +3984,8 @@
         "Online Oriented",
         "Ergonomic"
       ],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://pastebin.com/BS6hnzQN",
@@ -3900,14 +4005,76 @@
       "id": "evil-wurst-thrifty-scot-2",
       "family_id": "evil-wurst-thrifty-scot-2",
       "review": {
-        "status": "review-first",
+        "status": "live-trial",
         "category": "Starter",
-        "note": "Starter with separated TC and storage.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "6ab055a2fa6d1640fe55098b995e9d39ccbd6efb09e21ed71ca0d289269a59f1",
+        "format": "CopyPaste",
+        "tested_template": "meta_ew_thrifty_scot"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (-0.82, 0.00, 3.04) by item_drop",
+          "Frame obstruction: wall.frame (-1.53, 0.00, 1.04) by furnace",
+          "Frame obstruction: wall.frame (-0.30, 0.00, 0.19) by locker.deployed",
+          "Ground-floor passage sampling inconclusive; player walkthrough required"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ew_thrifty_scot",
+        "sha256": "3b9a61b9967ea09ead33db3647fe3fb9b12fe7650a3edd825be728c28d2db6e6",
+        "entities": 118,
+        "box_count": 14,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          184
+        ],
+        "compatibility_omissions": [
+          {
+            "prefab": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+            "pos": {
+              "x": "0.2020295",
+              "y": "0.7419",
+              "z": "-1.33328555"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/tuna can wall lamp/tunalight.deployed.prefab",
+            "pos": {
+              "x": "-2.8399705",
+              "y": "1.7649001",
+              "z": "0.5327144499999998"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/playerioents/generators/solar_panels_roof/solarpanel.large.deployed.prefab",
+            "pos": {
+              "x": "0.2230295",
+              "y": "6.1809",
+              "z": "2.5247144500000003"
+            },
+            "reason": "unsupported prop found during ground integration"
+          }
+        ],
+        "height_corrections": []
+      }
     },
     {
       "name": "Trident",
@@ -3958,7 +4125,13 @@
           "https://rustbasefinder.com/base_id/34"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "dc6db897c583cfb6d30a16209395295c5a4bb7c2a670614455b973e0d681a2ee",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Trinity",
@@ -4304,8 +4477,8 @@
       ],
       "discovery": "creator-partner-guide",
       "tags": [],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://pastebin.com/KL0scXkg",
@@ -4325,14 +4498,54 @@
       "id": "evil-wurst-2x2-starter",
       "family_id": "evil-wurst-2x2-starter",
       "review": {
-        "status": "review-first",
+        "status": "live-trial",
         "category": "Starter",
-        "note": "Conventional compact starter; check furnishings against current colliders.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://sites.google.com/view/evilwurstsbases/home/starter-bases"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "247cc3d8a4f5bc84b01c2069785567aee01ad0f4b129aa4ec5c44734f6b9fb1f",
+        "format": "CopyPaste",
+        "tested_template": "meta_ew_2x2"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (0.90, 0.00, -5.58) by door.hinged.metal",
+          "Frame obstruction: wall.frame (-1.50, 0.00, 1.27) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (-0.03, 0.00, 2.80) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (0.03, 0.00, -0.20) by item_drop",
+          "Frame obstruction: wall.frame (-1.44, 0.00, -1.73) by item_drop",
+          "Frame obstruction: wall.frame (-2.10, 0.00, -5.65) by researchtable_deployed",
+          "Frame obstruction: wall.frame (-0.66, 0.00, -3.02) by item_drop",
+          "Frame obstruction: wall.frame (0.12, 0.00, -4.30) by door.hinged.metal",
+          "Frame obstruction: wall.frame (2.40, 0.00, -5.55) by item_drop",
+          "Frame obstruction: wall.frame (-1.33, 0.00, -6.93) by box.wooden.large"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ew_2x2",
+        "sha256": "9ae239496466a0bbef58eb2ac1fef520d11fb227058051a76ef448fe469fc1fd",
+        "entities": 157,
+        "box_count": 18,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          128
+        ],
+        "compatibility_omissions": [],
+        "height_corrections": []
+      }
     },
     {
       "name": "Serenity",
@@ -4378,7 +4591,13 @@
           "https://www.corrosionhour.com/serenity-duo-rust-bunker-base-design/"
         ]
       },
-      "verified_video_author": "Evil Wurst"
+      "verified_video_author": "Evil Wurst",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "a50e9a50038fa2983889b8e46291276d294d3b4ed21f9915d1874d121bb0f841",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Garrison",
@@ -4398,7 +4617,7 @@
       "discovery": "creator-partner-guide",
       "tags": [],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://pastebin.com/2KeyrH7C",
@@ -4418,14 +4637,36 @@
       "id": "cosmonatic-films-garrison",
       "family_id": "cosmonatic-garrison",
       "review": {
-        "status": "review-first",
+        "status": "runtime-rejected",
         "category": "Group",
-        "note": "Single-TC livable group layout; prioritize the original rather than the multi-TC revision.",
+        "note": "13 missing assets/prefabs/deployable/large wood storage/box.wooden.large.prefab during ground integration; 6 missing assets/prefabs/deployable/furnace/furnace.prefab during ground integration",
         "evidence": [
           "https://www.corrosionhour.com/the-garrison-trio-base-design-2020/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "1c9d2a6655bd53f059e66619fbe8c79ab5b86910efb01ef02c5f2560116a5a9f",
+        "format": "CopyPaste",
+        "tested_template": "meta_cf_garrison"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (4.75, 0.00, 5.60) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (3.45, 0.00, 4.85) by item_drop",
+          "Frame obstruction: wall.frame (0.65, 0.00, 1.50) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (0.65, 0.00, -1.50) by item_drop",
+          "Frame obstruction: wall.frame (1.95, 0.00, -0.75) by item_drop",
+          "Frame obstruction: wall.frame (1.95, 0.00, 0.75) by item_drop"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false,
+        "ground_diagnosis": "GroundWatch/DestroyOnGroundMissing removed unsupported first-floor storage and furnaces. A 1.5m furniture-height repair was tested and still failed. Not deployed."
+      }
     },
     {
       "name": "Garrison 2.0",
@@ -4472,7 +4713,13 @@
           "https://www.corrosionhour.com/the-garrison-2-0-trio-base-design-2021/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "18a22ade01785ecaa11833fe3282c421ceb8d073e3866613d8e78271ae8ace4a",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Raptor 2.0",
@@ -4519,7 +4766,13 @@
           "https://www.corrosionhour.com/rust-raptor-2-trio-base-design/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "73561993abd45cef07b761156ae2c2effc43649dd2ba57dde176b05d9b0a5172",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Armada",
@@ -4566,7 +4819,13 @@
           "https://www.corrosionhour.com/the-armada-large-group-base-design-2021/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "676161ce78535dcee0e8e0c927ef973e79186e28f5850cd50f0b99aa70d1a4eb",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Bullhorn",
@@ -4613,7 +4872,13 @@
           "https://www.corrosionhour.com/the-bullhorn-rust-base-design-2021/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "3079363d7e52b3054945017b88971ff3fc19c79147551e8d2c89561251483e7a",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Javelin",
@@ -4660,7 +4925,13 @@
           "https://www.corrosionhour.com/rust-javelin-trio-base-design/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "d1288ac50341d74fdd0cf7c08b35d1ce3628aec9e81223c27a4a9c230ce7808b",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Javelin Multi-TC",
@@ -4742,7 +5013,13 @@
           "https://www.corrosionhour.com/rust-hexapod-2-0-disconnectable-tc/"
         ]
       },
-      "verified_video_author": "Cosmonatic Films"
+      "verified_video_author": "Cosmonatic Films",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "20f85fcb26767c371dc1ad87c72bd040f23174b8f011d345c7ef27fd35e53e22",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "El Padre",
@@ -4761,7 +5038,7 @@
       "discovery": "creator-partner-guide",
       "tags": [],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://pastebin.com/fKidiS93",
@@ -4781,14 +5058,70 @@
       "id": "rust-daddy-el-padre",
       "family_id": "rust-daddy-el-padre",
       "review": {
-        "status": "review-first",
+        "status": "runtime-rejected",
         "category": "Clan",
-        "note": "Large multi-TC compound; inspect connections, entrances and entity budget.",
+        "note": "Missing spawned entities assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab: 0/4; Missing spawned entities assets/prefabs/building/floor.grill/floor.grill.prefab: 0/12; Missing spawned entities assets/prefabs/building/floor.triangle.grill/floor.triangle.grill.prefab: 0/20",
         "evidence": [
           "https://www.corrosionhour.com/el-padre-clan-base-design-2020/"
         ]
       },
-      "verified_video_author": "Rust Daddy"
+      "verified_video_author": "Rust Daddy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "2894b53361bb0b11a986fa664b2b0e58828e9dbd93e2ae3ec2f370290fb06c24",
+        "format": "CopyPaste",
+        "tested_template": "meta_rd_el_padre"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "Missing spawned entities assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab: 0/4",
+          "Missing spawned entities assets/prefabs/building/floor.grill/floor.grill.prefab: 0/12",
+          "Missing spawned entities assets/prefabs/building/floor.triangle.grill/floor.triangle.grill.prefab: 0/20"
+        ],
+        "warnings": [
+          "Frame obstruction: wall.doorway (0.74, 0.00, -12.01) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (9.21, 0.00, 4.70) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-22.63, 0.00, 26.22) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (21.17, 0.00, 26.19) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (29.60, 0.00, 0.73) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (-9.20, 0.00, 4.71) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-9.21, 0.00, -4.70) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-0.74, 0.00, 12.01) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (0.01, 0.00, 10.70) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (4.69, 0.00, -9.21) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-20.39, 0.00, 18.92) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.doorway (22.63, 0.00, -26.22) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (0.73, 0.00, -29.60) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (9.20, 0.00, -4.71) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (4.71, 0.00, 9.20) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-29.60, 0.00, -0.73) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (-4.70, 0.00, 9.21) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-21.17, 0.00, -26.19) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (-0.01, 0.00, -10.70) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (1.52, 0.00, 22.30) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.doorway (-0.73, 0.00, 29.60) by cupboard.tool.deployed",
+          "Frame obstruction: wall.doorway (-4.71, 0.00, -9.20) by door.hinged.metal",
+          "Frame obstruction: wall.frame (-1.50, 0.00, 0.00) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (1.50, 0.00, -3.00) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (23.39, 0.00, -21.92) by door.double.hinged.metal",
+          "Frame obstruction: wall.frame (-21.89, 0.00, 20.42) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (-1.48, 0.00, 25.31) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (25.30, 0.00, 1.48) by furnace.large",
+          "Frame obstruction: wall.frame (1.50, 0.00, 3.00) by woodbox_deployed",
+          "Frame obstruction: wall.frame (20.42, 0.00, 21.89) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (-21.92, 0.00, -20.39) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (-20.42, 0.00, -21.89) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (0.02, 0.00, 23.81) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (21.92, 0.00, 20.39) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (1.48, 0.00, -25.31) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (21.89, 0.00, -20.42) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (-25.31, 0.00, -1.48) by furnace.large"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "Harvester",
@@ -4869,7 +5202,13 @@
           "https://www.corrosionhour.com/rust-blackwidow-bunker-base-design/"
         ]
       },
-      "verified_video_author": "Rust Daddy"
+      "verified_video_author": "Rust Daddy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "91659898bb3fa391bd316f340a70802b8502285648591c53d4f74185fa94b5be",
+        "format": "CopyPaste",
+        "tested_template": null
+      }
     },
     {
       "name": "Kastro Mini - V2",
@@ -4889,24 +5228,49 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3681328489",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 70173,
+          "sha256": "f8d55e2dd3dc5aa7c1441d155f4bee070d9efdac2fe1c7ee66947fbb889a48d7",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3681328489.txt"
         }
       ],
       "id": "akfreiheit-kastro-mini-v2",
       "family_id": "akfreiheit-kastro-mini-v2",
       "review": {
-        "status": "discovery-only",
+        "status": "runtime-rejected",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "Missing spawned entities assets/prefabs/building core/floor.triangle/floor.triangle.prefab: 287/289; Missing spawned entities assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab: 15/20; Structural collapse with foundation supports: 1",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3681328489"
         ]
       },
-      "uploader": "AKFreiheit"
+      "uploader": "AKFreiheit",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "7c6d0308a878d39150530205e508f933af5468c797249e78cf93b00328af5958",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3681328489"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "Missing spawned entities assets/prefabs/building core/floor.triangle/floor.triangle.prefab: 287/289",
+          "Missing spawned entities assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab: 15/20",
+          "Structural collapse with foundation supports: 1"
+        ],
+        "warnings": [
+          "Frame obstruction: wall.frame (6.47, 0.00, 0.75) by researchtable_deployed",
+          "Frame obstruction: wall.frame (7.77, 0.00, 0.00) by shelves"
+        ],
+        "collapsed": 1,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "The Snail Solo",
@@ -4993,12 +5357,16 @@
       "tags": [
         "Building 4.0"
       ],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3571906373",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 21991,
+          "sha256": "872f012258b645b981c4e1a32e3a48ab91792b99d38de2541403378b8bd121e7",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3571906373.txt"
         }
       ],
       "video_check": {
@@ -5010,15 +5378,661 @@
       "id": "bahamut-western-saloon-roleplay-base",
       "family_id": "bahamut-western-saloon-roleplay-base",
       "review": {
-        "status": "review-first",
+        "status": "live-trial",
         "category": "Utility",
-        "note": "Visual variety; non-meta roleplay building, verify ordinary entrances.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3571906373"
         ]
       },
       "verified_video_author": "BahamutGm",
-      "uploader": "Bahamut"
+      "uploader": "Bahamut",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "3f78e128d7744a4d80f8794e7f5d42dbb886db62158580ee4cdc1afabb0c7f43",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3571906373"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.frame (3.31, 0.00, -4.64) by fridge.deployed",
+          "Frame obstruction: wall.frame (-6.48, 0.00, -0.08) by mixingtable.deployed",
+          "Frame obstruction: wall.frame (6.93, 0.00, -3.02) by item_drop"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ws_3571906373",
+        "sha256": "e1fcdd9af962e94ca75a8b4d461eaaf00aeed06f9cd09f775f471e2b446b5d74",
+        "entities": 423,
+        "box_count": 3,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          41
+        ],
+        "compatibility_omissions": [
+          {
+            "prefab": "assets/prefabs/deployable/planters/planter.small.deployed.prefab",
+            "pos": {
+              "x": "5.028000499999999",
+              "y": "-1.40009996",
+              "z": "8.770730499999999"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/planters/planter.small.deployed.prefab",
+            "pos": {
+              "x": "2.687999499999999",
+              "y": "-1.40009996",
+              "z": "9.9407305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/content/vehicles/sedan_a/sedantest.entity.prefab",
+            "pos": {
+              "x": "-6.7380005",
+              "y": "-1.40009996",
+              "z": "11.725730500000001"
+            },
+            "reason": "vehicle omitted"
+          },
+          {
+            "prefab": "assets/content/vehicles/sedan_a/sedantest.entity.prefab",
+            "pos": {
+              "x": "13.5690005",
+              "y": "-1.40009996",
+              "z": "1.1297305"
+            },
+            "reason": "vehicle omitted"
+          },
+          {
+            "prefab": "assets/content/vehicles/sedan_a/sedantest.entity.prefab",
+            "pos": {
+              "x": "12.0180005",
+              "y": "-1.40009996",
+              "z": "3.6797305000000002"
+            },
+            "reason": "vehicle omitted"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab",
+            "pos": {
+              "x": "7.328999499999999",
+              "y": "-1.40009996",
+              "z": "3.8507305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/hitch & trough/hitchtrough.deployed.prefab",
+            "pos": {
+              "x": "-2.703000500000001",
+              "y": "-1.40009996",
+              "z": "8.6537305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/content/vehicles/bikes/motorbike.prefab",
+            "pos": {
+              "x": "-4.4669995",
+              "y": "-1.40009996",
+              "z": "9.9227305"
+            },
+            "reason": "vehicle omitted"
+          },
+          {
+            "prefab": "assets/prefabs/misc/decor_dlc/minecart planter/minecart.planter.deployed.prefab",
+            "pos": {
+              "x": "5.7449995",
+              "y": "-1.40009996",
+              "z": "6.9377305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/decor_dlc/bath tub planter/bathtub.planter.deployed.prefab",
+            "pos": {
+              "x": "0.3749994999999995",
+              "y": "-1.40009996",
+              "z": "9.2477305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-4.868999500000001",
+              "y": "1.09890004",
+              "z": "-0.12426949999999959"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-3.2640005000000007",
+              "y": "1.09890004",
+              "z": "-2.3652694999999992"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-0.5489995000000008",
+              "y": "1.09890004",
+              "z": "-3.6672695000000006"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "2.169000499999999",
+              "y": "1.09890004",
+              "z": "-3.4572694999999998"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "10.1909995",
+              "y": "3.01290004",
+              "z": "-3.1392695"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "8.7330005",
+              "y": "3.01290004",
+              "z": "-0.7812694999999996"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "6.9630005",
+              "y": "3.01290004",
+              "z": "1.6787314999999996"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "4.997999499999999",
+              "y": "3.01290004",
+              "z": "4.0967305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-9.816000500000001",
+              "y": "3.01290004",
+              "z": "6.0017304"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-5.403000500000001",
+              "y": "3.01290004",
+              "z": "6.5927304"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-0.9210005000000008",
+              "y": "3.01290004",
+              "z": "6.6947309"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "2.4899994999999993",
+              "y": "3.01290004",
+              "z": "6.2837307"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "2.3939994999999996",
+              "y": "3.01290004",
+              "z": "-4.8852705"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-4.9859995",
+              "y": "3.01290004",
+              "z": "-2.0142685"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-2.1779995000000003",
+              "y": "3.01290004",
+              "z": "-4.4802705000000005"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/discoball/discoball.deployed.prefab",
+            "pos": {
+              "x": "-1.889999500000001",
+              "y": "3.01290004",
+              "z": "-3.2862695000000004"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-6.675000500000001",
+              "y": "3.08490004",
+              "z": "2.6447305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "5.535000499999999",
+              "y": "3.09090004",
+              "z": "-3.0282694999999995"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-9.348000500000001",
+              "y": "3.11190004",
+              "z": "2.1797305000000002"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-6.8220005000000015",
+              "y": "3.11190004",
+              "z": "2.3987305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-8.0160005",
+              "y": "3.11490004",
+              "z": "0.03473050000000022"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "8.192999499999999",
+              "y": "3.11490004",
+              "z": "-2.7312705"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "2.2739994999999995",
+              "y": "3.11790004",
+              "z": "-3.2862695000000004"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "0.3990004999999992",
+              "y": "3.12390004",
+              "z": "5.6417307"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-2.4210005000000008",
+              "y": "3.12690004",
+              "z": "5.3927309"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-1.8480005000000004",
+              "y": "3.12690004",
+              "z": "-2.9112695000000004"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "6.762000499999999",
+              "y": "3.12990004",
+              "z": "-5.5362705"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "5.427000499999999",
+              "y": "3.12990004",
+              "z": "-3.3132685000000004"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "6.638999499999999",
+              "y": "3.12990004",
+              "z": "-0.5142685"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "4.911000499999999",
+              "y": "3.13290004",
+              "z": "1.9517295"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-5.403000500000001",
+              "y": "3.13290004",
+              "z": "5.1347302"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "3.3120002999999993",
+              "y": "3.14190004",
+              "z": "4.2377305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "-8.0490005",
+              "y": "3.14790004",
+              "z": "4.9037305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-0.27299950000000095",
+              "y": "3.1509000400000002",
+              "z": "-3.5082685000000007"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-3.294000500000001",
+              "y": "3.15690004",
+              "z": "-2.1132685"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/misc/permstore/industriallight/industrial.wall.lamp.red.deployed.prefab",
+            "pos": {
+              "x": "4.3200001",
+              "y": "3.1629000400000002",
+              "z": "-5.752270500000001"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-4.778999500000001",
+              "y": "3.16890004",
+              "z": "0.004730499999999971"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "3.390000299999999",
+              "y": "3.17190004",
+              "z": "-4.5192705"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-6.4680005000000005",
+              "y": "3.18390004",
+              "z": "0.06473049999999958"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "3.1379999999999995",
+              "y": "4.008900039999999",
+              "z": "-4.639270499999999"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "0.8940004999999993",
+              "y": "4.008900039999999",
+              "z": "-3.6852685000000003"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-4.182000500000001",
+              "y": "4.03590004",
+              "z": "-1.3302695"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-6.5040005",
+              "y": "4.04490004",
+              "z": "-0.2172685000000003"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/soundlight/soundlight.deployed.prefab",
+            "pos": {
+              "x": "-1.772999500000001",
+              "y": "4.0569000399999995",
+              "z": "-3.250269500000001"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-0.7469995000000003",
+              "y": "4.51290004",
+              "z": "3.0407305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-2.004000500000001",
+              "y": "4.51290004",
+              "z": "0.3047304999999998"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-3.1469995000000006",
+              "y": "4.51290004",
+              "z": "4.1057305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-4.380000500000001",
+              "y": "4.51290004",
+              "z": "1.3847304999999999"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-5.973000500000001",
+              "y": "4.51290004",
+              "z": "4.0607305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "-7.269000500000001",
+              "y": "4.51290004",
+              "z": "1.2917305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "0.7319994999999992",
+              "y": "4.51290004",
+              "z": "-0.9642695000000003"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "2.001000499999999",
+              "y": "4.51290004",
+              "z": "1.7657305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "4.350000799999999",
+              "y": "4.51290004",
+              "z": "0.7037304999999998"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "3.2009996999999992",
+              "y": "4.51290004",
+              "z": "-1.8762685000000001"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "6.0690005",
+              "y": "4.51290004",
+              "z": "-1.7112695000000002"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/ceiling light/ceilinglight.deployed.prefab",
+            "pos": {
+              "x": "4.893000099999999",
+              "y": "4.51290004",
+              "z": "-4.4202705"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/discoball/discoball.deployed.prefab",
+            "pos": {
+              "x": "-1.1609995000000009",
+              "y": "4.51290004",
+              "z": "-1.4142694999999996"
+            },
+            "reason": "unsupported prop found during ground integration"
+          },
+          {
+            "prefab": "assets/prefabs/voiceaudio/discoball/discoball.deployed.prefab",
+            "pos": {
+              "x": "1.0410004999999996",
+              "y": "4.51290004",
+              "z": "3.3947305"
+            },
+            "reason": "unsupported prop found during ground integration"
+          }
+        ],
+        "height_corrections": []
+      }
     },
     {
       "name": "House for Three",
@@ -5033,25 +6047,64 @@
       "flags": [],
       "discovery": "workshop",
       "tags": [],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2026082180",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 7617,
+          "sha256": "f6100dce5b5351e3e1394c18e431c541201a91f4638135f1555f395c04b328ff",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_2026082180.txt"
         }
       ],
       "id": "skirow-house-for-three",
       "family_id": "skirow-house-for-three",
       "review": {
-        "status": "review-first",
+        "status": "live-trial",
         "category": "Small",
-        "note": "Workshop layout; inspect downloaded model before accepting.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=2026082180"
         ]
       },
-      "uploader": "SKIROW"
+      "uploader": "SKIROW",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "03f4ad35d4aa3489c979481ae55283033cc874bb7d23df936d2d741ef97c7cbf",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_2026082180"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (7.07, 0.00, 4.30) by door.hinged.wood",
+          "Frame obstruction: wall.doorway (-2.57, 0.00, -5.60) by door.hinged.wood",
+          "Frame obstruction: wall.frame (3.92, 0.00, 0.75) by item_drop",
+          "Frame obstruction: wall.frame (5.42, 0.00, -1.85) by furnace",
+          "Frame obstruction: wall.frame (1.88, 0.00, 1.30) by item_drop"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ws_2026082180",
+        "sha256": "4f040b5f2feaf02af50415e0984d1cec83ecce7322b33be87ad136f7c778cb1d",
+        "entities": 245,
+        "box_count": 11,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          51
+        ],
+        "compatibility_omissions": [],
+        "height_corrections": []
+      }
     },
     {
       "name": "Simple Trap",
@@ -5105,25 +6158,80 @@
       "tags": [
         "Building 4.0"
       ],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2850494914",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 1827,
+          "sha256": "eca6d9f62f6b982dda1ec5171f1a0e56eff9c70d3578ceb5f6bff463efbbbcfa",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_2850494914.txt"
         }
       ],
       "id": "battle-grandma-simple-solo-1",
       "family_id": "battle-grandma-simple-solo-1",
       "review": {
-        "status": "review-first",
+        "status": "live-trial",
         "category": "Starter",
-        "note": "Workshop layout; inspect downloaded model before accepting.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=2850494914"
         ]
       },
-      "uploader": "Battle Grandma"
+      "uploader": "Battle Grandma",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "7147edc3a58cf7fa6a2492d9e511af857ea87a84aaa160510d5dba3cb1cab225",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_2850494914"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (-2.05, 0.00, -0.75) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (-0.75, 0.00, -1.50) by item_drop"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ws_2850494914",
+        "sha256": "95eab4fb01a8b317ebbd029b215ed431a989e9f09778cff840302b95432872b9",
+        "entities": 37,
+        "box_count": 6,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          751
+        ],
+        "compatibility_omissions": [
+          {
+            "prefab": "assets/prefabs/deployable/repair bench/repairbench_deployed.prefab",
+            "pos": {
+              "x": "0.7020039999999999",
+              "y": "-1.40310044",
+              "z": "3.618004"
+            },
+            "reason": "bench below foundation level"
+          },
+          {
+            "prefab": "assets/prefabs/deployable/research table/researchtable_deployed.prefab",
+            "pos": {
+              "x": "-1.281006",
+              "y": "-1.40310044",
+              "z": "1.3740005"
+            },
+            "reason": "bench below foundation level"
+          }
+        ],
+        "height_corrections": []
+      }
     },
     {
       "name": "Mega Starter",
@@ -5138,25 +6246,61 @@
       "flags": [],
       "discovery": "workshop",
       "tags": [],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=1192110102",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 1291,
+          "sha256": "be680bee47744ca064d47e1937281b6a70ea10b4cd4a977d89e7f742ce5caa35",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_1192110102.txt"
         }
       ],
       "id": "itchy-nuts-mega-starter",
       "family_id": "itchy-nuts-mega-starter",
       "review": {
-        "status": "discovery-only",
+        "status": "live-trial",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=1192110102"
         ]
       },
-      "uploader": "Itchy_Nuts"
+      "uploader": "Itchy_Nuts",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "42078baee1c4182e30081e2a0c35f3229590063aeed568dccbc216471a31d4f2",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_1192110102"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (1.50, 0.00, 0.10) by item_drop",
+          "Frame obstruction: wall.doorway (2.25, 0.00, 1.40) by door.hinged.metal"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ws_1192110102",
+        "sha256": "b999552a18f411ef0900438b7ce4c21203bc29af2bf829546e0cd211c689737f",
+        "entities": 41,
+        "box_count": 5,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          636
+        ],
+        "compatibility_omissions": [],
+        "height_corrections": []
+      }
     },
     {
       "name": "[PVE] Solo base #27",
@@ -5174,24 +6318,57 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3175833005",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 10035,
+          "sha256": "baa438b8cc3d190b20a820b49bca8de65db1325abce486418fdd2686d8dafa90",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3175833005.txt"
         }
       ],
       "id": "trippy-pve-solo-base-27",
       "family_id": "trippy-pve-solo-base-27",
       "review": {
-        "status": "discovery-only",
+        "status": "runtime-rejected",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "Structural collapse with foundation supports: 8",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3175833005"
         ]
       },
-      "uploader": "Trippy"
+      "uploader": "Trippy",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "025eefdb87c8c9f95c0e0c52f36a32acea0aa3618ed873b59af8c9080248896f",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3175833005"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "Structural collapse with foundation supports: 8"
+        ],
+        "warnings": [
+          "Frame obstruction: wall.doorway (3.35, 0.00, -4.65) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (0.75, 0.00, -4.65) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (-0.55, 0.00, -6.90) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (6.35, 0.00, 5.05) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (3.35, 0.00, -9.15) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (10.25, 0.00, 2.80) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (0.75, 0.00, -9.15) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (8.95, 0.00, 0.55) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (6.35, 0.00, 0.55) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (5.05, 0.00, 2.80) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (8.95, 0.00, 5.05) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (4.65, 0.00, -6.90) by vendingmachine.deployed"
+        ],
+        "collapsed": 8,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "best 2x2 base",
@@ -5207,24 +6384,45 @@
       "discovery": "workshop",
       "tags": [],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3760307251",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 31011,
+          "sha256": "bfd9137c77ec2cd8b682a40e6f817445a057bdccbbca805b7dfe527ff5cb29c5",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3760307251.txt"
         }
       ],
       "id": "best-2x2-base",
       "family_id": "best-2x2-base",
       "review": {
-        "status": "discovery-only",
+        "status": "runtime-rejected",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "Missing prefab: assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/wicker_barrel.prefab; Missing prefab: assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/bamboo_barrel.prefab",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3760307251"
         ]
       },
-      "uploader": "пожиратель говна"
+      "uploader": "пожиратель говна",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "0c87d5172c1307515e97371c2d893b5227e2d961820a70798da5e295ea5ebce9",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3760307251"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "Missing prefab: assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/wicker_barrel.prefab",
+          "Missing prefab: assets/prefabs/deployable/large wood storage/skins/jungle_dlc_large_wood_box/bamboo_barrel.prefab"
+        ],
+        "warnings": [],
+        "collapsed": null,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "Small SHOP - By SLOF",
@@ -5242,24 +6440,49 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3733113402",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 3027,
+          "sha256": "f802c09ef63fb3c1152395ce0cce48c9f836f7b02b7d6a38ab72625e112f1f52",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3733113402.txt"
         }
       ],
       "id": "slof-small-shop-by-slof",
       "family_id": "slof-small-shop-by-slof",
       "review": {
-        "status": "review-first",
+        "status": "runtime-rejected",
         "category": "Utility",
-        "note": "Shop variety; inspect counter and shop-door access.",
+        "note": "1 missing assets/prefabs/deployable/bbq/bbq.deployed.prefab during ground integration; 4 missing assets/prefabs/deployable/woodenbox/woodbox_deployed.prefab during ground integration; 1 missing assets/prefabs/deployable/furnace/furnace.prefab during ground integration; 1 missing assets/prefabs/deployable/repair bench/repairbench_deployed.prefab during ground integration; 1 missing assets/prefabs/deployable/research table/researchtable_deployed.prefab during ground integration; 1 missing assets/prefabs/deployable/cookingworkbench/cookingworkbench.deployed.prefab during ground integration; 9 missing assets/prefabs/misc/xmas/christmas_lights/xmas.lightstring.deployed.prefab during ground integration",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3733113402"
         ]
       },
-      "uploader": "SLOF"
+      "uploader": "SLOF",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "0327ef5fb6104c33d3f4d0f0a3eceef683de459c0c05a783aa5a849251de1710",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3733113402"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (3.46, 0.00, 2.33) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (3.33, 0.00, 0.84) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (1.01, 0.00, 4.05) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (-0.35, 0.00, 3.42) by vendingmachine.deployed",
+          "Frame obstruction: wall.doorway (-1.84, 0.00, 1.29) by door.hinged.toptier",
+          "Frame obstruction: wall.doorway (-0.62, 0.00, 0.43) by beachtowel.deployed"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "2by1 solo duo (my lovely hom",
@@ -5277,24 +6500,55 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3610103151",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 35573,
+          "sha256": "82c77d3d7e3049a69a63d3539519052ee872aef96319b4b980308405830c892c",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3610103151.txt"
         }
       ],
       "id": "calys-2by1-solo-duo-my-lovely-hom",
       "family_id": "calys-2by1-solo-duo-my-lovely-hom",
       "review": {
-        "status": "discovery-only",
+        "status": "runtime-rejected",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "Duplicate structural pieces: 3; Missing spawned entities assets/prefabs/building core/wall.half/wall.half.prefab: 94/96; Missing spawned entities assets/prefabs/building core/wall.doorway/wall.doorway.prefab: 12/16; Missing spawned entities assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab: 38/39; Missing spawned entities assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab: 3/5; Structural collapse with foundation supports: 2",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3610103151"
         ]
       },
-      "uploader": "Calys"
+      "uploader": "Calys",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "b5bb818a0d92d92a87245579971a5b644faa3df29e75e7bf720be0e9389fdd55",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3610103151"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "Duplicate structural pieces: 3",
+          "Missing spawned entities assets/prefabs/building core/wall.half/wall.half.prefab: 94/96",
+          "Missing spawned entities assets/prefabs/building core/wall.doorway/wall.doorway.prefab: 12/16",
+          "Missing spawned entities assets/prefabs/building/door.double.hinged/door.double.hinged.metal.prefab: 38/39",
+          "Missing spawned entities assets/prefabs/building/floor.triangle.ladder.hatch/floor.triangle.ladder.hatch.prefab: 3/5",
+          "Structural collapse with foundation supports: 2"
+        ],
+        "warnings": [
+          "Frame obstruction: wall.frame (15.58, 0.00, -1.50) by door.double.hinged.metal",
+          "Frame obstruction: wall.frame (5.48, 0.00, 6.40) by roof",
+          "Frame obstruction: wall.frame (2.89, 0.00, 0.00) by sleepingbag_leather_deployed",
+          "Frame obstruction: wall.frame (-0.11, 0.00, 0.00) by locker.deployed",
+          "Frame obstruction: wall.frame (-5.71, 0.00, -6.40) by roof"
+        ],
+        "collapsed": 2,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "Tortuga",
@@ -5310,24 +6564,45 @@
       "discovery": "workshop",
       "tags": [],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3580896994",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 7055,
+          "sha256": "7a39edf0be3c15399e71c3501e1ca826d6c571bab54b44e73a590c91a19ad986",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3580896994.txt"
         }
       ],
       "id": "lemon-tortuga",
       "family_id": "lemon-tortuga",
       "review": {
-        "status": "discovery-only",
+        "status": "runtime-rejected",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "No ground-level door; No clear ground-floor frame passage",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3580896994"
         ]
       },
-      "uploader": "Lemon"
+      "uploader": "Lemon",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "990871a34bdf722480d7a123cecfc4cd0b9776f4cc3663a9c7fb5aea8db15bba",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3580896994"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "No ground-level door",
+          "No clear ground-floor frame passage"
+        ],
+        "warnings": [],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "Dust - The Dugout",
@@ -5345,24 +6620,48 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3467830200",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 17089,
+          "sha256": "777e2ee48c5d09309dc3087bec3929ea1489943348e6628a42965fd2bfce8d8e",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3467830200.txt"
         }
       ],
       "id": "tobi-polar-dust-the-dugout",
       "family_id": "dust-dugout",
       "review": {
-        "status": "review-first",
+        "status": "mechanics-hold",
         "category": "Small",
-        "note": "Community reconstruction of Dust; verify fidelity against the original guide.",
+        "note": "Basic structural checks passed; complete access/mechanics review remains. Not deployed.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3467830200"
         ]
       },
-      "uploader": "tobi-polar"
+      "uploader": "tobi-polar",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "d00c7a7384d2fa5c97be71d37fb4420b02aafadb7a694b0af69da94c03b31138",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3467830200"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (2.80, 0.00, 0.75) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (1.50, 0.00, 1.50) by beachtowel.deployed",
+          "Frame obstruction: wall.doorway (-14.40, 0.00, 0.75) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (14.40, 0.00, -0.75) by door.hinged.metal",
+          "Frame obstruction: wall.frame (0.00, 0.00, 0.00) by beachtowel.deployed"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "The Tower Bunker",
@@ -5454,24 +6753,47 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3367515491",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 4890,
+          "sha256": "d8db878770c4fc2967c7ad372733e87c82a4cb8cd7b5a7988dea28da09c1e476",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3367515491.txt"
         }
       ],
       "id": "tlennka-tlennka-furnace-2-0",
       "family_id": "tlennka-tlennka-furnace-2-0",
       "review": {
-        "status": "review-first",
+        "status": "runtime-rejected",
         "category": "Utility",
-        "note": "Furnace variety; inspect model and clearances.",
+        "note": "6 missing assets/prefabs/deployable/large wood storage/box.wooden.large.prefab during ground integration",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3367515491"
         ]
       },
-      "uploader": "Tlennka"
+      "uploader": "Tlennka",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "044c537f00ebda8cc09edfb71be6749d80a36bef644f316bed993a6bb45b7bb1",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3367515491"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (-1.50, 0.00, -8.20) by door.hinged.metal",
+          "Frame obstruction: wall.doorway (1.50, 0.00, 8.20) by door.hinged.metal",
+          "Frame obstruction: wall.frame (-3.00, 0.00, 1.50) by locker.deployed",
+          "Frame obstruction: wall.frame (3.00, 0.00, -1.50) by workbench2.deployed"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "PVE Solo Base",
@@ -5487,24 +6809,46 @@
       "discovery": "workshop",
       "tags": [],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3073203923",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 6496,
+          "sha256": "09d634604ff92d0c16f04b6bfb3e1b890c23929992b3f25479d5f65f6c2fa383",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_3073203923.txt"
         }
       ],
       "id": "zim-pve-solo-base",
       "family_id": "zim-pve-solo-base",
       "review": {
-        "status": "discovery-only",
+        "status": "runtime-rejected",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "No TC; No loot boxes; Structural collapse with foundation supports: 4",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=3073203923"
         ]
       },
-      "uploader": "Zim"
+      "uploader": "Zim",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "1b9995882034c20dfc12853b058f7e1e400c571dfcfc6cf8d010d8c09d9ac327",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_3073203923"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [
+          "No TC",
+          "No loot boxes",
+          "Structural collapse with foundation supports: 4"
+        ],
+        "warnings": [],
+        "collapsed": 4,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "RWPVP Easy#1",
@@ -5521,25 +6865,64 @@
       "tags": [
         "Building 4.0"
       ],
-      "approval": "not-approved",
-      "current_game_tested": false,
+      "approval": "live-trial",
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258636",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 1806,
+          "sha256": "12485b2b41146ba1ea3587025a70bbbc435de85de0efb0a01729162cc9b0d971",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_2843258636.txt"
         }
       ],
       "id": "jlee2834-rwpvp-easy-1",
       "family_id": "jlee2834-rwpvp-easy-1",
       "review": {
-        "status": "discovery-only",
+        "status": "live-trial",
         "category": "Unclassified",
-        "note": "Discovery tags and video metadata only; no current-game acceptance test.",
+        "note": "Native export with documented compatibility adjustments passed automated structure/clearance checks and real-ground permanent-mode integration. Full player walkthrough and electrical circuit operation are not certified.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=2843258636"
         ]
       },
-      "uploader": "jlee2834"
+      "uploader": "jlee2834",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "066efd915d0a26d3296ea155d086c8c70bf690a81645fd87bbcc9ce6c1095d6e",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_2843258636"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [
+          "Frame obstruction: wall.doorway (-3.55, 0.00, 0.75) by item_drop",
+          "Frame obstruction: wall.doorway (-2.25, 0.00, 1.50) by door.hinged.metal",
+          "Frame obstruction: wall.frame (-0.75, 0.00, 0.00) by item_drop",
+          "Frame obstruction: wall.frame (0.75, 0.00, 1.50) by item_drop",
+          "Frame obstruction: wall.frame (0.75, 0.00, -1.50) by item_drop"
+        ],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      },
+      "deployment": {
+        "template": "meta_ws_2843258636",
+        "sha256": "8c76fee501a97ee1966dd50f86807fb98702e0cb5cb105854ca2eed972a98cab",
+        "entities": 58,
+        "box_count": 11,
+        "stocked": true,
+        "uniform_skins": true,
+        "persistent": true,
+        "stability": true,
+        "upkeep_hours": [
+          385
+        ],
+        "compatibility_omissions": [],
+        "height_corrections": []
+      }
     },
     {
       "name": "Rust Deco Tower",
@@ -5561,24 +6944,42 @@
         "Building 4.0"
       ],
       "approval": "not-approved",
-      "current_game_tested": false,
+      "current_game_tested": true,
       "downloads": [
         {
           "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2798756514",
-          "status": "listing-only-not-downloaded"
+          "status": "download-verified",
+          "format": "fortify",
+          "bytes": 70660,
+          "sha256": "cd37e672b648600edb20906c533c23262605dc577276eae5a90419a2c55ad789",
+          "local_path": "/home/alx/server-ops/physgun/creator-workshop-sources/ws_2798756514.txt"
         }
       ],
       "id": "akfreiheit-rust-deco-tower",
       "family_id": "akfreiheit-rust-deco-tower",
       "review": {
-        "status": "discovery-only",
+        "status": "mechanics-hold",
         "category": "Utility",
-        "note": "Decorative tower rather than a complete lived-in home; not a priority.",
+        "note": "Basic structural checks passed; complete access/mechanics review remains. Not deployed.",
         "evidence": [
           "https://steamcommunity.com/sharedfiles/filedetails/?id=2798756514"
         ]
       },
-      "uploader": "AKFreiheit"
+      "uploader": "AKFreiheit",
+      "conversion": {
+        "exporter": "FORTIFY Steam build 24845064",
+        "native_export_sha256": "5102631e3d2ea07a11c401587b1c9be7fc61c2b82249c1158eedc52ce31a2e2f",
+        "format": "CopyPaste",
+        "tested_template": "meta_ws_2798756514"
+      },
+      "runtime_check": {
+        "date": "2026-09-10",
+        "server_version": 2633,
+        "errors": [],
+        "warnings": [],
+        "collapsed": 0,
+        "full_player_walkthrough": false
+      }
     },
     {
       "name": "Concord",
@@ -6125,25 +7526,29 @@
     }
   ],
   "methodology": {
-    "approval": "No runtime-approved or installed templates in this research inventory.",
+    "approval": "8 live-trial imports passed native runtime and ground integration checks; full player walkthroughs remain distinct.",
     "review_first": "Priority for inspecting/converting, not proof of current compatibility.",
     "automatic_flags": "Keyword flags can be false positives, including negated descriptions. Use explicit review notes.",
     "counts": "Records are sources/versions, not unique approved floorplans. Known lineages are grouped; further geometric deduplication is required.",
     "rights": "Downloaded saves remain local; licensing and attribution must be checked before redistribution.",
-    "payloads": "Format signature, content hash and local bytes verified; not yet imported into Fortify or Rust."
+    "payloads": "39 native FORTIFY exports: 24 Pastebin saves and 15 Workshop payloads. Source data stays private."
   },
   "counts": {
     "records": 160,
-    "review_first": 38,
-    "review_first_families": 37,
-    "mechanics_hold": 82,
+    "review_first": 26,
+    "review_first_families": 26,
+    "mechanics_hold": 84,
     "site_hold": 3,
     "patched_excluded": 9,
-    "discovery_only": 28,
-    "unique_payloads": 24,
+    "discovery_only": 19,
+    "unique_payloads": 39,
     "workshop_listings": 20,
     "metadata_verified_videos": 95,
     "discarded_junk": 11,
-    "runtime_approved": 0
+    "runtime_approved": 0,
+    "native_exports": 39,
+    "runtime_checked": 21,
+    "live_trial": 8,
+    "runtime_rejected": 11
   }
 }

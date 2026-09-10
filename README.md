@@ -75,6 +75,11 @@ are unaffected.
 
 ## Commands
 
+The [creator catalogue](catalogue/creator-release.md) lists the converted layouts,
+their provenance and verification limits. Placement tests actual square/triangle
+foundations, not entrance steps. Low-FPS throttling on an empty server no longer
+prevents profile initialization indefinitely.
+
 Admin/server access is required:
 
 - `/rbe`: random base at your aim. New catalogue profiles also validate the footprint.
