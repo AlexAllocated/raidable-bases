@@ -23,7 +23,9 @@ using static Oxide.Plugins.RaidableBasesExtensionMethods.ExtensionMethods;
 
 namespace Oxide.Plugins
 {
-    [Info("Raidable Bases", "nivex", "3.1.9")]
+    // Modified 2026-09-09 by AlexAllocated: permanent world bases and per-base skins.
+    // Fork of nivex's GPL-3.0-or-later release. See LICENSE and README.md.
+    [Info("Raidable Bases", "nivex / AlexAllocated", "3.1.10")]
     [Description("Create fully automated raidable bases with npcs.")]
     public class RaidableBases : RustPlugin
     {
@@ -81,6 +83,194 @@ namespace Oxide.Plugins
         private readonly List<uint> CupboardPrefabIDs = new() { 2476970476, 785685130, 3932172323 };
         private readonly IPlayer _consolePlayer = new Game.Rust.Libraries.Covalence.RustConsolePlayer();
         private readonly List<BaseEntity.Slot> _checkSlots = new() { BaseEntity.Slot.Lock, BaseEntity.Slot.UpperModifier, BaseEntity.Slot.MiddleModifier, BaseEntity.Slot.LowerModifier };
+
+        private const string PermanentFile = "RaidableBases/PermanentBases";
+        private PermanentStore permanent = new();
+
+        public class PermanentStore
+        {
+            public string World;
+            public List<PermanentBase> Bases = new();
+        }
+
+        public class PermanentBase
+        {
+            public string Id = Guid.NewGuid().ToString("N");
+            public string Name;
+            public Vector3 Position;
+            public bool StabilityEnabled;
+            public bool DecayEnabled;
+            public Dictionary<ulong, uint> Entities = new();
+        }
+
+        private string PermanentWorld => $"{World.Seed}:{World.Size}:{SaveRestore.SaveCreatedTime.Ticks}";
+
+        private BaseEntity ResolvePermanent(ulong id, uint prefab)
+        {
+            var entity = BaseNetworkable.serverEntities.Find(new NetworkableId(id)) as BaseEntity;
+            return entity != null && !entity.IsDestroyed && entity.prefabID == prefab ? entity : null;
+        }
+
+        private void SavePermanent() => Interface.Oxide.DataFileSystem.WriteObject(PermanentFile, permanent);
+
+        private void RestorePermanent()
+        {
+            permanent = Interface.Oxide.DataFileSystem.ReadObject<PermanentStore>(PermanentFile) ?? new();
+            if (permanent.World != PermanentWorld) permanent = new() { World = PermanentWorld };
+            int count = 0;
+            foreach (var record in permanent.Bases)
+            {
+                // A TC removed while this plugin was offline also ends protection.
+                foreach (var pair in record.Entities)
+                    if (CupboardPrefabIDs.Contains(pair.Value) && ResolvePermanent(pair.Key, pair.Value) == null)
+                        record.DecayEnabled = true;
+                foreach (var pair in record.Entities)
+                {
+                    var entity = ResolvePermanent(pair.Key, pair.Value);
+                    if (entity == null) continue;
+                    EnablePermanentEntity(entity, record.StabilityEnabled, record.DecayEnabled);
+                    count++;
+                }
+            }
+            SavePermanent();
+            EnsurePermanentHooks();
+            Puts($"Restored {permanent.Bases.Count} permanent base records / {count} surviving entities; inventories unchanged.");
+        }
+
+        private void EnablePermanentEntity(BaseEntity entity, bool stabilityEnabled, bool decayEnabled)
+        {
+            entity.EnableSaving(true);
+            if (entity is BuildingBlock block) block.grounded = !stabilityEnabled;
+            if (entity is IItemContainerEntity storage && storage.inventory != null)
+                storage.inventory.SetFlag(ItemContainer.Flag.NoItemInput, false);
+            if (entity.skinID == RB_SKIN_ID) entity.skinID = 0;
+            if (entity is DecayEntity decay)
+            {
+                if (!decayEnabled)
+                {
+                    decay.decay = null;
+                    decay.upkeepTimer = float.MinValue;
+                }
+                else if (decay.decay == null || decay.upkeepTimer == float.MinValue)
+                {
+                    decay.decay = PrefabAttribute.server.Find<Decay>(entity.prefabID);
+                    decay.upkeepTimer = 0f;
+                    decay.decayTimer = 0f;
+                    decay.lastDecayTick = Time.time;
+                }
+            }
+        }
+
+        private void EnsurePermanentHooks()
+        {
+            if (permanent.Bases.Count == 0 || IsUnloading) return;
+            Subscribe(nameof(OnEntityKill));
+            Subscribe(nameof(OnEntityDeath));
+            Subscribe(nameof(OnCupboardAuthorize));
+        }
+
+        private bool ActivatePermanentDecay(BuildingPrivlidge cupboard, string reason)
+        {
+            if (cupboard?.net == null) return false;
+            var record = permanent.Bases.Find(b => !b.DecayEnabled && b.Entities.TryGetValue(cupboard.net.ID.Value, out var prefab) && prefab == cupboard.prefabID);
+            if (record == null) return false;
+            record.DecayEnabled = true;
+            SavePermanent();
+            foreach (var pair in record.Entities)
+            {
+                var entity = ResolvePermanent(pair.Key, pair.Value);
+                if (entity != null) EnablePermanentEntity(entity, record.StabilityEnabled, true);
+            }
+            Puts($"Permanent base {record.Id} ({record.Name}) now uses normal upkeep/decay: {reason}. Protection will not return.");
+            return true;
+        }
+
+        private void OnLootEntity(BasePlayer player, BaseEntity entity)
+        {
+            if (player != null && entity is BuildingPrivlidge cupboard) ActivatePermanentDecay(cupboard, "TC opened");
+        }
+
+        private void OnCupboardDeauthorize(BuildingPrivlidge cupboard, BasePlayer player) => ActivatePermanentDecay(cupboard, "TC authorization changed");
+        private void OnCupboardClearList(BuildingPrivlidge cupboard, BasePlayer player) => ActivatePermanentDecay(cupboard, "TC authorization cleared");
+        private void OnCupboardAssign(BuildingPrivlidge cupboard, ulong userId, BasePlayer player) => ActivatePermanentDecay(cupboard, "TC authorization assigned");
+
+        private void RegisterPermanent(RaidableBase raid)
+        {
+            var record = new PermanentBase { Name = raid.BaseName, Position = raid.Location, StabilityEnabled = raid.stability };
+            var pending = new Queue<BaseEntity>(raid.Entities);
+            while (pending.Count > 0)
+            {
+                var entity = pending.Dequeue();
+                if (entity == null || entity.IsDestroyed || entity.net == null || entity is BasePlayer || entity is MapMarker || entity is SphereEntity) continue;
+                if (record.Entities.ContainsKey(entity.net.ID.Value)) continue;
+                record.Entities.Add(entity.net.ID.Value, entity.prefabID);
+                EnablePermanentEntity(entity, record.StabilityEnabled, record.DecayEnabled);
+                if (entity.children != null) foreach (var child in entity.children) pending.Enqueue(child);
+                foreach (var slot in _checkSlots) if (entity.GetSlot(slot) is BaseEntity attached) pending.Enqueue(attached);
+            }
+            permanent.World = PermanentWorld;
+            permanent.Bases.Add(record);
+            SavePermanent();
+            EnsurePermanentHooks();
+            Puts($"Permanent base {record.Id}: {record.Name} at {record.Position}, {record.Entities.Count} saved entities. No event zone or despawn timer.");
+        }
+
+        private void ResetPermanentWorld()
+        {
+            permanent = new() { World = PermanentWorld };
+            SavePermanent();
+        }
+
+        private void CommandPermanent(IPlayer user, string command, string[] args)
+        {
+            if (!user.IsServer && !user.IsAdmin) return;
+            if (args.Length == 2 && args[0] == "remove")
+            {
+                var record = permanent.Bases.Find(b => b.Id == args[1]);
+                if (record == null) { user.Reply("Unknown permanent base ID."); return; }
+                var entities = new List<BaseEntity>();
+                foreach (var pair in record.Entities)
+                {
+                    var entity = ResolvePermanent(pair.Key, pair.Value);
+                    if (entity != null) entities.Add(entity);
+                }
+                permanent.Bases.Remove(record);
+                SavePermanent();
+                UndoLoop(entities, despawnLimit);
+                Message(user, $"Removing only the {entities.Count} surviving entities from {record.Name} ({record.Id}).");
+                timer.Once(entities.Count * 0.1f + 3f, () =>
+                {
+                    int remaining = 0;
+                    foreach (var pair in record.Entities) if (ResolvePermanent(pair.Key, pair.Value) != null) remaining++;
+                    Puts($"Permanent removal {record.Id}: {remaining} surviving registered entities.");
+                });
+                return;
+            }
+            foreach (var record in permanent.Bases)
+            {
+                int alive = 0, unsaved = 0, items = 0, decaying = 0, protectedEntities = 0;
+                var skins = new Dictionary<string, HashSet<ulong>>();
+                foreach (var pair in record.Entities)
+                {
+                    var entity = ResolvePermanent(pair.Key, pair.Value);
+                    if (entity == null) continue;
+                    alive++;
+                    if (entity is DecayEntity decay)
+                    {
+                        if (decay.decay != null && decay.upkeepTimer != float.MinValue) decaying++;
+                        else protectedEntities++;
+                    }
+                    if (entity is StorageContainer container) items += container.inventory.itemList.Count;
+                    if (!entity.enableSaving || !BaseEntity.saveList.Contains(entity)) unsaved++;
+                    string key = entity is BuildingBlock block ? block.grade.ToString() : entity is Door ? entity.ShortPrefabName : null;
+                    if (key == null) continue;
+                    if (!skins.TryGetValue(key, out var values)) skins[key] = values = new();
+                    values.Add(entity.skinID);
+                }
+                Message(user, $"{record.Id}: {record.Name} at {record.Position}, alive={alive}, unsaved={unsaved}, inventoryEntries={items}, decayEnabled={record.DecayEnabled}, normalDecayEntities={decaying}, protectedEntities={protectedEntities}, skins={JsonConvert.SerializeObject(skins)}");
+            }
+            Message(user, $"Permanent bases: {permanent.Bases.Count}. Remove one with rb.permanent remove FULL_ID.");
+        }
 
         public class RaidElevator
         {
@@ -4738,24 +4928,24 @@ namespace Oxide.Plugins
                 {
                     IsDespawning = true;
                     IsOpened = false;
-                    TryInvokeMethod(SetNoDrops);
+                    if (!PreserveWorldEntities) TryInvokeMethod(SetNoDrops);
                     TryInvokeMethod(RemoveAllFromEvent);
                     TryInvokeMethod(StopSetupCoroutine);
                     TryInvokeMethod(FinalizeUi);
-                    TryInvokeMethod(DestroyLocks);
+                    if (!PreserveWorldEntities) TryInvokeMethod(DestroyLocks);
                     TryInvokeMethod(DestroyNpcs);
                     TryInvokeMethod(DestroyInputs);
                     TryInvokeMethod(DestroySpheres);
                     TryInvokeMethod(DestroyMapMarkers);
                     TryInvokeMethod(ResetSleepingBags);
                     TryInvokeMethod(ExpireAllDelays);
-                    TryInvokeMethod(DestroyEntities);
-                    TryInvokeMethod(DestroyElevators);
+                    if (!PreserveWorldEntities) TryInvokeMethod(DestroyEntities);
+                    if (!PreserveWorldEntities) TryInvokeMethod(DestroyElevators);
                     TryInvokeMethod(CheckSubscribe);
-                    TryInvokeMethod(RespawnEntities);
+                    if (!PreserveWorldEntities) TryInvokeMethod(RespawnEntities);
                     TryInvokeMethod(FreeToPool);
                     Destroy(go);
-                    LogEvent();
+                    if (!PreserveWorldEntities) LogEvent();
                     CancellDrone(rb);
                 }
             }
@@ -6695,7 +6885,15 @@ namespace Oxide.Plugins
                 IsLoading = false;
                 Instance.IsSpawnerBusy = false;
                 setupRoutine = null;
+                if (!IsDespawning && config.PermanentWorldBases)
+                {
+                    Instance.RegisterPermanent(this);
+                    PreserveWorldEntities = true;
+                    Despawn();
+                }
             }
+
+            public bool PreserveWorldEntities;
 
             private void TrySetupEntity(BaseEntity e, ref float invokeTime)
             {
@@ -7217,12 +7415,47 @@ namespace Oxide.Plugins
                 {
                     skinID = 0uL;
                 }
+                if (config.RandomBuildingSkins) skinID = GetWholeBaseSkin(block, grade);
                 if (block.grade != grade || block.skinID != skinID)
                 {
                     block.ChangeGradeAndSkin(grade, skinID, false, true);
                 }
                 block.SetHealthToMax();
+                if (config.RandomBuildingSkins)
+                {
+                    if (!skinColors.TryGetValue(grade, out var color)) skinColors[grade] = color = (uint)UnityEngine.Random.Range(0, 16);
+                    block.SetCustomColour(color);
+                }
                 block.SendNetworkUpdate();
+            }
+
+            private ulong GetWholeBaseSkin(BuildingBlock first, BuildingGrade.Enum grade)
+            {
+                if (skinWhole.TryGetValue(grade, out var selected)) return selected;
+                var candidates = new List<ulong>();
+                foreach (var entry in first.blockDefinition.grades)
+                {
+                    if (entry == null || entry.gradeBase == null || entry.gradeBase.type != grade) continue;
+                    ulong skin = entry.gradeBase.skin;
+                    if (!candidates.Contains(skin) && HasSkin(first, grade, skin)) candidates.Add(skin);
+                }
+                // Intersect support across all pieces of this grade, not just the first wall.
+                foreach (var entity in Entities)
+                {
+                    if (entity is not BuildingBlock block || block.grade == BuildingGrade.Enum.Twigs) continue;
+                    var target = Options.Blocks switch
+                    {
+                        { HQM: true } => BuildingGrade.Enum.TopTier,
+                        { Metal: true } => BuildingGrade.Enum.Metal,
+                        { Stone: true } => BuildingGrade.Enum.Stone,
+                        { Wooden: true } => BuildingGrade.Enum.Wood,
+                        _ => block.grade
+                    };
+                    if (target == grade) candidates.RemoveAll(skin => !HasSkin(block, grade, skin));
+                }
+                selected = candidates.Count == 0 ? 0 : candidates.GetRandom();
+                skinWhole[grade] = selected;
+                return selected;
             }
 
             private Dictionary<BuildingGrade.Enum, ulong> skinWhole = new();
@@ -8132,6 +8365,7 @@ namespace Oxide.Plugins
                 if (config.Skins.Deployables.Unique && _prefabToSkin.TryGetValue(entity.prefabID, out var skin))
                 {
                     entity.skinID = skin;
+                    entity.SendNetworkUpdate();
                     return;
                 }
 
@@ -11989,6 +12223,7 @@ namespace Oxide.Plugins
             Unsubscribe(nameof(OnCupboardProtectionCalculated));
 
             UnsubscribeDamageHook();
+            EnsurePermanentHooks();
         }
 
         private void OnMapMarkerAdded(BasePlayer player, ProtoBuf.MapNote note)
@@ -12010,6 +12245,7 @@ namespace Oxide.Plugins
 
         private void OnNewSave(string filename)
         {
+            ResetPermanentWorld();
             if (config.Settings.Wipe.Map)
             {
                 Puts("New map detected; wiping ranked ladder");
@@ -12083,6 +12319,8 @@ namespace Oxide.Plugins
             AddCovalenceCommand("rb.populate", nameof(CommandPopulate), "raidablebases.config");
             AddCovalenceCommand("rb.toggle", nameof(CommandToggle), "raidablebases.config");
             LoadPlayerData();
+            RestorePermanent();
+            AddCovalenceCommand("rb.permanent", nameof(CommandPermanent));
             InitializeSkins();
             Initialize();
             OceanLevel = WaterSystem.OceanLevel;
@@ -12755,6 +12993,12 @@ namespace Oxide.Plugins
 
         private void OnEntityDeath(BuildingPrivlidge priv, HitInfo info)
         {
+            if (ActivatePermanentDecay(priv, "TC destroyed") && ConVar.Decay.upkeep_grief_protection > 0f)
+            {
+                // Native Die tried this before the death hook, while our infinite credit
+                // still suppressed purchases. Apply it once after ending that immunity.
+                priv.PurchaseAntiGriefTime(ConVar.Decay.upkeep_grief_protection * 60f);
+            }
             if (!Get(priv, out var raid) || raid.priv != priv)
             {
                 return;
@@ -12904,7 +13148,7 @@ namespace Oxide.Plugins
 
             if (!Raids.Exists(x => x._containers.Count > 0))
             {
-                Unsubscribe(nameof(OnEntityKill));
+                if (permanent.Bases.Count == 0) Unsubscribe(nameof(OnEntityKill));
                 Unsubscribe(nameof(OnEntityGroundMissing));
             }
         }
@@ -12921,7 +13165,8 @@ namespace Oxide.Plugins
 
         private void OnCupboardAuthorize(BuildingPrivlidge priv, BasePlayer player)
         {
-            bool isHookNeeded = false;
+            if (player != null) ActivatePermanentDecay(priv, "TC authorized");
+            bool isHookNeeded = permanent.Bases.Count > 0;
 
             foreach (var raid in Raids)
             {
@@ -16080,6 +16325,16 @@ namespace Oxide.Plugins
                 case "despawn":
                     if (player.IsNetworked() && isAllowed)
                     {
+                        if (Physics.Raycast(player.eyes.HeadRay(), out var hit, 150f, targetMask2, QueryTriggerInteraction.Ignore))
+                        {
+                            var entity = hit.collider.GetComponentInParent<BaseEntity>();
+                            var record = entity?.net == null ? null : permanent.Bases.Find(b => b.Entities.TryGetValue(entity.net.ID.Value, out var prefab) && prefab == entity.prefabID);
+                            if (record != null)
+                            {
+                                CommandPermanent(user, "rb.permanent", new[] { "remove", record.Id });
+                                return true;
+                            }
+                        }
                         DespawnBase(player);
                     }
                     return true;
@@ -21933,6 +22188,12 @@ namespace Oxide.Plugins
 
         public class Configuration
         {
+            [JsonProperty(PropertyName = "Permanent World Bases (detach completed spawns from raid events)")]
+            public bool PermanentWorldBases;
+
+            [JsonProperty(PropertyName = "Random Building Skins (one supported skin and color per grade per base)")]
+            public bool RandomBuildingSkins;
+
             [JsonProperty(PropertyName = "Settings")]
             public PluginSettings Settings = new();
 
