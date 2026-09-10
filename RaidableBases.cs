@@ -86,6 +86,45 @@ namespace Oxide.Plugins
 
         private const string PermanentFile = "RaidableBases/PermanentBases";
         private PermanentStore permanent = new();
+        private readonly HashSet<string> usedFamilies = new();
+        private readonly Dictionary<string, HashSet<string>> usedVariants = new();
+        private string lastFamily;
+        private readonly Dictionary<string, string> lastVariants = new();
+
+        private (string, BaseProfile) SelectBalancedBase(List<(string, BaseProfile)> candidates)
+        {
+            var groups = new Dictionary<string, List<(string, BaseProfile)>>();
+            foreach (var candidate in candidates)
+            {
+                string family = config.BaseFamilies.FirstOrDefault(pair => pair.Value.Contains(candidate.Item1)).Key;
+                if (family == null) family = candidate.Item1;
+                if (!groups.TryGetValue(family, out var group)) groups[family] = group = new();
+                group.Add(candidate);
+            }
+            var available = groups.Keys.Where(key => !usedFamilies.Contains(key)).ToList();
+            if (available.Count == 0)
+            {
+                usedFamilies.Clear();
+                available = groups.Keys.ToList();
+            }
+            if (available.Count > 1) available.Remove(lastFamily);
+            string selectedFamily = available.GetRandom();
+            usedFamilies.Add(selectedFamily);
+            lastFamily = selectedFamily;
+            if (!usedVariants.TryGetValue(selectedFamily, out var used)) usedVariants[selectedFamily] = used = new();
+            var variants = groups[selectedFamily].Where(item => !used.Contains(item.Item1)).ToList();
+            if (variants.Count == 0)
+            {
+                used.Clear();
+                variants = groups[selectedFamily].ToList();
+            }
+            if (variants.Count > 1 && lastVariants.TryGetValue(selectedFamily, out var last))
+                variants.RemoveAll(item => item.Item1 == last);
+            var selected = variants.GetRandom();
+            used.Add(selected.Item1);
+            lastVariants[selectedFamily] = selected.Item1;
+            return selected;
+        }
 
         public class PermanentStore
         {
@@ -15610,7 +15649,7 @@ namespace Oxide.Plugins
                         continue;
                     }
 
-                    if (isBaseNull)
+                    if (isBaseNull && !config.RandomExcludedTemplates.Contains(key))
                     {
                         profiles.Add((key, profile));
                     }
@@ -15633,7 +15672,7 @@ namespace Oxide.Plugins
                         clone.Options.PasteOptions = abo.ToList();
                         clone.ProfileName = extra;
 
-                        if (isBaseNull)
+                        if (isBaseNull && !config.RandomExcludedTemplates.Contains(extra))
                         {
                             profiles.Add((extra, clone));
                         }
@@ -15647,6 +15686,7 @@ namespace Oxide.Plugins
 
             if (profiles.Count > 0)
             {
+                if (config.BaseFamilies.Count > 0) return SelectBalancedBase(profiles.ToList());
                 return profiles.GetRandom();
             }
 
@@ -22188,6 +22228,11 @@ namespace Oxide.Plugins
 
         public class Configuration
         {
+            [JsonProperty(PropertyName = "Balanced Base Families (template names grouped by layout)")]
+            public Dictionary<string, List<string>> BaseFamilies = new();
+            [JsonProperty(PropertyName = "Templates excluded from random selection (explicit spawning still allowed)")]
+            public List<string> RandomExcludedTemplates = new();
+
             [JsonProperty(PropertyName = "Permanent World Bases (detach completed spawns from raid events)")]
             public bool PermanentWorldBases;
 

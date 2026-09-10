@@ -54,6 +54,20 @@ single, double, garage and armored doors therefore each use their own compatible
 skin throughout a base. This is not a promise of an artist-matched collection
 across different item types. Existing bases are not reskinned on reload.
 
+## Balanced Random Selection
+
+`Balanced Base Families (template names grouped by layout)` groups template names
+into equally weighted layout families. Random selection exhausts families in a
+random order, then starts a new cycle without immediately repeating the last
+family. Each family independently exhausts its variants before repeating them.
+Templates not listed form individual families. Pools reset when the plugin reloads;
+selection attempts consume a choice even if later placement fails.
+
+`Templates excluded from random selection (explicit spawning still allowed)` can
+exclude aliases such as `RaidBases` without disabling explicit named spawns.
+An empty family mapping retains upstream random selection. Existing world bases
+are unaffected.
+
 ## Commands
 
 Admin/server access is required:
